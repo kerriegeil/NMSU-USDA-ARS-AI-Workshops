@@ -29,7 +29,7 @@ feature_row:
 
 {% include feature_row id="intro" type="center" %}
 
-This site contains learning materials for two AI Workshops run by New Mexico State University and the [USDA Agricultural Research Service](https://ars.usda.gov):
+This site contains learning materials for two AI Workshops run by [New Mexico State University Klipsch School of Electrical and Computer Engineering](https://ece.nmsu.edu/) and the [USDA Agricultural Research Service](https://ars.usda.gov):
 
  - AI Workshop 1: Intro to Image Processing, Classical Machine Learning, and Deep Learning
  - AI Workshop 2: Advanced Topics in Deep Learning for Image Proccessing
