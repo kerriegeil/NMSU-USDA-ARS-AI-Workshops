@@ -11,7 +11,7 @@ feature_row:
   - image_path: /assets/images/clement-h-95YRwf6CNw8-unsplash.jpg
     alt: "Before you come"
     title: "Before you come"
-    excerpt: "Getting your computer set up for the class before arriving"
+    excerpt: "Get your computer set up before class begins"
     url: "/setup/"
     btn_label: "Set me up!"
     btn_class: "btn--info"
@@ -19,7 +19,7 @@ feature_row:
   - image_path: /assets/images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg
     alt: "Learn"
     title: "Learn"
-    excerpt: "Lessons and exercises on applying machine learning"
+    excerpt: "Workshop lessons and exercises"
     url: "/agenda/"
     btn_label: "View material"
     btn_class: "btn--info"
