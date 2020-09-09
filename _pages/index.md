@@ -4,11 +4,11 @@ title: NMSU/USDA-ARS AI Workshops
 
 header:
   overlay_color: "#444444"
-  overlay_image: /images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg
+  overlay_image: /assets/images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg
 excerpt: 'image processing using machine learning and deep learning'
 
 feature_row:
-  - image_path: /images/clement-h-95YRwf6CNw8-unsplash.jpg
+  - image_path: /assets/images/clement-h-95YRwf6CNw8-unsplash.jpg
     alt: "Before you come"
     title: "Before you come"
     excerpt: "Getting your computer set up for the class before arriving"
@@ -16,7 +16,7 @@ feature_row:
     btn_label: "Set me up!"
     btn_class: "btn--info"
     caption: ""
-  - image_path: /images/markus-spiske-466ENaLuhLY-unsplash.jpg
+  - image_path: /assets/images/markus-spiske-466ENaLuhLY-unsplash.jpg
     alt: "Learn"
     title: "Learn"
     excerpt: "Lessons and exercises on applying machine learning"
