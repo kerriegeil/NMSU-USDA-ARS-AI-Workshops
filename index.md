@@ -16,7 +16,7 @@ feature_row:
     btn_label: "Set me up!"
     btn_class: "btn--info"
     caption: ""
-  - image_path: /assets/images/markus-spiske-466ENaLuhLY-unsplash.jpg
+  - image_path: /assets/images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg
     alt: "Learn"
     title: "Learn"
     excerpt: "Lessons and exercises on applying machine learning"
