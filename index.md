@@ -37,6 +37,11 @@ This site contains learning materials for two AI Workshops run by [New Mexico St
 {% include feature_row %}
 
 
+<a download href="/assets/images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg">
+  Download test file
+</a>
+
+
 The workshops cover the basics of image processing using classical machine learning techniques as well as provide more in-depth exploration of some common deep learning architectures used in image processing. Participants are introduced to the basic concepts via powerpoint lecture and guided through hands-on programming in an interactive jupyter notebook framework. 
 
 
