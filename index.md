@@ -37,7 +37,7 @@ This site contains learning materials for two AI Workshops run by [New Mexico St
 {% include feature_row %}
 
 
-<a download href="/assets/images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg">
+<a download href="/NMSU-USDA-ARS-AI-Workshops/assets/images/element5-digital-OyCl7Y4y0Bk-unsplash.jpg">
   Download test file
 </a>
 
