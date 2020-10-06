@@ -12,9 +12,11 @@ Before the workshop, participants need to run through the following instructions
 
 ## For Windows Machines
 1) Install Anaconda
+
     Follow the instructions for downloading and installing Anaconda (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/)
     
 2) build the workshop Conda environment
+
     From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
     ```
     conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib jupyterlab -y
