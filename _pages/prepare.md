@@ -47,7 +47,7 @@ Before the workshop, participants need to run through the following instructions
   cd /project/your_project_name
   ```
   
-  - download the workshop yml file
+  - download the [workshop yml file][1]
   ```
   wget http://
   ```
@@ -66,7 +66,7 @@ Before the workshop, participants need to run through the following instructions
   If you get any errors contact Kerrie Geil.
   
   4) Run a test Jupyter Notebook and screen shot your results
-    - download [this test notebook]()
+    - download [this test notebook][]
     - open the test notebook in JupyterLab using the file navigator on the left side of JupyterLab
     - choose the workshop kernel 
       - click "Python 3" at the top right of the notebook
@@ -76,5 +76,5 @@ Before the workshop, participants need to run through the following instructions
     - paste the screenshot in an email to Kerrie Geil
 
 
-    
-    
+
+[1]:{{ site.url }}/assets/aiworkshop.yml
