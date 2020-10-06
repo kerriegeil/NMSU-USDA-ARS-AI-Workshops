@@ -47,9 +47,9 @@ Before the workshop, participants need to run through the following instructions
   cd /project/your_project_name
   ```
   
-  - download the [workshop yml file][1]
+  - download the workshop yml file
   ```
-  wget http://
+  wget https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml
   ```
   
   - build the environment in your project directory
@@ -76,5 +76,3 @@ Before the workshop, participants need to run through the following instructions
     - paste the screenshot in an email to Kerrie Geil
 
 
-
-[1]:{{ site.url }}/assets/aiworkshop.yml
