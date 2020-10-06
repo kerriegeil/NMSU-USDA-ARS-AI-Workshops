@@ -1,5 +1,9 @@
+---
+layout: single
+title: Before You Come: Computer Setup
+permalink: /setup/
+---
 
-# Computer Setup
 
 Before the workshop, participants need to run through the following instructions to ensure everyone's computer is set up to successfully run the workshop materials.
 
