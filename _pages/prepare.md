@@ -12,7 +12,27 @@ Before the workshop, participants need to run through the following instructions
 
 ## For Windows Machines
 1) Install Anaconda
+    Follow the instructions for downloading and installing Anaconda (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/)
+    
 2) build the workshop Conda environment
+    From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
+    ```
+    conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib jupyterlab -y
+    conda activate aiworkshop
+    conda install keras -y
+    python -m ipykernel install --user --name aiworkshop --display-name "aiworkshop"
+    ```
+    
+    Each step of the build will take a while. The total build may take 10 minutes or possibly longer. 
+    
+    When the build finishes type "anaconda" into the Windows search bar and select the Anaconda Navigator app.
+    
+    When Navigator opens make sure you are on the Home tab and choose aiworkshop in the "Applications on" drop down list. Wait while Navigator loads.
+    
+    When Navigator is finished loading, launch JupyterLab by clicking the Launch button. After it launches choose the aiworkshop kernel.
+  
+    **If you get any errors contact Suzy Stillman and Kerrie Geil** at sstillman dot jrn dot lter at gmail dot com and kerrie dot geil at usda dot gov.
+        
 3) run a test Jupyter Notebook and screenshot your results  
 
 
@@ -58,7 +78,7 @@ Before the workshop, participants need to run through the following instructions
     conda env create --prefix /project/your_project_name/envs/aiworkshop -f aiworkshop.yml
     ```
   
-    The build will take a while- maybe 10 minutes or longer. When the build finishes:
+    The build will take a while- maybe 10 minutes or possibly longer. When the build finishes:
     ```
     conda activate /project/your_project_name/envs/aiworkshop
     ```
