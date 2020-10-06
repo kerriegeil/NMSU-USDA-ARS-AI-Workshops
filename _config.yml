@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Kerrie Geil"
 description              : "AI Image Processing Workshops"
 url                      : "https://kerriegeil.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : #"/NMSU-USDA-ARS-AI-Workshops" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" #"/NMSU-USDA-ARS-AI-Workshops" # the subpath of your site, e.g. "/blog"
 repository               : "kerriegeil/NMSU-USDA-ARS-AI-Workshops" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
