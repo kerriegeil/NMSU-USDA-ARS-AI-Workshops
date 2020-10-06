@@ -19,24 +19,34 @@ Before the workshop, participants need to run through the following instructions
 
     From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
     ```
-    conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib jupyterlab -y
+    conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
     conda activate aiworkshop
     conda install keras -y
-    python -m ipykernel install --user --name aiworkshop --display-name "aiworkshop"
     ```
     
     Each step of the build will take a while. The total build may take 10 minutes or possibly longer. 
     
-    When the build finishes type "anaconda" into the Windows search bar and select the Anaconda Navigator app.
-    
-    When Navigator opens make sure you are on the Home tab and choose aiworkshop in the "Applications on" drop down list. Wait while Navigator loads.
-    
-    When Navigator is finished loading, launch JupyterLab by clicking the Launch button. After it launches choose the aiworkshop kernel.
+    When the build finishes, navigate to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it), then:
+    ```
+    mkdir NMSU-ARS-workshop
+    cd NMSU-ARS-workshop/
+    jupyter lab
+    ```
   
     **If you get any errors contact Suzy Stillman and Kerrie Geil** at sstillman dot jrn dot lter at gmail dot com and kerrie dot geil at usda dot gov.
         
-3) run a test Jupyter Notebook and screenshot your results  
+3) Run a test Jupyter Notebook and screenshot your results  
 
+      - download the test notebook
+      ```
+      wget https://
+      ```
+      - open the test notebook in JupyterLab using the file navigator on the left side of JupyterLab
+      - select the workshop kernel: Kernel > Change Kernel > select aiworkshop from the drop down menu 
+      - click Run > Run All Cells
+      - position the scroll bar so all results can be seen on your screen and then take a screenshot
+      - paste the screenshot in an email to Kerrie Geil
+    
 
 ## On the Ceres HPC
 
