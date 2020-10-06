@@ -1,7 +1,8 @@
 ---
-layout: default
+
 title: Before You Come: Computer Setup
 permalink: /setup/
+
 ---
 
 
