@@ -37,7 +37,7 @@ Before the workshop, participants need to run through the following instructions
         
 3) Run a test Jupyter Notebook and screenshot your results  
 
-      - download the [test notebook]({{ site.url }}/aiworkshop.yml)
+      - download the [test notebook](https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml)
       ```
       wget https://
       ```
