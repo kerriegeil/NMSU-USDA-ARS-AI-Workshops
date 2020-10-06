@@ -1,6 +1,6 @@
 ---
 title: Before You Come: Computer Setup
-permalink: /NMSU-USDA-ARS-AI-Workshops/setup/
+permalink: /setup/
 
 ---
 
