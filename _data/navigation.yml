@@ -3,7 +3,7 @@ main:
   - title: "Agenda"
     url: /agenda/
   - title: "Before you come"
-    url: /setup/
+    href: /setup/
   - title: "People"
     url: /people/
   # - title: "Sample Collections"
