@@ -66,7 +66,10 @@ Before the workshop, participants need to run through the following instructions
     **If you get any errors contact Kerrie Geil** at kerrie dot geil at usda dot gov.
   
   4) Run a test Jupyter Notebook and screen shot your results
-      - download [this test notebook]()
+      - download the test notebook
+      ```
+      wget https://
+      ```
       - open the test notebook in JupyterLab using the file navigator on the left side of JupyterLab
       - choose the workshop kernel 
         - click "Python 3" at the top right of the notebook
