@@ -1,5 +1,5 @@
 ---
-layout: single
+#layout: single
 title: Before You Come: Computer Setup
 permalink: /setup/
 ---
