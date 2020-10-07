@@ -53,9 +53,10 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   conda create --name aiworkshop python=3.7 numpy pandas scipy imageio scikit-learn scikit-image matplotlib hdf5 nodejs jupyterlab -y
   conda activate aiworkshop
   conda install keras -y
+  python -m ipykernel install --user --name aiworkshop
   ```
     
-  Each step of the build will take a while. The total build may take 10 minutes or possibly longer. 
+  The create and install steps of the build will take a while. The total build may take 10 minutes or possibly longer. 
     
   When the build finishes, navigate using the Anaconda Prompt to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
   
@@ -72,14 +73,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 **3) Run a test Jupyter Notebook and screenshot your results**
 
   - launch a new notebook in JupyterLab: File > New > Notebook
-  - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
-  
-    if you don't see aiworkshop as a kernel option, go back to your Anaconda prompt:
-    ```
-    python -m ipykernel install --user --name aiworkshop
-    ```
-    then refresh your JupyterLab browser window and try again to select the aiworkshop kernel
-    
+  - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu     
   - in the notebook's empty cell paste this: from keras.models import Sequential
   - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter
   
@@ -144,10 +138,11 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   - launch a new notebook in JupyterLab: File > New > Notebook
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
   - in the notebook's empty cell paste this: from keras.models import Sequential
-  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter
-  
-    the result should say "Using TensorFlow backend" and you will probably also get a bunch of Future Warnings (this is ok)
-  
+  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The cell should run with no error or output
+  - add another code cell and paste: import subprocess  
+  - run the cell. the cell should run with no error or output
+  - add one more code cell and paste: subprocess.check_output("cat ~/.keras/keras.json", shell=True)
+  - run the cell. You should see output that contains: "backend": "tensorflow"
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Kerrie Geil 
 
