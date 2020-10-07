@@ -54,6 +54,8 @@ Before the workshop, each participant needs to work through the following instru
 
   - download the [test notebook](https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml)
   
+  <a href="aiworkshop.yml">Right Click to Download File</a>
+  
   <a id="raw-url" href="https://raw.githubusercontent.com/kerriegeil/NMSU-USDA-ARS-AI-Workshops/master/aiworkshop.yml">Download FILE</a>
   
   ```
