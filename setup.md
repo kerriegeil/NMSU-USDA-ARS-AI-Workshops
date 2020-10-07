@@ -1,13 +1,14 @@
 ---
-title: Before You Come: Computer Setup
+# title: Before You Come: Computer Setup #idk why this isn't working
 permalink: /setup/
 
 ---
 
+# Before you Come: Computer Setup
 
-Before the workshop, participants need to run through the following instructions to ensure everyone's computer is set up to successfully run the workshop materials.
+Before the workshop, each participant need to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.
 
-## Contents
+## Contents 
 
 [For Windows Machines](#for-windows-machines)
 
@@ -17,27 +18,29 @@ Before the workshop, participants need to run through the following instructions
 ## For Windows Machines
 1) Install Anaconda
 
-    Follow the instructions for downloading and installing Anaconda (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/)
+  Follow the instructions for downloading and installing Anaconda (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
     
 2) build the workshop Conda environment
 
-    From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
-    ```
-    conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
-    conda activate aiworkshop
-    conda install keras -y
-    ```
-    
-    Each step of the build will take a while. The total build may take 10 minutes or possibly longer. 
-    
-    When the build finishes, navigate to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it), then:
-    ```
-    mkdir NMSU-ARS-workshop
-    cd NMSU-ARS-workshop/
-    jupyter lab
-    ```
+  From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
   
-    **If you get any errors contact Suzy Stillman and Kerrie Geil** at sstillman dot jrn dot lter at gmail dot com and kerrie dot geil at usda dot gov.
+  ```
+  conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
+  conda activate aiworkshop
+  conda install keras -y
+  ```
+    
+  Each step of the build will take a while. The total build may take 10 minutes or possibly longer. 
+    
+  When the build finishes, navigate to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it), then:
+  
+  ```
+  mkdir NMSU-ARS-workshop
+  cd NMSU-ARS-workshop/
+  jupyter lab
+  ```
+  
+  **If you get any errors contact Suzy Stillman and Kerrie Geil** at sstillman dot jrn dot lter at gmail dot com and kerrie dot geil at usda dot gov.
         
 3) Run a test Jupyter Notebook and screenshot your results  
 
