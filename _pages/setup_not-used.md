@@ -1,7 +1,6 @@
 ---
 # title: Before You Come: Computer Setup
-permalink: /setup/
-
+# permalink: /setup/
 ---
 
 
