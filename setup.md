@@ -21,10 +21,12 @@ Before the workshop, each participant needs to work through the following instru
 **1) Install Anaconda**
 
   If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
+  
+  If you do not have administrative privileges on your machine then you will have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you will have to use either the Ceres HPC (if you have an account) or a personal computer.
     
 **2) Build the workshop Conda environment**
 
-  From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
+  From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt:
   
   ```
   conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
