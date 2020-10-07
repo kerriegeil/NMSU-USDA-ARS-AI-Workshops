@@ -1,13 +1,13 @@
 ---
-title: Before You Come: Computer Setup 
 permalink: /setup/
 
 classes: wide
 
 ---
 
+# Before You Come: Computer Setup 
 
-Before the workshop, each participant need to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.
+Before the workshop, each participant needs to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.
 
 ## Contents 
 
