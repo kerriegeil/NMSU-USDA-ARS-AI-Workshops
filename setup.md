@@ -29,7 +29,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   
   If you do not have administrative privileges on your machine then you will have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you will have to use either the Ceres HPC (if you have an account) or a personal computer.
   
-  **2-4) Follow the instructions as best you can under "For Windows Machines"
+  **2-4) Follow the instructions as best you can under "For Windows Machines"**
 
   
   **Please try to troubeshoot the Mac installation on your own first, but contact Suzy Stillman and Kerrie Geil with a screenshot of your errors if you get stuck.**  
@@ -82,6 +82,9 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
     
   - in the notebook's empty cell paste this: from keras.models import Sequential
   - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter
+  
+    the result should say "Using TensorFlow backend" with no errors
+  
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Suzy Stillman and Kerrie Geil
 
@@ -142,6 +145,9 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
   - in the notebook's empty cell paste this: from keras.models import Sequential
   - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter
+  
+    the result should say "Using TensorFlow backend" and you will probably also get a bunch of Future Warnings (this is ok)
+  
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Kerrie Geil 
 
