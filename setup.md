@@ -6,7 +6,6 @@ classes: wide
 
 ---
 
-is this even building
 
 Before the workshop, each participant need to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.
 
@@ -18,15 +17,16 @@ Before the workshop, each participant need to work through the following instruc
 
 
 ## For Windows Machines
-1) Install Anaconda
+
+**1) Install Anaconda**
 
   Follow the instructions for downloading and installing Anaconda (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
     
-2) build the workshop Conda environment
+**2) build the workshop Conda environment**
 
   From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
   
-  ```
+  ```bash
   conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
   conda activate aiworkshop
   conda install keras -y
@@ -36,7 +36,7 @@ Before the workshop, each participant need to work through the following instruc
     
   When the build finishes, navigate to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
   
-  ```
+  ```bash
   mkdir NMSU-ARS-aiworkshop
   cd NMSU-ARS-aiworkshop/
   jupyter lab
@@ -48,7 +48,7 @@ Before the workshop, each participant need to work through the following instruc
    
   kerrie dot geil at usda dot gov.
         
-3) Run a test Jupyter Notebook and screenshot your results  
+**3) Run a test Jupyter Notebook and screenshot your results**
 
   - download the [test notebook][https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml]
   ```
@@ -61,17 +61,19 @@ Before the workshop, each participant need to work through the following instruc
    - paste the screenshot in an email to Kerrie Geil
     
 
+
+
 ## On the Ceres HPC
 
-1) Request a project directory on Ceres if you don't already have one.
+**1) Request a project directory on Ceres if you don't already have one**
 
   You will need a project directory to successfully run the workshop materials due to the space limitations of Ceres home directories. If you already have a project directory, proceed to step 2- you can run the workshop materials from any existing project directory with approximately 20GB of free space.
   
-  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. 
+  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory by 10/16 to participate in a workshop.
   
   The other option is to ask the Virutal Research Support Core to temporarily increase your home directory quota from 5GB to 20GB. You can make this request by emailing scinet_vrsc@usda.gov. Make sure to tell them that the extra home directory space is needed to participate in a SCINet training event and define the time period for which you need the extra space.
 
-2) Log into the Ceres HPC using JupyterHub.
+**2) Log into the Ceres HPC using JupyterHub**
   - Go to [https://jupyterhub.scinet.usda.gov/](https://jupyterhub.scinet.usda.gov/)
   - Use your SCINet credentials to log in.
     - Username: firstname.lastname 
@@ -84,7 +86,7 @@ Before the workshop, each participant need to work through the following instruc
     - Working Directory: /lustre/project/***your_project_name***
     - leave all other fields blank
 
-3) build the workshop Conda environment
+**3) build the workshop Conda environment**
   - open a terminal in JupyterLab with File > New > Terminal
   
   - navigate to your project directory
@@ -110,7 +112,7 @@ Before the workshop, each participant need to work through the following instruc
   
   **If you get any errors contact Kerrie Geil** at kerrie dot geil at usda dot gov.
   
-4) Run a test Jupyter Notebook and screen shot your results
+**4) Run a test Jupyter Notebook and screen shot your results**
   - download the test notebook
   ```
   wget https://
