@@ -50,7 +50,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt:
   
   ```
-  conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
+  conda create --name aiworkshop python=3.7 numpy pandas scipy imageio scikit-learn scikit-image matplotlib hdf5 nodejs jupyterlab -y
   conda activate aiworkshop
   conda install keras -y
   ```
@@ -73,6 +73,13 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
   - launch a new notebook in JupyterLab: File > New > Notebook
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
+  
+    if you don't see aiworkshop as a kernel option, go back to your Anaconda prompt:
+    ```
+    python -m ipykernel install --user --name aiworkshop
+    ```
+    then refresh your JupyterLab browser window and try again to select the aiworkshop kernel
+    
   - in the notebook's empty cell paste this: from keras.models import Sequential
   - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
