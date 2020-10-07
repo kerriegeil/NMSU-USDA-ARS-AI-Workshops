@@ -26,7 +26,7 @@ Before the workshop, each participant need to work through the following instruc
 
   From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
   
-  ```bash
+  ```
   conda create --name aiworkshop python=3.7 numpy pandas scipy imageio ipykernel scikit-learn scikit-image matplotlib nodejs jupyterlab -y
   conda activate aiworkshop
   conda install keras -y
@@ -36,7 +36,7 @@ Before the workshop, each participant need to work through the following instruc
     
   When the build finishes, navigate to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
   
-  ```bash
+  ```
   mkdir NMSU-ARS-aiworkshop
   cd NMSU-ARS-aiworkshop/
   jupyter lab
@@ -69,7 +69,7 @@ Before the workshop, each participant need to work through the following instruc
 
   You will need a project directory to successfully run the workshop materials due to the space limitations of Ceres home directories. If you already have a project directory, proceed to step 2- you can run the workshop materials from any existing project directory with approximately 20GB of free space.
   
-  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory by 10/16 to participate in a workshop.
+  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory by 10/16 to participate in a SCINet training event.
   
   The other option is to ask the Virutal Research Support Core to temporarily increase your home directory quota from 5GB to 20GB. You can make this request by emailing scinet_vrsc@usda.gov. Make sure to tell them that the extra home directory space is needed to participate in a SCINet training event and define the time period for which you need the extra space.
 
