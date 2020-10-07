@@ -1,5 +1,5 @@
 ---
-title: Before You Come: Computer Setup
+# title: Before You Come: Computer Setup
 permalink: /setup/
 
 ---
