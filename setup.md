@@ -20,9 +20,9 @@ Before the workshop, each participant needs to work through the following instru
 
 **1) Install Anaconda**
 
-  Follow the instructions for downloading and installing Anaconda (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
+  If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
     
-**2) build the workshop Conda environment**
+**2) Build the workshop Conda environment**
 
   From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt type:
   
@@ -50,7 +50,7 @@ Before the workshop, each participant needs to work through the following instru
         
 **3) Run a test Jupyter Notebook and screenshot your results**
 
-  - download the [test notebook][https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml]
+  - download the [test notebook](https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml)
   ```
   wget https://
   ```
@@ -86,7 +86,7 @@ Before the workshop, each participant needs to work through the following instru
     - Working Directory: /lustre/project/***your_project_name***
     - leave all other fields blank
 
-**3) build the workshop Conda environment**
+**3) Build the workshop Conda environment**
   - open a terminal in JupyterLab with File > New > Terminal
   
   - navigate to your project directory
