@@ -1,7 +1,7 @@
 ---
 title: Before You Come: Computer Setup #idk why this isn't working
+layout: default
 permalink: /setup/
-
 ---
 
 
