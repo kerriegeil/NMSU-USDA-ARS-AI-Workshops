@@ -52,21 +52,12 @@ Before the workshop, each participant needs to work through the following instru
         
 **3) Run a test Jupyter Notebook and screenshot your results**
 
-  - download the [test notebook](https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/aiworkshop.yml)
-  
-  <a href="aiworkshop.yml">Right Click to Download File</a>
-  
-  <a id="raw-url" href="https://raw.githubusercontent.com/kerriegeil/NMSU-USDA-ARS-AI-Workshops/master/aiworkshop.yml">Download FILE</a>
-  
-  ```
-  wget https://
-  ```
-   - open the test notebook in JupyterLab using the file navigator on the left side of JupyterLab
-   - select the workshop kernel: Kernel > Change Kernel > select aiworkshop from the drop down menu 
-   - click Run > Run All Cells
-   - position the scroll bar so all results can be seen on your screen and then take a screenshot
-   - paste the screenshot in an email to Kerrie Geil
-    
+  - download the [test notebook]() (right click the link > save link as > save it in your workshop folder)
+  - open the test notebook in JupyterLab using the file navigator on the left side of JupyterLab
+  - select the workshop kernel: Kernel > Change Kernel > select aiworkshop from the drop down menu 
+  - click Run > Run All Cells
+  - position the scroll bar so all results can be seen on your screen and then take a screenshot
+  - paste the screenshot in an email to Kerrie Geil
 
 
 
