@@ -29,7 +29,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   
   If you do not have administrative privileges on your machine then you will have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you will have to use either the Ceres HPC (if you have an account) or a personal computer.
   
-  **2-4) Follow the instructions as best you can under "For Windows Machines"**
+  **2-3) Follow the instructions as best you can under "For Windows Machines"**
 
   
   **Please try to troubeshoot the Mac installation on your own first, but contact Suzy Stillman and Kerrie Geil with a screenshot of your errors if you get stuck.**  
