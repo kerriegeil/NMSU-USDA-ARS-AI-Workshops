@@ -19,12 +19,12 @@ Laura E. Boucheron received the B.S. and M.S. degrees in electrical engineering 
 
 ## Dr. Kerrie Geil, USDA-ARS Las Cruces, NM
 
-![photo of Dr Kerrie Geil](/assets/image/kerrie-geil-150-150.jpg)
+![photo of Dr Kerrie Geil](/assets/images/kerrie-geil-150-150.jpg)
 
 Kerrie is an ARS SCINet postdoc in the research group of Dr. Deb Peters in Las Cruces, NM. Her M.S. and Ph.D. degrees are in Atmospheric Sciences and her research background is in climate modeling.
 
 ## Dr. Suzy Stillman, USDA-ARS Las Cruces, NM
 
-![photo of Dr Suzy Stillman](/assets/image/suzy-stillman-150-150.jpg)
+![photo of Dr Suzy Stillman](/assets/images/suzy-stillman-150-150.png)
 
 Suzy is an ARS SCINet postdoc in the research group of Dr. Deb Peters in Las Cruces, NM. Her M.S. and Ph.D. degrees are in Hydrometeorology and her research background is in hydrologic observations and projections. 
