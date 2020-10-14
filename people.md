@@ -6,7 +6,8 @@ classes: wide
 ---
 
 
-# Instructor: Dr. Laura Boucheron, New Mexico State University
+# Instructor 
+## Dr. Laura Boucheron, New Mexico State University
 
 ![photo of the instructor Dr Laura Boucheron](/assets/images/boucheron-240x300.jpg)
 
@@ -15,3 +16,9 @@ Laura E. Boucheron received the B.S. and M.S. degrees in electrical engineering 
 
 ## Helpers: Drs. Kerrie Geil and Suzy Stillman, USDA-ARS Las Cruces, NM
 
+![photo of Dr Kerrie Geil](/assets/image/kerrie-geil-150-150.jpg)
+
+Kerrie is an ARS SCINet postdoc in the research group of Dr. Deb Peters in Las Cruces, NM. Her M.S. and Ph.D. degrees are in Atmospheric Sciences and her research background is in climate modeling.
+
+![photo of Dr Suzy Stillman](/assets/image/suzy-stillman-150-150.jpg)
+Suzy is an ARS SCINet postdoc in the research group of Dr. Deb Peters in Las Cruces, NM. Her M.S. and Ph.D. degrees are in Hydrometeorology and her research background is in hydrologic observations and projections. 
