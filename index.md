@@ -44,21 +44,22 @@ This site contains learning materials for two AI Workshops run by [New Mexico St
 
 The workshops cover the basics of image processing using classical machine learning techniques as well as provide more in-depth exploration of some common deep learning architectures used in image processing. Participants are introduced to the basic concepts via powerpoint lecture and guided through hands-on programming in an interactive jupyter notebook framework. 
 
+## Learning Goals
 
 By the end of Workshop 1 participants should be able to: 
   
-  1) display and interpret grayscale and color images, 
-  2) apply common image transforms and filters to images, 
-  3) extract hand-designed features from an image dataset and format those features for use in machine learning, 
-  4) apply common machine learning classifiers to an image dataset and assess performance, 
-  5) define a convolutional neural network (CNN) for classification of images, including pre-processing of the input data, and
+  1) display and interpret grayscale and color images, <br>
+  2) apply common image transforms and filters to images, <br>
+  3) extract hand-designed features from an image dataset and format those features for use in machine learning, <br>
+  4) apply common machine learning classifiers to an image dataset and assess performance, <br>
+  5) define a convolutional neural network (CNN) for classification of images, including pre-processing of the input data, and<br>
   6) train and test a CNN for classification of images, including implementation of a simple transfer learning.
 
 
 
 By the end of Workshop 2 participants should be able to: 
 
-  1) visualize characteristics of a CNN to help interpret performance,
-  2) modify a CNN architecture for application to new data (application of more complex transfer learning), and
+  1) visualize characteristics of a CNN to help interpret performance,<br>
+  2) modify a CNN architecture for application to new data (application of more complex transfer learning), and<br>
   3) apply methods learned for classification CNNs to other forms of CNNs, e.g., image segmentation, object detection.
 
