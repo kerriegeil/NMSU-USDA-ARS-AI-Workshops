@@ -33,7 +33,9 @@ This site contains learning materials for two AI Workshops run by [New Mexico St
 
  - AI Workshop 1: Intro to Image Processing, Classical Machine Learning, and Deep Learning
  - AI Workshop 2: Advanced Topics in Deep Learning for Image Proccessing
- 
+
+The workshops cover the basics of image processing using classical machine learning techniques as well as provide more in-depth exploration of some common deep learning architectures used in image processing. Participants are introduced to the basic concepts via powerpoint lecture and guided through hands-on programming in an interactive jupyter notebook framework. 
+
 {% include feature_row %}
 
 <!--
@@ -42,7 +44,6 @@ This site contains learning materials for two AI Workshops run by [New Mexico St
 </a>
 -->
 
-The workshops cover the basics of image processing using classical machine learning techniques as well as provide more in-depth exploration of some common deep learning architectures used in image processing. Participants are introduced to the basic concepts via powerpoint lecture and guided through hands-on programming in an interactive jupyter notebook framework. 
 
 ## Learning Goals
 
