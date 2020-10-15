@@ -1,11 +1,12 @@
 # main links
 main:
   - title: "Agendas"
-    children:
-      - title: "Workshop 1"
-        url: /agenda1/
-      - title: "Workshop 2"
-        url: /agenda2/
+    url: /agendas/
+#    children:
+#      - title: "Workshop 1"
+#        url: /agenda1/
+#      - title: "Workshop 2"
+#        url: /agenda2/
   - title: "Before you come"
     url: /setup/
   - title: "People"
