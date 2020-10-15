@@ -9,7 +9,7 @@ classes: wide
 
 ## Day 1
 
-|---|---|
+---|---
 9:00am-9:10am	|	Welcome and Preliminaries 
 9:10am-10:00am	| Section 1: Working with Grayscale Images
 10:00am-10:10am	| Break
@@ -26,7 +26,7 @@ classes: wide
 
 ## Day 2
 
-|---|---|
+---|---
 9:00am-9:10am	|	Welcome and Preliminaries
 9:10am-10:00am	|	Section 1: Working with the CalTech101 Dataset
 10:00am-10:10am	| Break
@@ -43,7 +43,7 @@ classes: wide
 
 ## Day 3
 
-|---|---|
+---|---
 9:00am-9:10am	|	Welcome and Preliminaries
 9:10am-10:00am	|	Section 1: Working with the MNIST Dataset
 10:00am-10:10am	| Break
