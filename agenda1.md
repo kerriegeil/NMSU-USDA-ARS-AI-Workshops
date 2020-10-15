@@ -1,5 +1,5 @@
-------
-permalink: /agendas/
+---
+permalink: /agenda1/
 
 classes: wide
 
