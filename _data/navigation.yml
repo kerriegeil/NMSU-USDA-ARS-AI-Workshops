@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Agendas"
-    links:
+    children:
       - title: Workshop 1
         url: /agenda1/
       - title: Workshop 2
