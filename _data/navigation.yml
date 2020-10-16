@@ -9,7 +9,7 @@ main:
 #        url: /agenda2/
   - title: "Before you come"
     url: /setup/
-  -title: "Learn"
+  - title: "Learn"
     url: /learn/
   - title: "People"
     url: /people/
