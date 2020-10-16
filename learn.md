@@ -22,7 +22,7 @@ Download the Jupyter Notebook and image data
 
 [Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb)
 
-[cameranman.png](/data_images/cameraman.png)
+[cameraman.png](/data_images/cameraman.png)
 
 [peppers.png](/data_images/peppers.png)
 
@@ -66,7 +66,7 @@ cp /project/shared_files/NMSU-AI-WORKSHOP/*.zip ./
 unzip '*.zip'
 ```
 
-If you are following this tutorial after the workshop has ended and the NMSU-AI-WORKSHOP shared folder no longer exists, do the following:
+Note: If you are following this tutorial after the workshop has ended and the NMSU-AI-WORKSHOP shared folder no longer exists, do the following:
 - Download and untar the image data to your local machine with the laptop instructions above
 - Zip both folders of data (on Windows: right click > Send to > Compressed (zipped) folder)
 - Login to Ceres with JupyterHub and upload the zip files (the larger zip will take a few minutes). The upload button is on the JupyterLab navigation pane between the New Folder icon and the Refresh File List icon
