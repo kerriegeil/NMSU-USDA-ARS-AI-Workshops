@@ -20,7 +20,7 @@ feature_row:
     alt: "Learn"
     title: "Learn"
     excerpt: "Workshop lessons and exercises"
-    url: "/agenda/"
+    url: "/learn/"
     btn_label: "View material"
     btn_class: "btn--info"
     caption: ""
