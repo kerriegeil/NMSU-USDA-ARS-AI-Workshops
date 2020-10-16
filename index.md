@@ -5,7 +5,7 @@ title: NMSU/USDA-ARS AI Workshops
 header:
   overlay_color: "#444444"
   overlay_image: /assets/images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg
-excerpt: 'image processing using machine learning and deep learning'
+excerpt: 'image processing using classical machine learning and deep learning'
 
 feature_row:
   - image_path: /assets/images/clement-h-95YRwf6CNw8-unsplash.jpg
