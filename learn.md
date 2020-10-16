@@ -1,4 +1,6 @@
 ---
+permalink: /learn/
+classes: wide
 ---
 
 All tutorials available on this page were created by Dr. Laura Boucheron of the Klipsch School of Electrical and Computer Engineering at New Mexico State University.
@@ -19,10 +21,13 @@ Download the Jupyter Notebook and image data
 ### If working on a laptop
 
 [Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb) (right click to download to your laptop)
+
 [cameranman.png](/data_images/cameraman.png) (right click to download to your laptop)
+
 [peppers.png](/data_images/peppers.png) (right click to download to your laptop)
 
 save these items in your working directory
+
 
 ### If working on the ARS Ceres HPC
 
@@ -35,6 +40,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 <!-- link to view a static ipynb with all the outputs shown-->
 
 
+
 ## Day 2
 
 Download the Jupyter Notebook and image data
@@ -42,10 +48,13 @@ Download the Jupyter Notebook and image data
 ### If working on a laptop
 
 [Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb) (right click to download to your laptop)
+
 [CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; right click to download to your laptop)
+
 [CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB; right click to download to your laptop)
 
 Move the compressed image data folders to your working directory and unzip. Unzip using a terminal (e.g. Windows PowerShell) with ```tar -xvfz filename```
+
 
 ### If working on the ARS Ceres HPC
 
@@ -68,7 +77,7 @@ If you are following this tutorial after the workshop has ended and the NMSU-AI-
 
 ## Day 3
 
-Download the Jupyter Notebook and image data
+Download the Jupyter Notebook
 
 ### If working on a laptop
 
