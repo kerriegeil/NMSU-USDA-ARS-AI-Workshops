@@ -1,6 +1,15 @@
 ---
 ---
 
+All tutorials available on this page were created by Dr. Laura Boucheron of the Klipsch School of Electrical and Computer Engineering at New Mexico State University.
+
+This information is free; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+A copy of the GNU General Public License can be viewed/downloaded at [COPYING.txt](/COPYING.txt) or see <https://www.gnu.org/licenses/>.
+
+
 # Workshop 1
 
 ## Day 1
@@ -9,9 +18,9 @@ Download the Jupyter Notebook and image data
 
 ### If working on a laptop
 
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
+[Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb) (right click to download to your laptop)
+[cameranman.png](/data_images/cameraman.png) (right click to download to your laptop)
+[peppers.png](/data_images/peppers.png) (right click to download to your laptop)
 
 save these items in your working directory
 
@@ -20,7 +29,7 @@ save these items in your working directory
 navigate to your working directory, then:
 
 ```
-curl -O https:// -O https:// -O https:
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial1_Image_Processing_Essentials.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/cameraman.png -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/peppers.png
 ```
 
 <!-- link to view a static ipynb with all the outputs shown-->
@@ -32,9 +41,9 @@ Download the Jupyter Notebook and image data
 
 ### If working on a laptop
 
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
+[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb) (right click to download to your laptop)
+[CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; right click to download to your laptop)
+[CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB; right click to download to your laptop)
 
 Move the compressed image data folders to your working directory and unzip. Unzip using a terminal (e.g. Windows PowerShell) with ```tar -xvfz filename```
 
@@ -43,8 +52,8 @@ Move the compressed image data folders to your working directory and unzip. Unzi
 navigate to your working directory, then:
 
 ```
-curl -O https:// 
-cp /project/shared_files/NMSU-AI-WORKSHOP/Annotations.zip /project/shared_files/NMSU-AI-WORKSHOP/101_ObjectCategories.zip ./
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial2_Classical_Machine_Learning.ipynb
+cp /project/shared_files/NMSU-AI-WORKSHOP/*.zip ./
 unzip '*.zip'
 ```
 
