@@ -10,7 +10,7 @@ This information is free; you can redistribute it and/or modify it under the ter
 This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 A copy of the GNU General Public License can be viewed/downloaded at [COPYING.txt](/COPYING.txt) or see <https://www.gnu.org/licenses/>.
-
+<br><br>
 
 # Workshop 1
 
@@ -18,18 +18,18 @@ A copy of the GNU General Public License can be viewed/downloaded at [COPYING.tx
 
 Download the Jupyter Notebook and image data
 
-### If working on a laptop
+**If working on a laptop** (right click the links to download)
 
-[Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb) (right click to download to your laptop)
+[Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb)
 
-[cameranman.png](/data_images/cameraman.png) (right click to download to your laptop)
+[cameranman.png](/data_images/cameraman.png)
 
-[peppers.png](/data_images/peppers.png) (right click to download to your laptop)
+[peppers.png](/data_images/peppers.png)
 
 save these items in your working directory
 
 
-### If working on the ARS Ceres HPC
+**If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
 
@@ -45,18 +45,18 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 Download the Jupyter Notebook and image data
 
-### If working on a laptop
+**If working on a laptop** (right click the links to download)
 
-[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb) (right click to download to your laptop)
+[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb)
 
-[CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; right click to download to your laptop)
+[CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB)
 
-[CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB; right click to download to your laptop)
+[CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB)
 
 Move the compressed image data folders to your working directory and unzip. Unzip using a terminal (e.g. Windows PowerShell) with ```tar -xvfz filename```
 
 
-### If working on the ARS Ceres HPC
+**If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
 
@@ -79,69 +79,26 @@ If you are following this tutorial after the workshop has ended and the NMSU-AI-
 
 Download the Jupyter Notebook
 
-### If working on a laptop
+**If working on a laptop** (right click the links to download)
 
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
+[]()
 
-save these items in your working directory
+[]()
 
-### If working on the ARS Ceres HPC
-
-navigate to your working directory, then:
-
-```
-curl -O https:// -O https:// -O https:
-```
-
-<!-- link to view a static ipynb with all the outputs shown-->
-
-
-
-# Workshop 2
-
-## Day 1
-
-Download the Jupyter Notebook and image data
-
-### If working on a laptop
-
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
+[]()
 
 save these items in your working directory
 
-### If working on the ARS Ceres HPC
+
+**If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
 
+<!--
 ```
 curl -O https:// -O https:// -O https:
 ```
+-->
 
 <!-- link to view a static ipynb with all the outputs shown-->
 
-
-## Day 2
-
-Download the Jupyter Notebook and image data
-
-### If working on a laptop
-
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
-[]() (right click to download to your laptop)
-
-save these items in your working directory
-
-### If working on the ARS Ceres HPC
-
-navigate to your working directory, then:
-
-```
-curl -O https:// -O https:// -O https:
-```
-
-<!-- link to view a static ipynb with all the outputs shown-->
