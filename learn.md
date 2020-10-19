@@ -90,7 +90,7 @@ Note: If you are following this tutorial after the workshop has ended and the NM
 
 to be posted
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/21/2020:**
 
 to be posted
 
@@ -102,7 +102,9 @@ to be posted
 
 ## Day 3
 
-Download the Jupyter Notebook
+Download the Jupyter Notebook.
+
+Also make sure you have built the workshop Conda environment and then activate it (use the kernel) inside your Jupyter Notebook ([use the instructions on the setup page](/setup/)). You will not be able to run the Notebook for Day 3 if you haven't built and activated the workshop Conda environment successfully.
 
 **If working on a laptop** (right click the links to download)
 
@@ -129,7 +131,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 to be posted
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/23/2020:**
 
 to be posted
 
