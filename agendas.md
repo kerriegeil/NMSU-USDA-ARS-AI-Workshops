@@ -55,5 +55,5 @@ classes: wide
 1:40pm-1:50pm	|	Break
 1:50pm-2:40pm	|	Section 5: Testing the Trained CNN
 2:40pm-2:50pm	|	Break
-2:50pm-3:50pm	|	Section 4: Transfer Learning for MNIST
+2:50pm-3:50pm	|	Section 6: Transfer Learning for MNIST
 3:50pm-4:00pm	|	Recap
