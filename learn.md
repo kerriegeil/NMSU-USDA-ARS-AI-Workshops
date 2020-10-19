@@ -37,6 +37,9 @@ navigate to your working directory, then:
 curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial1_Image_Processing_Essentials.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/cameraman.png -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/peppers.png
 ```
 
+
+To see a static notebook with all the outputs/answers: [Tutorial1_Image_Processing_Essentials.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
+
 <!-- link to view a static ipynb with all the outputs shown-->
 
 
