@@ -28,7 +28,6 @@ Download the Jupyter Notebook and image data
 
 save these items in your working directory
 
-
 **If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
@@ -37,10 +36,17 @@ navigate to your working directory, then:
 curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial1_Image_Processing_Essentials.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/cameraman.png -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/peppers.png
 ```
 
-
 **To see a static notebook with all the outputs/answers:** 
 
 [Tutorial1_Image_Processing_Essentials.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
+
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+
+[Tutorial1_Image_Processing_Essentials_Boucheron.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials_Boucheron.ipynb) (right click to download)
+
+**To access the Zoom recording:**
+
+to be posted
 
 
 
@@ -76,7 +82,22 @@ Note: If you are following this tutorial after the workshop has ended and the NM
 - Login to Ceres with JupyterHub and upload the zip files (the larger zip will take a few minutes). The upload button is on the JupyterLab navigation pane between the New Folder icon and the Refresh File List icon
 - Move the files to your working directory on Ceres and ```unzip `*.zip'```
 
-<!-- link to view a static ipynb with all the outputs shown-->
+**Presentation slides:** 
+
+[Day2_Rules_ML_DL.pdf](/slides/Day2_Rules_ML_DL.pdf)
+
+**To see a static notebook with all the outputs/answers:** 
+
+to be posted
+
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+
+to be posted
+
+**To access the Zoom recording:**
+
+to be posted
+
 
 
 ## Day 3
@@ -85,24 +106,33 @@ Download the Jupyter Notebook
 
 **If working on a laptop** (right click the links to download)
 
-[]()
+[Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb) (right click the link to download)
 
-[]()
-
-[]()
-
-save these items in your working directory
+save to your working directory
 
 
 **If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
 
-<!--
 ```
-curl -O https:// -O https:// -O https:
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb
 ```
--->
 
-<!-- link to view a static ipynb with all the outputs shown-->
+**Presentation slides:** 
 
+[Day3_CNNs.pdf](/slides/Day3_CNNs.pdf)
+
+[Day3_CNN_Epic_Fails.pdf](/slides/Day3_CNN_Epic_Fails.pdf)
+
+**To see a static notebook with all the outputs/answers:** 
+
+to be posted
+
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+
+to be posted
+
+**To access the Zoom recording:**
+
+to be posted
