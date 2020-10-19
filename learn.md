@@ -38,9 +38,10 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 ```
 
 
-To see a static notebook with all the outputs/answers: [Tutorial1_Image_Processing_Essentials.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
+**To see a static notebook with all the outputs/answers:** 
 
-<!-- link to view a static ipynb with all the outputs shown-->
+[Tutorial1_Image_Processing_Essentials.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
+
 
 
 
