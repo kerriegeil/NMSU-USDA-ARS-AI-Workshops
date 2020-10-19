@@ -138,11 +138,9 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   - launch a new notebook in JupyterLab: File > New > Notebook
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
   - in the notebook's empty cell paste this: from keras.models import Sequential
-  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The cell should run with no error or output
-  - add another code cell and paste: import subprocess  
-  - run the cell. the cell should run with no error or output
-  - add one more code cell and paste: subprocess.check_output("cat ~/.keras/keras.json", shell=True)
-  - run the cell. You should see output that contains: "backend": "tensorflow"
+  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The cell should run with no errors
+  - add another code cell and paste: print(keras.backend.backend()) 
+  - run the cell. the cell should tell you you're using tensorflow backend
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Kerrie Geil 
 
