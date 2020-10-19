@@ -57,7 +57,7 @@ Download the Jupyter Notebook and image data
 
 [CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB; follow the link to download)
 
-Move the compressed image data folders to your working directory and unzip. Unzip using a terminal (e.g. Windows PowerShell) with ```tar -xvfz filename```
+Move the compressed image data folders to your working directory and unzip. Unzip using a terminal (e.g. Windows PowerShell) with ```tar -xvf filename```
 
 
 **If working on the ARS Ceres HPC**
