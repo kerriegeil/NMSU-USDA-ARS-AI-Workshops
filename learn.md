@@ -88,7 +88,7 @@ Note: If you are following this tutorial after the workshop has ended and the NM
 
 **To see a static notebook with all the outputs/answers:** 
 
-to be posted
+[Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/Tutorial2_Classical_Machine_Learning_complete.html)
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/21/2020:**
 
