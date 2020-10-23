@@ -106,9 +106,9 @@ Download the Jupyter Notebook.
 
 Also make sure you have built the workshop Conda environment and then activate it (use the kernel) inside your Jupyter Notebook ([use the instructions on the setup page](/setup/)). You will not be able to run the Notebook for Day 3 if you haven't built and activated the workshop Conda environment successfully.
 
-**If working on a laptop** (right click the links to download)
+**If working on a laptop** 
 
-[Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb) (right click the link to download)
+[Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb) 
 
 save to your working directory
 
