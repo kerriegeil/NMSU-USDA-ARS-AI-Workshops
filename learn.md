@@ -92,7 +92,7 @@ Note: If you are following this tutorial after the workshop has ended and the NM
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/21/2020:**
 
-to be posted
+[Tutorial2_Classical_Machine_Learning_Boucheron.html](/tutorials/Tutorial2_Classical_Machine_Learning_Boucheron.ipynb)
 
 **To access the Zoom recording:**
 
