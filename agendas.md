@@ -58,7 +58,7 @@ classes: wide
 2:50pm-3:50pm	|	Section 6: Transfer Learning for MNIST
 3:50pm-4:00pm	|	Recap
 
-
+<br>
 # Workshop 2: Advanced Topics in Deep Learning
 
 ## Day 1
