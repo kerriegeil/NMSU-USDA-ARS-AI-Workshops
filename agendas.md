@@ -57,3 +57,22 @@ classes: wide
 2:40pm-2:50pm	|	Break
 2:50pm-3:50pm	|	Section 6: Transfer Learning for MNIST
 3:50pm-4:00pm	|	Recap
+
+
+# Workshop 2: Advanced Topics in Deep Learning
+
+## Day 1
+
+---|---
+9:00am-9:10am	|	Welcome and Preliminaries
+9:10am-10:10am	|	Section 1: Printed Summaries of Network Architectures
+10:10am-10:20am	| Break
+10:20am-11:30am	| Section 2: Visualizing Activations of Neurons
+11:30am-12:30pm	| Lunch Break
+12:30pm-1:30pm	|	Section 2: Visualizing Activations of Neurons (cont.)
+1:30pm-1:40pm	|	Break
+1:40pm-2:40pm	|	Section 3: Inputting New and Different Data to a Trained Network
+2:40pm-2:50pm	|	Break
+2:40pm-3:50pm	|	Section 4: The VGG16 architecture
+3:50pm-4:00pm	|	Recap
+
