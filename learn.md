@@ -168,7 +168,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 to be posted
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/26/2020:**
 
 to be posted
 
