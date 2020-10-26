@@ -138,3 +138,41 @@ to be posted
 **To access the Zoom recording:**
 
 to be posted
+
+
+# Workshop 2
+
+## Day 1
+
+Download the Jupyter Notebook and image data
+
+**If working on a laptop** (right click the links to download)
+
+[Tutorial4_Visualizing and Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing and Modifying_DL_Networks.ipynb)
+
+[my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg)
+
+[latest_256_0193.jpg](/data_images/latest_256_0193.jpg)
+
+save these items in your working directory
+
+**If working on the ARS Ceres HPC**
+
+navigate to your working directory, then:
+
+```
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial4_Visualizing and Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg
+```
+
+**To see a static notebook with all the outputs/answers:** 
+
+to be posted
+
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+
+to be posted
+
+**To access the Zoom recording:**
+
+to be posted
+
