@@ -129,11 +129,11 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 **To see a static notebook with all the outputs/answers:** 
 
-[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html) (right click the link to download)
+[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html)
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/23/2020:**
 
-to be posted
+[Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb)
 
 **To access the Zoom recording:**
 
@@ -156,6 +156,7 @@ Download the Jupyter Notebook and image data
 
 save these items in your working directory
 
+
 **If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
@@ -166,11 +167,11 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 **To see a static notebook with all the outputs/answers:** 
 
-to be posted
+[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/26/2020:**
 
-to be posted
+[Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)
 
 **To access the Zoom recording:**
 
