@@ -182,11 +182,11 @@ to be posted
 
 Download the Jupyter Notebook and image data
 
-**If working on a laptop** right click the links to download)
+**If working on a laptop** 
 
 Tutorial to be posted
 
-[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB; click to download)
+[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB)
 
 save these items in your working directory
 
@@ -203,7 +203,7 @@ curl -O https://pjreddie.com/media/files/yolov3.weights
 
 to be posted
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/26/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/28/2020:**
 
 to be posted
 
