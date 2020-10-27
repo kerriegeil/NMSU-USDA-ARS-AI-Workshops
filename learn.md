@@ -177,3 +177,36 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 to be posted
 
+
+## Day 2
+
+Download the Jupyter Notebook and image data
+
+**If working on a laptop** right click the links to download)
+
+Tutorial to be posted
+
+[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB; click to download)
+
+save these items in your working directory
+
+
+**If working on the ARS Ceres HPC**
+
+navigate to your working directory, then:
+
+```
+curl -O https://pjreddie.com/media/files/yolov3.weights
+```
+
+**To see a static notebook with all the outputs/answers:** 
+
+to be posted
+
+**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/26/2020:**
+
+to be posted
+
+**To access the Zoom recording:**
+
+to be posted
