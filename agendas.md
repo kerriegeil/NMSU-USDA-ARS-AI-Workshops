@@ -76,3 +76,16 @@ classes: wide
 2:40pm-3:50pm	|	Section 4: The VGG16 architecture
 3:50pm-4:00pm	|	Recap
 
+## Day 2
+
+---|---
+9:00am-9:15am	|	Welcome and Preliminaries
+9:15am-10:45am	|	Section 1: YOLO-v3 for Object Detection
+10:45am-11:00am	| Break
+11:00am-12:30pm	| Section 2: Mask-RCNN for Object Segmentation
+12:30pm-1:30pm	|	Lunch Break
+12:30pm-2:00pm	|	Section 3: Time Series Prediction with an LSTM
+2:00pm-2:15pm	|	Recap
+2:15pm-2:30pm	|	Workshop Evaluation
+
+
