@@ -180,11 +180,11 @@ to be posted
 
 ## Day 2
 
-Download the Jupyter Notebook and image data
+Download the Jupyter Notebook and model weights
 
 **If working on a laptop** 
 
-Tutorial to be posted
+[Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks.ipynb)
 
 [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB)
 
@@ -196,7 +196,7 @@ save these items in your working directory
 navigate to your working directory, then:
 
 ```
-curl -O https://pjreddie.com/media/files/yolov3.weights
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights
 ```
 
 **To see a static notebook with all the outputs/answers:** 
