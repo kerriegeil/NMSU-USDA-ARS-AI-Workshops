@@ -203,11 +203,11 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 **To see a static notebook with all the outputs/answers:** 
 
-to be posted
+[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/28/2020:**
 
-to be posted
+[Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)
 
 **To access the Zoom recording:**
 
