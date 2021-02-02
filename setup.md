@@ -8,7 +8,7 @@ classes: wide
 
 # Before you Come: Computer Setup
 
-Before the workshop, each participant needs to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.
+Before the workshop, each participant needs to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. **Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.**
 
 Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a Mac to test these setup instructions, but hopefully the setup won't be much different from the Windows instructions.
 
@@ -27,15 +27,14 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
   If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/mac-os/](https://docs.anaconda.com/anaconda/install/mac-os/).
   
-  If you do not have administrative privileges on your machine then you will have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you will have to use either the Ceres HPC (if you have an account) or a personal computer.
+  If you do not have administrative privileges on your machine then you may have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you can use either the Ceres HPC (if you have an account) or a personal computer.
   
   **2-3) Follow the instructions as best you can under "For Windows Machines"**
 
   
-  **Please try to troubeshoot the Mac installation on your own first, but contact Suzy Stillman and Kerrie Geil with a screenshot of your errors if you get stuck.**  
+  **Please try to troubeshoot installation on your own or with assistance from local IT or other ARS staff**  
   
-  sstillman dot jrn dot lter at gmail dot com, kerrie dot geil at usda dot gov
-  
+    
 
 ## For Windows Machines
 
@@ -43,7 +42,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
   If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
   
-  If you do not have administrative privileges on your machine then you will have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you will have to use either the Ceres HPC (if you have an account) or a personal computer.
+  If you do not have administrative privileges on your machine then you may have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you can use either the Ceres HPC (if you have an account) or a personal computer.
     
 **2) Build the workshop Conda environment**
 
@@ -56,7 +55,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   python -m ipykernel install --user --name aiworkshop
   ```
     
-  The create and install steps of the build will take a while. The total build may take 10 minutes or possibly longer. 
+  The create and install steps of the build may take a while. The total build could take up to 10 minutes or possibly longer. 
     
   When the build finishes, navigate using the Anaconda Prompt to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
   
@@ -65,22 +64,21 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   cd NMSU-ARS-aiworkshop/
   jupyter lab
   ```
-  
-  **If you get stuck contact Suzy Stillman and Kerrie Geil with a screenshot of your errors.** 
-  
-  sstillman dot jrn dot lter at gmail dot com, kerrie dot geil at usda dot gov.
         
 **3) Run a test Jupyter Notebook and screenshot your results**
 
   - launch a new notebook in JupyterLab: File > New > Notebook
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu     
-  - in the notebook's empty cell paste this: from keras.models import Sequential
-  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter
+  - in the notebook's empty cell paste this: 
   
-    the result should say "Using TensorFlow backend" with no errors
+  ```
+  from keras.models import Sequential
+  print(keras.backend.backend())
+  ```
   
+  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The result should tell you you're using TensorFlow backend.
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
-  - paste the screenshot in an email to Suzy Stillman and Kerrie Geil
+  - paste the screenshot in an email to Kerrie Geil, kerrie dot geil at usda dot gov
 
 
 
@@ -126,21 +124,23 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   conda env create --prefix /project/your_project_name/envs/aiworkshop -f aiworkshop.yml
   ```
   
-  The build will take a while- maybe 10 minutes or possibly longer. When the build finishes:
+  The build may take a while- up to 10 minutes or possibly longer. When the build finishes:
   ```
   conda activate /project/your_project_name/envs/aiworkshop
   ```
-  
-  **If you get stuck contact Kerrie Geil with screenshots of your errors** at kerrie dot geil at usda dot gov.
   
 **4) Run a test Jupyter Notebook and screen shot your results**
 
   - launch a new notebook in JupyterLab: File > New > Notebook
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
-  - in the notebook's empty cell paste this: from keras.models import Sequential
-  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The cell should run with no errors
-  - add another code cell and paste: print(keras.backend.backend()) 
-  - run the cell. the cell should tell you you're using tensorflow backend
+  - in the notebook's empty cell paste this: 
+  
+  ```
+  from keras.models import Sequential
+  print(keras.backend.backend())
+  ```
+  
+  - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The result should tell you you're using TensorFlow backend.
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
-  - paste the screenshot in an email to Kerrie Geil 
+  - paste the screenshot in an email to Kerrie Geil, kerrie dot geil at usda dot gov 
 
