@@ -23,6 +23,8 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
 ## For Mac Machines
 
+**Please try to troubeshoot installation on your own or with assistance from local IT or other local ARS staff**  
+
 **1) Install Anaconda**
 
   If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/mac-os/](https://docs.anaconda.com/anaconda/install/mac-os/).
@@ -31,12 +33,11 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   
   **2-3) Follow the instructions as best you can under "For Windows Machines"**
 
-  
-  **Please try to troubeshoot installation on your own or with assistance from local IT or other ARS staff**  
-  
     
 
 ## For Windows Machines
+
+**Please try to troubeshoot installation on your own or with assistance from local IT or other local ARS staff**  
 
 **1) Install Anaconda**
 
@@ -83,6 +84,9 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
 
 ## On the Ceres HPC
+
+**Please try to troubeshoot installation on your own or contact HPC support at scinet_vrsc@usda.gov**  
+
 
 **1) Request a project directory on Ceres if you don't already have one**
 
