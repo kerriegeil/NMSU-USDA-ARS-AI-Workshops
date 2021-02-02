@@ -72,10 +72,8 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu     
   - in the notebook's empty cell paste this: 
   
-  ```
   from keras.models import Sequential
   print(keras.backend.backend())
-  ```
   
   - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The result should tell you you're using TensorFlow backend.
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
@@ -139,11 +137,9 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   - make sure the workshop kernel is selected: Kernel > Change Kernel > select aiworkshop from the drop down menu 
   - in the notebook's empty cell paste this: 
   
-  ```
   from keras.models import Sequential
   print(keras.backend.backend())
-  ```
-  
+    
   - run the cell: click Run > Run All Cells or with your cursor inside the cell type Shift+Enter. The result should tell you you're using TensorFlow backend.
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Kerrie Geil, kerrie dot geil at usda dot gov 
