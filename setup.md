@@ -20,6 +20,8 @@ Please note, the workshop team does not have a Mac to test these setup instructi
 
 [On the Ceres HPC](#on-the-ceres-hpc)
 
+[Troubleshooting Tips](#troubleshootin-tips)
+
 
 ## For Mac Machines
 
@@ -79,7 +81,7 @@ Please note, the workshop team does not have a Mac to test these setup instructi
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Kerrie Geil, kerrie dot geil at usda dot gov
 
-**Troubleshooting Tips**
+#### Troubleshooting Tips
 
 Occasionally, a conda environment build will fail for no apparent reason (especially when keras is involved). Please attempt to build the workshop environment at least 3 times. Sometimes it takes up to 3 attempts, executing the exact same commands for the environment build to complete successfully (no idea why).
 
