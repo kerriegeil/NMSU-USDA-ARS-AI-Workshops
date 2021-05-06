@@ -90,15 +90,15 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
   conda env list
   ```
   
-  If you see 'aiworkshop' in the list delete it by typing
+    - If you see 'aiworkshop' in the list delete it by typing
   
   ```
   conda env remove --name aiworkshop
   ```
   
-  Then, start at the beginning of 'Step 2 Build the workshop Conda environment' again.
+    and start at the beginning of 'Step 2 Build the workshop Conda environment' again.
   
-  If you don't see 'aiworkshop' in the list then you don't need to delete anything, just try step 2 of the installation again.
+    - If you don't see 'aiworkshop' in the list then you don't need to delete anything, just try step 2 of the installation again.
   
 
 **If your environment builds successfully but 'aiworkshop' doesn't appear as a kernel option in jupyter lab:**
@@ -108,7 +108,7 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
   conda env remove --name aiworkshop
   ```
   
-  Then start over with 'Step 2 Build the workshop Conda environment' again. Try this process at least 3 times before giving up.
+    and start over with 'Step 2 Build the workshop Conda environment' again. Try this process at least 3 times before giving up.
 
 
 
