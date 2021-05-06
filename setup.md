@@ -10,7 +10,7 @@ classes: wide
 
 Before the workshop, each participant needs to work through the following instructions to ensure their computer is set up to successfully run the workshop materials. **Choose which set of instructions to follow based on the operating system of the computer you will be using for the workshop.**
 
-Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a Mac to test these setup instructions, but hopefully the setup won't be much different from the Windows instructions.
+Please note, the workshop team does not have a Mac to test these setup instructions, but previous participants with Macs were successful at software installation following steps 2 and 3 of the Windows instructions.
 
 ## Contents 
 
@@ -23,13 +23,13 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
 ## For Mac Machines
 
-**Please try to troubeshoot installation on your own or with assistance from local IT or other local ARS staff**  
+**Please try to troubeshoot installation on your own or with assistance from local IT or other local ARS staff for help. See the end of the Windows section for minimal troubleshooting tips**  
 
 **1) Install Anaconda**
 
   If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/mac-os/](https://docs.anaconda.com/anaconda/install/mac-os/).
   
-  If you do not have administrative privileges on your machine then you may have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you can use either the Ceres HPC (if you have an account) or a personal computer.
+  If you do not have administrative privileges on your machine you may still be able to install to your computer's Desktop. Otherwise, ask your local IT for assistance installing it. If you do not have local IT assistance, then you can use either the Ceres HPC (if you have an account) or a personal computer.
   
   **2-3) Follow the instructions as best you can under "For Windows Machines"**
 
@@ -37,20 +37,20 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
 ## For Windows Machines
 
-**Please try to troubeshoot installation on your own or with assistance from local IT or other local ARS staff**  
+**Please try to troubeshoot installation on your own or with assistance from local IT or other local ARS staff for help. See the end of this section for minimal troubleshooting tips**  
 
 **1) Install Anaconda**
 
   If you don't already have Anaconda installed, follow the instructions for downloading and installing it (for an individual) at [https://docs.anaconda.com/anaconda/install/windows/](https://docs.anaconda.com/anaconda/install/windows/).
   
-  If you do not have administrative privileges on your machine then you may have to ask your local IT for assistance installing it. If you do not have local IT assistance, then you can use either the Ceres HPC (if you have an account) or a personal computer.
+  If you do not have administrative privileges on your machine you may still be able to install to your computer's Desktop. Otherwise, ask your local IT for assistance installing it. If you do not have local IT assistance, then you can use either the Ceres HPC (if you have an account) or a personal computer.
     
 **2) Build the workshop Conda environment**
 
   From the Windows search bar type "anaconda" and select the Anaconda Powershell Prompt. At the prompt:
   
   ```
-  conda create --name aiworkshop python=3.7 numpy pandas scipy imageio scikit-learn scikit-image matplotlib hdf5 nodejs jupyterlab -y
+  conda create --name aiworkshop python=3.8 numpy pandas scipy imageio scikit-learn scikit-image matplotlib hdf5 nodejs jupyterlab -y
   conda activate aiworkshop
   conda install keras -y
   python -m ipykernel install --user --name aiworkshop
@@ -58,7 +58,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
     
   The create and install steps of the build may take a while. The total build could take up to 10 minutes or possibly longer. 
     
-  When the build finishes, navigate using the Anaconda Prompt to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
+  When the build finishes, navigate using the Anaconda Powershell Prompt to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
   
   ```
   mkdir NMSU-ARS-aiworkshop
@@ -79,6 +79,37 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
   - position the scroll bar so all results can be seen on your screen and then take a screenshot
   - paste the screenshot in an email to Kerrie Geil, kerrie dot geil at usda dot gov
 
+**Troubleshooting Tips**
+
+Occasionally, a conda environment build will fail for no apparent reason (especially when keras is involved). Please attempt to build the workshop environment at least 3 times. Sometimes it takes up to 3 attempts, executing the exact same commands for the environment build to complete successfully (no idea why).
+
+**If an error occurred during the conda environment build process and creation of the environment didn't complete successfully:**
+  - check if part of the environment was created by typing in the Anaconda Powershell Prompt 
+  
+  ```
+  conda env list
+  ```
+  
+  If you see 'aiworkshop' in the list delete it by typing
+  
+  ```
+  conda env remove --name aiworkshop
+  ```
+  
+  Then, start at the beginning of 'Step 2 Build the workshop Conda environment' again.
+  
+  If you don't see 'aiworkshop' in the list then you don't need to delete anything, just try step 2 of the installation again.
+  
+
+**If your environment builds successfully but 'aiworkshop' doesn't appear as a kernel option in jupyter lab:**
+  - delete the whole environment and start over. In the Anaconda Powershell Prompt type
+  
+  ```
+  conda env remove --name aiworkshop
+  ```
+  
+  Then start over with 'Step 2 Build the workshop Conda environment' again. Try this process at least 3 times before giving up.
+
 
 
 ## On the Ceres HPC
@@ -90,7 +121,7 @@ Please note, the workshop helpers (Suzy Stillman and Kerrie Geil) do not have a 
 
   You will need a project directory to successfully run the workshop materials due to the space limitations of Ceres home directories. If you already have a project directory, proceed to step 2- you can run the workshop materials from any existing project directory with approximately 20GB of free space.
   
-  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory by 10/16 to participate in a SCINet training event.
+  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory to participate in a SCINet training event and give them the workshop start date.
   
   The other option is to ask the Virutal Research Support Core to temporarily increase your home directory quota from 5GB to 20GB. You can make this request by emailing scinet_vrsc@usda.gov. Make sure to tell them that the extra home directory space is needed to participate in a SCINet training event and define the time period for which you need the extra space.
 
