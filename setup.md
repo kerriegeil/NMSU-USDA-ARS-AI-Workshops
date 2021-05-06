@@ -20,7 +20,7 @@ Please note, the workshop team does not have a Mac to test these setup instructi
 
 [On the Ceres HPC](#on-the-ceres-hpc)
 
-[Troubleshooting Tips](#troubleshootin-tips)
+[Troubleshooting Tips](#troubleshooting-tips)
 
 
 ## For Mac Machines
