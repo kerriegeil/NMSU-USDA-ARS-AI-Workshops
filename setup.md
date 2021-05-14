@@ -58,6 +58,8 @@ Please note, the workshop team does not have a Mac to test these setup instructi
   python -m ipykernel install --user --name aiworkshop
   ```
     
+  **See the troubleshooting section below if you get an error on the keras install step**
+  
   The create and install steps of the build may take a while. The total build could take up to 10 minutes or possibly longer. 
     
   When the build finishes, navigate using the Anaconda Powershell Prompt to the folder you want JupyterLab to open in (for example create a workshop folder and cd into it) and open JupyterLab:
@@ -84,6 +86,13 @@ Please note, the workshop team does not have a Mac to test these setup instructi
 #### Troubleshooting Tips
 
 Occasionally, a conda environment build will fail for no apparent reason (especially when keras is involved). Please attempt to build the workshop environment at least 3 times. Sometimes it takes up to 3 attempts, executing the exact same commands for the environment build to complete successfully (no idea why).
+
+**If the install of python=3.8 numpy pandas scipy imageio scikit-learn scikit-image matplotlib hdf5 nodejs jupyterlab completed successfully but you get an error when trying to install keras:**
+  - replace "conda install keras -y" with 
+  ``` 
+  pip install keras
+  pip install tensorflow
+  ```
 
 **If an error occurred during the conda environment build process and creation of the environment didn't complete successfully:**
   - check if part of the environment was created by typing in the Anaconda Powershell Prompt 
