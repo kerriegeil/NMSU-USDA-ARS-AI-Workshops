@@ -88,7 +88,11 @@ Please note, the workshop team does not have a Mac to test these setup instructi
 Occasionally, a conda environment build will fail for no apparent reason (especially when keras is involved). Please attempt to build the workshop environment at least 3 times. Sometimes it takes up to 3 attempts, executing the exact same commands for the environment build to complete successfully (no idea why).
 
 **If the install of python=3.8 numpy pandas scipy imageio scikit-learn scikit-image matplotlib hdf5 nodejs jupyterlab completed successfully but you get an error when trying to install keras:**
-  - replace "conda install keras -y" with 
+  - first try getting keras from the conda-forge channel: replace "conda install keras -y" with 
+  ```
+  conda install -c conda-forge keras -y
+  ```
+  - if that doesn't work, try using pip: replace "conda install keras -y" with 
   ``` 
   pip install keras
   pip install tensorflow
