@@ -10,7 +10,7 @@ dependencies:
   - ipykernel
   - scikit-learn
   - scikit-image
-  - python=3.7
+  - python=3.8
   - matplotlib
   - pandas
   - seaborn
