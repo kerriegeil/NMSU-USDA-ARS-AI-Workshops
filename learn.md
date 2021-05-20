@@ -40,9 +40,9 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 [Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/19/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction:**
 
-[Tutorial1_Image_Processing_Essentials_Boucheron.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials_Boucheron.ipynb) (right click to download)
+[Tutorial1_Image_Processing_Essentials_Boucheron.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials_Boucheron.ipynb) (right click to download) (from 10/19/2020)
 
 **To access the Zoom recording:**
 
@@ -90,9 +90,9 @@ Note: If you are following this tutorial after the workshop has ended and the NM
 
 [Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/Tutorial2_Classical_Machine_Learning_complete.html)
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/21/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction:**
 
-[Tutorial2_Classical_Machine_Learning_Boucheron.html](/tutorials/Tutorial2_Classical_Machine_Learning_Boucheron.ipynb)
+[Tutorial2_Classical_Machine_Learning_Boucheron.html](/tutorials/Tutorial2_Classical_Machine_Learning_Boucheron.ipynb) (from 10/21/2020)
 
 **To access the Zoom recording:**
 
@@ -131,9 +131,9 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 [Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html)
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/23/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction:**
 
-[Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb)
+[Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb) (from 10/23/2020)
 
 **To access the Zoom recording:**
 
@@ -171,7 +171,7 @@ to be posted
 to be posted
 <!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)--->
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/26/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction:**
 
 to be posted
 <!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)--->
@@ -211,7 +211,7 @@ to be posted
 to be posted
 <!---[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)--->
 
-**To access the instructor's ipynb with the ad hoc cells added during instruction on 10/28/2020:**
+**To access the instructor's ipynb with the ad hoc cells added during instruction:**
 
 to be posted
 <!---[Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)--->
