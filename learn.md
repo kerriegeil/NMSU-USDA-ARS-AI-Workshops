@@ -148,30 +148,33 @@ Download the Jupyter Notebook and image data
 
 **If working on a laptop** (right click the links to download)
 
-[Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)
+to be posted
+<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)--->
 
-[my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg)
+<!---[my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg)--->
 
-[latest_256_0193.jpg](/data_images/latest_256_0193.jpg)
+<!---[latest_256_0193.jpg](/data_images/latest_256_0193.jpg)--->
 
-save these items in your working directory
-
+<!---save these items in your working directory--->
 
 **If working on the ARS Ceres HPC**
 
-navigate to your working directory, then:
+to be posted
+<!---navigate to your working directory, then:--->
 
-```
-curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg
-```
+<!---```--->
+<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg--->
+<!---```--->
 
 **To see a static notebook with all the outputs/answers:** 
 
-[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)
+to be posted
+<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)--->
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/26/2020:**
 
-[Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)
+to be posted
+<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)--->
 
 **To access the Zoom recording:**
 
@@ -184,30 +187,34 @@ Download the Jupyter Notebook and model weights
 
 **If working on a laptop** 
 
-[Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks.ipynb)
+to be posted
+<!---[Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks.ipynb)--->
 
-[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB)
+<!---[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB)--->
 
-[https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg)
+<!---[https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg)--->
 
-save these items in your working directory
+<!---save these items in your working directory--->
 
 
 **If working on the ARS Ceres HPC**
 
-navigate to your working directory, then:
+to be posted
+<!---navigate to your working directory, then:--->
 
-```
-curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights -O https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg
-```
+<!---```--->
+<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights -O https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg--->
+<!---```--->
 
 **To see a static notebook with all the outputs/answers:** 
 
-[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)
+to be posted
+<!---[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)--->
 
 **To access the instructor's ipynb with the ad hoc cells added during instruction on 10/28/2020:**
 
-[Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)
+to be posted
+<!---[Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)--->
 
 **To access the Zoom recording:**
 
