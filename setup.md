@@ -99,14 +99,12 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
   ```
 
 **If an error occurred during the conda environment build process and creation of the environment didn't complete successfully:**
-  - check if part of the environment was created by typing in the Anaconda Powershell Prompt 
-  
+  - check if part of the environment was created by typing in the Anaconda Powershell Prompt  
   ```
   conda env list
   ```
   
   - If you see 'aiworkshop' in the list delete it by typing
-  
   ```
   conda env remove --name aiworkshop
   ```
@@ -123,11 +121,10 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
     - try selecting the kernel again
     
   - if that doesn't work shut down Jupyter Lab, delete the whole environment and start over. In the Anaconda Powershell Prompt type
-  
   ```
   conda env remove --name aiworkshop
   ```
-  
+
    and start over with 'Step 2 Build the workshop Conda environment' again. Try this process at least 3 times before giving up.
 
 
