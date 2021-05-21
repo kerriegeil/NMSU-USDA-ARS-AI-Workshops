@@ -132,13 +132,13 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
 **Please try to troubeshoot installation on your own or contact HPC support at scinet_vrsc@usda.gov**  
 
 
-**1) Request a project directory on Ceres if you don't already have one**
+**1) Request a project directory on Ceres if you don't already have one or use /90daydata/scinet/yourname/**
 
-  You will need a project directory to successfully run the workshop materials due to the space limitations of Ceres home directories. If you already have a project directory, proceed to step 2- you can run the workshop materials from any existing project directory with approximately 20GB of free space.
+  You will not be able to run the workshop materials in your HPC home directory due to the space limitations. If you already have a project directory, proceed to step 2- you can run the workshop materials from any existing project directory with approximately 20GB of free space.
   
-  If you do not have a project directory yet, request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory to participate in a SCINet training event and give them the workshop start date.
+  If you do not have a project directory yet, you can request one using the [project directory request form](https://scinet.usda.gov/support/request-storage). eAuth is required to access the form. If you do not have eAuth credentials (i.e. you don't have a USDA PIV or CAC card) you will need to ask your USDA sponsor to complete the project directory request for you. Do this quickly since the approval process can take a week or more. Make sure to state on the request form that you need the directory to participate in a SCINet training event and give them the workshop start date.
   
-  The other option is to ask the Virutal Research Support Core to temporarily increase your home directory quota from 5GB to 20GB. You can make this request by emailing scinet_vrsc@usda.gov. Make sure to tell them that the extra home directory space is needed to participate in a SCINet training event and define the time period for which you need the extra space.
+  The other option is to use the /90daydata/scinet/ folder. As the folder name suggests, files stored there are not permanent and will be deleted after 90 days. We suggest creating a new folder at /90daydata/scinet/yourname/, building the workshop conda environment there, and also running the workshop jupyter notebooks from that location as well. To do this you would modify the instructions below by substituting /90daydata/scinet/yourname/ wherever you see /project/your_project_name/. 
 
 **2) Log into the Ceres HPC using JupyterHub**
   - Go to [https://jupyterhub.scinet.usda.gov/](https://jupyterhub.scinet.usda.gov/)
@@ -150,10 +150,13 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
     - Node Type: short
     - Number of Cores: 4
     - Job Duration: 02:00:00
-    - Working Directory: /lustre/project/***your_project_name***
+    - Working Directory: /lustre/project/your_project_name ***or*** /90daydata/scinet 
     - leave all other fields blank
 
 **3) Build the workshop Conda environment**
+
+  If using /90daydata/scinet, create a new folder there ```mkdir /90daydata/scinet/yourname```, then modify the instructions below by substituting /90daydata/scinet/yourname/ wherever you see /project/your_project_name/.
+  
   - open a terminal in JupyterLab with File > New > Terminal
   
   - navigate to your project directory
