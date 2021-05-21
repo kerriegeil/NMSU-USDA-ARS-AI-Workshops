@@ -117,7 +117,12 @@ Occasionally, a conda environment build will fail for no apparent reason (especi
   
 
 **If your environment builds successfully but 'aiworkshop' doesn't appear as a kernel option in jupyter lab:**
-  - delete the whole environment and start over. In the Anaconda Powershell Prompt type
+  - first try relauching Jupyter Lab
+    - File > Shut Down
+    - ```jupyter lab```
+    - try selecting the kernel again
+    
+  - if that doesn't work shut down Jupyter Lab, delete the whole environment and start over. In the Anaconda Powershell Prompt type
   
   ```
   conda env remove --name aiworkshop
