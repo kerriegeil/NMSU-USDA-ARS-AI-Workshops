@@ -13,6 +13,8 @@ main:
     url: /learn/
   - title: "People"
     url: /people/
+  - title: "Archive"
+    url: /archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
