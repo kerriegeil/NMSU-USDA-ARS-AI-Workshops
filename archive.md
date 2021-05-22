@@ -8,21 +8,21 @@ These workshops have been/will be repeated a number of times. The Learn page con
 
 # Quick Links
 
-[Workshop 1 - 10/19/2020, 10/21/2020, 10/23/2020](#workshop-1-10-19-2020-10-21-2020-10-23-2020)
-  - [Laptop Materials](#if-working-on-a-laptop-right-click-the-links-to-download-and-save-to-working-directory)
-  - [HPC Materials](#if-working-on-the-ars-ceres-hpc)
-  - [Zoom Recordings](#zoom-recordings)
+[Workshop 1 - 10/19/2020, 10/21/2020, 10/23/2020](#workshop-1-10192020-10212020-10232020)
+  - [Laptop Materials](#wkshp1-for-laptop-users-right-click-the-links-to-download-and-save-to-working-directory)
+  - [HPC Materials](#wkshp1-for-ars-ceres-hpc-users)
+  - [Zoom Recordings](#wkshp1-zoom-recordings)
 
-[Workshop 2 - 10/26/2020, 10/28/2020](#workshop-2-10-26-2020-10-28-2020)
-  - [Laptop Materials](#if-working-on-a-laptop-right-click-the-links-to-download-and-save-to-working-directory)
-  - [HPC Materials](#if-working-on-the-ars-ceres-hpc)
-  - [Zoom Recordings](#zoom-recordings)
+[Workshop 2 - 10/26/2020, 10/28/2020](#workshop-210262020-10282020)
+  - [Laptop Materials](#wkshp2-for-laptop-users-right-click-the-links-to-download-and-save-to-working-directory)
+  - [HPC Materials](#wkshp2-for-ars-ceres-hpc-users)
+  - [Zoom Recordings](#wkshp2-zoom-recordings)
 
 
 
 # Workshop 1 - 10/19/2020, 10/21/2020, 10/23/2020
 
-#### If working on a laptop (right click the links to download and save to working directory)
+#### Wkshp1 for laptop users (right click the links to download and save to working directory)
 
 Day 1 Workbook: [Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb)
 
@@ -53,7 +53,7 @@ Day 3 static notebook with outputs/answers: [Tutorial3_Deep_Learning_for_Images_
 Day 3 instructor ipynb with ad hoc cells added during instruction: [Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb)
 
 
-#### If working on the ARS Ceres HPC
+#### Wkshp1 for ARS Ceres HPC users
 
 Day1:
 ```
@@ -77,7 +77,7 @@ Day3:
 curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb
 ```
 
-#### Zoom Recordings
+#### Wkshp1 Zoom Recordings
 
 to be posted
 
@@ -85,7 +85,7 @@ to be posted
 
 # Workshop 2 - 10/26/2020, 10/28/2020
 
-#### If working on a laptop (right click the links to download and save to working directory)
+#### Wkshp2 for laptop users (right click the links to download and save to working directory)
 
 Day 1 Workbook: [Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)
 
@@ -104,7 +104,7 @@ Day 2 static notebook with outputs/answers: [Tutorial5_Advanced_DL_Networks_comp
 Day 2 instructor ipynb with ad hoc cells added during instruction: [Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)
 
 
-#### If working on the ARS Ceres HPC
+#### Wkshp2 for ARS Ceres HPC users
 
 Day 1:
 ```
@@ -116,6 +116,6 @@ Day 2:
 curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights -O https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg
 ```
 
-#### Zoom Recordings
+#### Wkshp2 Zoom Recordings
 
 to be posted
