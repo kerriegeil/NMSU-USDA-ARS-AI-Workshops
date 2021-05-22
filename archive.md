@@ -24,33 +24,33 @@ These workshops have been/will be repeated a number of times. The Learn page con
 
 #### If working on a laptop (right click the links to download and save to working directory)
 
-**Day 1 Workbook:** [Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb)
+Day 1 Workbook: [Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb)
 
-**Day 1 Data:** [cameraman.png](/data_images/cameraman.png), [peppers.png](/data_images/peppers.png)
+Day 1 Data: [cameraman.png](/data_images/cameraman.png), [peppers.png](/data_images/peppers.png)
 
-**Day 1 static notebook with outputs/answers:** [Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
+Day 1 static notebook with outputs/answers: [Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
 
-**Day 1 instructor ipynb with ad hoc cells added during instruction:** [Tutorial1_Image_Processing_Essentials_Boucheron.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials_Boucheron.ipynb)
+Day 1 instructor ipynb with ad hoc cells added during instruction: [Tutorial1_Image_Processing_Essentials_Boucheron.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials_Boucheron.ipynb)
 
-**Day 2 Workbook:** [Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb) (right click the link to download)
+Day 2 Workbook: [Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb) (right click the link to download)
 
-**Day 2 Data:** [CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; follow link to download), [CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB; follow link to download)
+Day 2 Data: [CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; follow link to download), [CalTech101 dataset Annotations.tar](http://www.vision.caltech.edu/Image_Datasets/Caltech101/Annotations.tar) (13 MB; follow link to download)
 
 (Move the compressed image data folders to your working directory and unzip. Unzip using a terminal (e.g. Windows PowerShell) with ```tar -xvf filename```)
 
-**Day 2 Slides:** [Day2_Rules_ML_DL.pdf](/slides/Day2_Rules_ML_DL.pdf)
+Day 2 Slides: [Day2_Rules_ML_DL.pdf](/slides/Day2_Rules_ML_DL.pdf)
 
-**Day 2 static notebook with outputs/answers:** [Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/Tutorial2_Classical_Machine_Learning_complete.html)
+Day 2 static notebook with outputs/answers: [Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/Tutorial2_Classical_Machine_Learning_complete.html)
 
-**Day 2 instructor ipynb with ad hoc cells added during instruction:** [Tutorial2_Classical_Machine_Learning_Boucheron.html](/tutorials/Tutorial2_Classical_Machine_Learning_Boucheron.ipynb)
+Day 2 instructor ipynb with ad hoc cells added during instruction: [Tutorial2_Classical_Machine_Learning_Boucheron.html](/tutorials/Tutorial2_Classical_Machine_Learning_Boucheron.ipynb)
 
-**Day 3 Workbook:** [Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb)
+Day 3 Workbook: [Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb)
 
-**Day 3 Slides:** [Day3_CNNs.pdf](/slides/Day3_CNNs.pdf), [Day3_CNN_Epic_Fails.pdf](/slides/Day3_CNN_Epic_Fails.pdf)
+Day 3 Slides: [Day3_CNNs.pdf](/slides/Day3_CNNs.pdf), [Day3_CNN_Epic_Fails.pdf](/slides/Day3_CNN_Epic_Fails.pdf)
 
-**Day 3 static notebook with outputs/answers:** [Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html)
+Day 3 static notebook with outputs/answers: [Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html)
 
-**Day 3 instructor ipynb with ad hoc cells added during instruction:** [Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb)
+Day 3 instructor ipynb with ad hoc cells added during instruction: [Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb)
 
 
 #### If working on the ARS Ceres HPC
@@ -87,21 +87,21 @@ to be posted
 
 #### If working on a laptop (right click the links to download and save to working directory)
 
-**Day 1 Workbook:** [Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)
+Day 1 Workbook: [Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)
 
-**Day 1 Data:** [my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg), [latest_256_0193.jpg](/data_images/latest_256_0193.jpg)
+Day 1 Data: [my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg), [latest_256_0193.jpg](/data_images/latest_256_0193.jpg)
 
-**Day 1 static notebook with outputs/answers:** [Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)
+Day 1 static notebook with outputs/answers: [Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)
 
-**Day 1 instructor ipynb with ad hoc cells added during instruction:** [Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)
+Day 1 instructor ipynb with ad hoc cells added during instruction: [Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)
 
-**Day 2 Workbook:** [Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks.ipynb)
+Day 2 Workbook: [Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks.ipynb)
 
-**Day 2 Data:** [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB), [https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg)
+Day 2 Data: [https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB), [https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg)
 
-**Day 2 static notebook with outputs/answers:** [Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)
+Day 2 static notebook with outputs/answers: [Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)
 
-**Day 2 instructor ipynb with ad hoc cells added during instruction:** [Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)
+Day 2 instructor ipynb with ad hoc cells added during instruction: [Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)
 
 
 #### If working on the ARS Ceres HPC
