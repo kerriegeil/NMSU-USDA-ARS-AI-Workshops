@@ -24,6 +24,14 @@ feature_row:
     btn_label: "View material"
     btn_class: "btn--info"
     caption: ""
+  - image_path: /assets/images/photo-1590247813693-5541d1c609fd.jpg
+    alt: "Archive"
+    title: "Archive"
+    excerpt: "Older materials from previously taught sessions"
+    url: "/archive/"
+    btn_label: "View material"
+    btn_class: "btn--info"
+    caption: ""
 ---
 
 
