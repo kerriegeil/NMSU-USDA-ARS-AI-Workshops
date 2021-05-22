@@ -100,7 +100,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 to be posted
 <!---[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html)--->
-
+<br><br>
 
 
 
