@@ -16,38 +16,27 @@ A copy of the GNU General Public License can be viewed/downloaded at [COPYING.tx
 
 ## Day 1
 
-Download the Jupyter Notebook and image data
+**If working on a laptop** (right click the links to download and save items in your working directory)
 
-**If working on a laptop** (right click the links to download)
-
-[Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials.ipynb)
+[Tutorial1_Image_Processing_Essentials.ipynb](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials.ipynb)
 
 [cameraman.png](/data_images/cameraman.png)
 
 [peppers.png](/data_images/peppers.png)
 
-save these items in your working directory
 
 **If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
 
 ```
-curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial1_Image_Processing_Essentials.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/cameraman.png -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/peppers.png
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/cameraman.png -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/peppers.png
 ```
 
-**To see a static notebook with all the outputs/answers:** 
-
-[Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/Tutorial1_Image_Processing_Essentials_complete.html)
-
-**To access the instructor's ipynb with the ad hoc cells added during instruction:**
-
-[Tutorial1_Image_Processing_Essentials_Boucheron.ipynb](/tutorials/Tutorial1_Image_Processing_Essentials_Boucheron.ipynb) (right click to download) (from 10/19/2020)
-
-**To access the Zoom recording:**
+**Day 1 notebook with outputs/answers:** 
 
 to be posted
-
+<!---[Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials_complete.ipynb)--->
 
 
 
@@ -94,10 +83,6 @@ Note: If you are following this tutorial after the workshop has ended and the NM
 
 [Tutorial2_Classical_Machine_Learning_Boucheron.html](/tutorials/Tutorial2_Classical_Machine_Learning_Boucheron.ipynb) (from 10/21/2020)
 
-**To access the Zoom recording:**
-
-to be posted
-
 
 
 ## Day 3
@@ -135,9 +120,6 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 [Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images_Boucheron.ipynb) (from 10/23/2020)
 
-**To access the Zoom recording:**
-
-to be posted
 
 
 # Workshop 2
@@ -176,9 +158,6 @@ to be posted
 to be posted
 <!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_Boucheron.ipynb)--->
 
-**To access the Zoom recording:**
-
-to be posted
 
 
 ## Day 2
@@ -216,6 +195,4 @@ to be posted
 to be posted
 <!---[Tutorial5_Advanced_DL_Networks_complete.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks_complete.ipynb)--->
 
-**To access the Zoom recording:**
 
-to be posted
