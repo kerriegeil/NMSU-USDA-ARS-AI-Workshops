@@ -8,12 +8,12 @@ These workshops have been/will be repeated a number of times. The Learn page con
 
 # Quick Links
 
-[Workshop 1 - 10/19/2020, 10/21/2020, 10/23/2020](#workshop-1-10192020-10212020-10232020)
+[Workshop 1 - 10/19/2020, 10/21/2020, 10/23/2020](#workshop-1---10192020-10212020-10232020)
   - [Laptop Materials](#wkshp1-for-laptop-users-right-click-the-links-to-download-and-save-to-working-directory)
   - [HPC Materials](#wkshp1-for-ars-ceres-hpc-users)
   - [Zoom Recordings](#wkshp1-zoom-recordings)
 
-[Workshop 2 - 10/26/2020, 10/28/2020](#workshop-210262020-10282020)
+[Workshop 2 - 10/26/2020, 10/28/2020](#workshop-2---10262020-10282020)
   - [Laptop Materials](#wkshp2-for-laptop-users-right-click-the-links-to-download-and-save-to-working-directory)
   - [HPC Materials](#wkshp2-for-ars-ceres-hpc-users)
   - [Zoom Recordings](#wkshp2-zoom-recordings)
