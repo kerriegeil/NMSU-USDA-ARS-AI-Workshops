@@ -44,7 +44,7 @@ to be posted
 
 **If working on a laptop** 
 
-[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/Tutorial2_Classical_Machine_Learning.ipynb) (right click the link to download)
+[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning.ipynb) (right click the link to download)
 
 [CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; follow the link to download)
 
@@ -58,7 +58,7 @@ Move the compressed image data folders to your working directory and unzip. Unzi
 navigate to your working directory, then:
 
 ```
-curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial2_Classical_Machine_Learning.ipynb
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning.ipynb
 cp /project/shared_files/NMSU-AI-WORKSHOP/*.zip ./
 unzip '*.zip'
 ```
@@ -70,7 +70,7 @@ unzip '*.zip'
 **Day 2 notebook with outputs/answers:** 
 
 to be posted
-<!---[Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/Tutorial2_Classical_Machine_Learning_complete.html)--->
+<!---[Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning_complete.html)--->
 
 
 
@@ -80,14 +80,14 @@ Make sure you have built the workshop Conda environment and then activate it (us
 
 **If working on a laptop** 
 
-[Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb) 
+[Tutorial3_Deep_Learning_for_Images.ipynb](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images.ipynb) 
 
 **If working on the ARS Ceres HPC**
 
 navigate to your working directory, then:
 
 ```
-curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial3_Deep_Learning_for_Images.ipynb
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images.ipynb
 ```
 
 **Presentation slides:** 
@@ -99,7 +99,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 **Day 3 notebook with outputs/answers:** 
 
 to be posted
-<!---[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/Tutorial3_Deep_Learning_for_Images_complete.html)--->
+<!---[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images_complete.html)--->
 <br><br>
 
 
@@ -111,7 +111,7 @@ to be posted
 **If working on a laptop** (right click the links to download and save to working directory)
 
 to be posted
-<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)--->
+<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)--->
 
 <!---[my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg)--->
 
@@ -123,13 +123,13 @@ to be posted
 <!---navigate to your working directory, then:--->
 
 <!---```--->
-<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg--->
+<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg--->
 <!---```--->
 
 **Day 1 notebook with outputs/answers:** 
 
 to be posted
-<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)--->
+<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)--->
 
 
 
@@ -138,7 +138,7 @@ to be posted
 **If working on a laptop** 
 
 to be posted
-<!---[Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/Tutorial5_Advanced_DL_Networks.ipynb)--->
+<!---[Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks.ipynb)--->
 
 <!---[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB)--->
 
@@ -151,10 +151,10 @@ to be posted
 <!---navigate to your working directory, then:--->
 
 <!---```--->
-<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights -O https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg--->
+<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights -O https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg--->
 <!---```--->
 
 **Day 2 notebook with outputs/answers:** 
 
 to be posted
-<!---[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/Tutorial5_Advanced_DL_Networks_complete.html)--->
+<!---[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks_complete.html)--->
