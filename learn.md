@@ -44,7 +44,7 @@ to be posted
 
 **If working on a laptop** 
 
-[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning.ipynb) (right click the link to download)
+[Tutorial2_Classical_Machine_Learning.ipynb](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning.ipynb) 
 
 [CalTech101 dataset 101_ObjectCategories.tar.gz](http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz) (126 MB; follow the link to download)
 
