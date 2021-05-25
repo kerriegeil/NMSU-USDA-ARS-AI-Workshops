@@ -66,10 +66,9 @@ unzip '*.zip'
 
 [Day2_Rules_ML_DL.pdf](/slides/Day2_Rules_ML_DL.pdf)
 
-**Day 2 notebook with outputs/answers:** 
+**Day 2 notebook with answers:** 
 
-to be posted
-<!---[Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning_complete.html)--->
+[Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning_complete.html)
 
 
 
@@ -95,7 +94,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 [Day3_CNN_Epic_Fails.pdf](/slides/Day3_CNN_Epic_Fails.pdf)
 
-**Day 3 notebook with outputs/answers:** 
+**Day 3 notebook with answers:** 
 
 to be posted
 <!---[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images_complete.html)--->
