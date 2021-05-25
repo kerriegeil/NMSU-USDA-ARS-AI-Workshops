@@ -33,10 +33,9 @@ navigate to your working directory, then:
 curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/cameraman.png -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/peppers.png
 ```
 
-**Day 1 notebook with outputs/answers:** 
+**Day 1 notebook with answers:** 
 
-to be posted
-<!---[Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials_complete.ipynb)--->
+[Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials_complete.ipynb)
 
 
 
