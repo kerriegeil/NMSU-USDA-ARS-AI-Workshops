@@ -79,7 +79,9 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/Tutori
 
 #### Wkshp1 Zoom Recordings
 
-to be posted
+Due to federal rules regarding videos that are shared with the public (e.g. accessibility requirements for accurate captions, color contrast, etc.) the workshop recordings are only available on the REE-ARS-SCINet-Media Microsoft Stream Channel to USDA employees or collaborators with eAuthentication. 
+
+[Day1 on REE-ARS-SCINet-Media Stream Channel (need eAuth to access)](https://web.microsoftstream.com/video/00856df6-b3e6-492a-8928-69e81d693ca0), [Day1 zoom chat part1](/zoomchats/AIworkshop1_10192020_chat_part1.txt), [Day1 zoom chat part2](/zoomchats/AIworkshop1_10192020_chat_part2.txt)
 
 
 
