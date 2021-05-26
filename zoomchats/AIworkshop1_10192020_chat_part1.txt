@@ -1,0 +1,102 @@
+00:41:57	Jennifer Woodward-Greene:	working on it
+00:42:02	Ren Ortega:	No, I'm trying to open it
+00:42:57	Jennifer Woodward-Greene:	got it... where is green yes?
+00:43:26	Suzy Stillman:	In the participants pane
+00:43:45	Kerrie Geil:	https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+00:44:32	Kerrie Geil:	green yes, should be in the participant panel
+00:53:51	Timothy:	Can we create breakrooms so we can go ahead and be assigned for specific assistance in case we need them?
+00:54:01	Andrew Russ:	im in
+00:54:58	Jian.Chen:	Do not know what to do
+01:07:36	Jennifer Woodward-Greene:	if you do not explicitly call np.asarray, what is the format with imageio?
+01:17:13	Timothy:	Please can I be assigned to a breakout room. I am having some trouble here. Thanks
+01:40:18	Andrew.Russ:	Bright diagonal element bottom left to top right
+01:40:20	Jennifer Woodward-Greene:	There is a diagonal whitish (lighter) line going from the lower left corner to the upper right corner in this sample of the image.
+01:40:26	ARS - Kossi Nouwakpo:	A bright line going across the image?
+01:40:27	Amy Hudson (she/her):	a lighter slash going across
+01:46:45	ARS - Kossi Nouwakpo:	channels swapped?
+01:46:50	Andrew.French:	doesn't like leaving cmap as empty field
+01:46:51	Jennifer Woodward-Greene:	It is imposing additional channels
+01:47:05	Jennifer Woodward-Greene:	and they are mixing
+01:47:37	Lucas Heintzman:	Would you please scroll up to view the code again?
+01:49:47	Lucas Heintzman:	All good now.
+01:54:08	Jennifer Woodward-Greene:	I think you can, in that case convert in Matplotlib 
+01:55:12	Laura Boucheron:	Yes--you can convert between grayscale and color. We'll talk about that in more detail in Section 3.
+02:31:22	Ren Ortega:	Yellow in bottom right
+02:32:59	Jennifer Woodward-Greene:	Similar contributions of red and green on lower right half, similar contributions of red and blue on upper left half, with half as much from green
+02:33:10	Maria Laura Cangiano:	yellow in bottom right and getting darker/purple to the upper left
+02:34:31	Jennifer Woodward-Greene:	Same to see differences, harder to know what they mean!
+02:38:48	Jennifer Woodward-Greene:	Shows the upper left corner has the purple backdrop, the lower right is on the top of the large green pepper in the rear left of the image. 
+02:42:35	ARS - Kossi Nouwakpo:	Why did the "cmap" argument not make a difference?
+02:46:20	zhanyou xu:	plt.figure(figsize=(20,20)) plt.imshow(I_pepper) plt.axis('off') plt.title('Cameraman, grayscale') plt.plot([100,100],[100,110],[0],'y-',linewidth=3)plt.plot([110,110],[100,110],[1],'y-',linewidth=3)plt.plot([100,110],[100,100],[2],'y-',linewidth=3)plt.plot([100,110],[110,110],'y-',linewidth=3)plt.show() 
+02:48:47	Jennifer Woodward-Greene:	possibly the channels of the 'yellow' line.... 
+02:49:33	Jennifer Woodward-Greene:	the last line (bottom) is yellow...
+02:52:17	Jennifer Woodward-Greene:	Yes good... 1:30 in the East! :)
+02:53:29	Lucas Heintzman:	You mean lessons for Wednesday?
+02:53:48	Kerrie Geil:	yep apologies. I mean for Wednesday, day 2
+02:54:58	Kerrie Geil:	same, I'm going to run out, but will be back in 30 minutes or so
+04:03:47	Andrew.French:	whos is a system command so has to have percent?
+04:04:51	Andrew.French:	yes thx
+04:11:15	Andrew.French:	output data is float64?
+04:11:55	Andrew.French:	ok , size of image now huge
+04:12:39	Andrew.French:	1.5 Mb
+04:15:09	Maria Laura Cangiano:	384 x 512
+04:15:10	Jennifer Woodward-Greene:	(256, 256, 3)
+04:15:11	Timothy:	384x512
+04:15:11	Amy Hudson (she/her):	384x512
+04:15:20	Jerry M:	I_pepper_gray.shape
+04:15:24	ARS - Kossi Nouwakpo:	384x512x3
+04:16:08	ARS - Kossi Nouwakpo:	384x512
+04:16:11	Jennifer Woodward-Greene:	object.size = bytes too
+04:16:56	Maria Laura Cangiano:	1
+04:16:58	ARS - Kossi Nouwakpo:	1
+04:17:00	Gerardo A Armendariz:	1
+04:17:19	Timothy:	yes
+04:17:20	ARS - Kossi Nouwakpo:	yes
+04:17:22	Amy Hudson (she/her):	yep
+04:19:16	Jennifer Woodward-Greene:	decimal places in floats
+04:19:18	Amy Hudson (she/her):	precision
+04:20:21	Maria Laura Cangiano:	0.029 and 1
+04:26:46	Timothy:	Could you take this conversion from 0-255 to 0-1 a form of image filtering?
+04:34:39	ARS - Kossi Nouwakpo:	zeros and ones
+04:34:57	ARS - Kossi Nouwakpo:	it got thresholded 
+04:37:12	Andrew.French:	can you change weigths on scikit function
+04:38:10	Andrew.French:	how about logarithmic
+04:38:40	Andrew.French:	sure
+04:43:45	Andrew.French:	thx
+04:53:41	Maria Laura Cangiano:	256X256X3
+04:53:47	Matthew.McEntire:	256x256x3
+04:54:17	Matthew.McEntire:	yes
+04:54:18	Timothy:	yes
+04:54:37	Maria Laura Cangiano:	uint8
+04:55:14	Jerry M:	type(I_camera_rgb[0][0][0])
+04:56:08	Jerry M:	this is habit.. I always check the first element
+04:58:06	Maria Laura Cangiano:	7 and 253
+04:58:06	Matthew.McEntire:	7 , 253
+04:58:10	Timothy:	7:253
+04:58:29	Matthew.McEntire:	yes
+05:01:37	Jennifer Woodward-Greene:	try to note the number in the brackets on the left!!
+05:02:40	Maria Laura Cangiano:	just like the original
+05:02:43	Jennifer Woodward-Greene:	no color
+05:02:46	Matthew.McEntire:	gray scale
+05:02:47	Timothy:	it looks like a gray scale
+05:02:47	Gerardo A Armendariz:	same
+05:04:32	Kerrie Geil:	To anyone trying to run on a reserved node on the HPC today. I pasted the instructions wrong earlier! The reservation is actually under my name for everyone. So on JupyterHub spawner page in the SLurm batch optional args field you will type: --reservation=kerrie.geil_85
+05:08:14	Kerrie Geil:	This will still only work for the few people I mentioned earlier: Amy, Gerardo, Zhanyou, Max, Elizabeth Chin, Andy French. If you aren't on the list and want to run this workshop on the HPC reserved node, let me know and I'll have you added
+05:10:56	Maximilian Feldman:	Thanks!
+05:15:47	Amy Hudson (she/her):	how do we comment in python again?
+05:23:21	Suzy Stillman:	# before the commented line
+05:24:26	Amy Hudson (she/her):	thx!
+05:24:38	Jennifer Woodward-Greene:	pixelated
+05:24:44	Amy Hudson (she/her):	squished
+05:26:37	Lucas Heintzman:	Would another option be to just as NullValue cells to the exterior of the image to compensate for size issues?
+05:26:59	Andrew.French:	is there an easy to find hyperlink to the skit functions and their options
+05:28:16	Kerrie Geil:	https://scikit-learn.org/stable/user_guide.html
+05:28:43	Kerrie Geil:	whoops
+05:29:07	Andrew.French:	hard for me to remember the syntax and options for each
+05:29:58	Laura Boucheron:	https://scikit-image.org/docs/stable/
+05:38:26	Andrew.French:	for some reason skimage now showing undefined in my window
+05:39:01	Andrew.French:	my own
+05:39:26	Andrew.French:	get error message function not avail
+05:39:55	Laura Boucheron:	import skimage.color
+import skimage.transform
+05:40:22	Jennifer Woodward-Greene:	typo?

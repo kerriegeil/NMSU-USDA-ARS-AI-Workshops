@@ -1,0 +1,73 @@
+00:42:21	Andrew.French:	---------------------------------------------------------------------------NameError                                 Traceback (most recent call last)<ipython-input-4-8e6c68c81e44> in <module>----> 1 I_pepper_gray_resize = skimage.transform.resize(I_pepper_gray,(128,128))      2 plt.figure(figsize=(25,25))      3 plt.imshow(I_pepper_gray_resize,cmap='gray')      4 plt.axis('off')      5 plt.title('Peppers, gray, resized')NameError: name 'I_pepper_gray' is not defined
+00:43:43	Andrew.French:	ok had to restart the script
+00:43:45	Laura Boucheron:	I_pepper = np.asarray(imageio.imread('peppers.png'))
+I_pepper_gray = skimage.color.rgb2gray(I_pepper)
+00:44:05	Andrew.French:	thx
+00:44:34	Kerrie Geil:	may want to do Kernel > Restart Kernel, then put your cursor in the block you left off on and then do Run > Run All above Selected Cell
+00:46:47	Jennifer Woodward-Greene:	origH, origW = I_pepper_gray.shapeprint(origH, origW)aspect = origW/(origH*1.0)print(aspect)resizedH = int(25/aspect)resizedW = int(resizedH*aspect)print(resizedH, resizedW)I_pepper_gray_myresize = skimage.transform.resize(I_pepper_gray,(resizedH, resizedW))#resized dimensions showplt.figure(figsize=(5,5))plt.axis('off')plt.imshow(I_pepper_gray_myresize,cmap='gray')
+00:46:57	Jennifer Woodward-Greene:	oops. i did not crop...
+00:47:07	Maria Laura Cangiano:	I_pepper_gray_crop = I_pepper_gray[:,64:448]I_pepper_gray_resize = skimage.transform.resize(I_pepper_gray_crop,(256,256))
+00:48:26	Maximilian Feldman:	I would pad the image with zeros to make it square (500X500). Then I would resize the image. As Jennifer did.
+00:48:49	Maximilian Feldman:	I’m still trying to figure out how to do that.
+00:49:01	Maximilian Feldman:	Maybe numpy.pad()
+00:49:38	YAKOV PACHEPSKY:	Cut the 394x384 and then resized to 256x2564
+00:51:22	zhanyou xu:	is there parameter like keep_ratio= "Yes"?
+00:52:37	Jerry M:	pick a corner and make a square box, then resize
+00:52:52	Jerry M:	import matplotlib.patches as patchesbox_corner = (75,120)box_length = 100cropped_image = I_pepper_gray[box_corner[1]:box_corner[1] + box_length, box_corner[0]:box_corner[0] + box_length]I_pepper_gray_resize = skimage.transform.resize(cropped_image,(256,256))plt.figure(figsize=(20,20))fig, (ax1, ax2) = plt.subplots(1, 2)rect = patches.Rectangle(box_corner ,box_length,box_length,linewidth=1,edgecolor='w',facecolor='none')ax1.add_patch(rect)ax1.imshow(I_pepper)ax2.imshow(I_pepper_gray_resize,cmap='gray') ax1.axis('off') ax2.axis('off') plt.show()
+00:59:43	zhanyou xu:	I_camera_rgb = skimage.color.gray2rgb(I_camera)I_camera_gray_resize2 = skimage.transform.resize(I_camera_rgb,(384,512, 3))plt.figure(figsize=(5,5)) plt.imshow(I_camera_gray_resize2,cmap='gray') plt.axis('on') plt.title('Peppers, gray, resized')plt.show()
+00:59:51	zhanyou xu:	Is this what you want us to do? 
+01:03:33	Kale Harbick:	I_pepper_gray_crop = I_pepper_gray[128:384,64:320]
+01:03:50	Kale Harbick:	oopsI_camera_resize = skimage.transform.resize(I_camera,(512,512))I_camera_resize = I_camera_resize[64:448,0:512]
+01:03:53	Jennifer Woodward-Greene:	happily working
+01:04:40	Lucas Heintzman:	My "%who" command is no longer returning metadata information, all I get is a list of object names. Have I exceeded some limit?
+01:05:04	Curtis Ransom:	should be %whos
+01:05:41	Lucas Heintzman:	Corrected, ty.
+01:05:52	Jennifer Woodward-Greene:	#_camera = I_camera[0:256,0:256]plt.figure()plt.axis('off')plt.imshow(I_camera, cmap='gray')pepperaspect = 384/512print('pepper', pepperaspect)I_camera_cropped = I_camera[0:256,0:192]origH, origW = I_camera_cropped.shapeprint(origH, origW)aspect = origW/(origH*1.0)print(aspect)resizedH = int(512/aspect)resizedW = int(resizedH*aspect)print(resizedH, resizedW)print('aspect new', resizedW/(resizedH*1.0))I_camera_myresize = skimage.transform.resize(I_camera_cropped,(resizedH, resizedW))#resized dimensions showplt.figure()plt.axis('off')plt.imshow(I_camera_myresize,cmap='gray')
+01:06:12	Andrew.French:	btw, workbook is really nice for teaching, but how practical in production?
+01:06:24	Jerry M:	I_camera_resize = skimage.transform.resize(I_camera_rgb,(384,384))full_size_image = np.zeros([384,512,3])for i in range(I_camera_resize.shape[0]):    for j in range(I_camera_resize.shape[1]):        for k in range(I_camera_resize.shape[2]):            if (j<384):                full_size_image[i,j,k] = I_camera_resize[i,j,k]            plt.figure(figsize=(20,20)) plt.imshow(I_camera_resize,cmap='gray') plt.axis('off') plt.title('Peppers, gray, resized')plt.show()full_size_image.shape
+01:08:56	Jerry M:	error in my code:
+01:09:03	Jerry M:	I_camera_resize = skimage.transform.resize(I_camera_rgb,(384,384))full_size_image = np.zeros([384,512,3])for i in range(I_camera_resize.shape[0]):    for j in range(I_camera_resize.shape[1]):        for k in range(I_camera_resize.shape[2]):            if (j<384):                full_size_image[i,j,k] = I_camera_resize[i,j,k]            plt.figure(figsize=(20,20)) plt.imshow(full_size_image,cmap='gray') plt.axis('off') plt.title('Peppers, gray, resized')plt.show()full_size_image.shape
+01:11:48	Jennifer Woodward-Greene:	pepperaspect = 384/512print('pepper', pepperaspect)I_camera_cropped = I_camera[0:256,0:int(256*pepperaspect)]
+01:12:14	YAKOV PACHEPSKY:	Stretch camera to 512x512, cut 384X512
+01:16:10	Maria Laura Cangiano:	I_camera_resized = I_camera_rgb[32:224,:,:]I_camera_resized = skimage.transform.resize(I_camera_resized,(384,512,3))
+01:16:39	Jennifer Woodward-Greene:	first one
+01:16:59	Lucas Heintzman:	First one: due to higher complexity of subject matter.
+01:17:06	YAKOV PACHEPSKY:	Nodiffrence, really
+01:37:21	Andrew.French:	how are the edges of the image handled, ie in the taper zone
+01:37:25	Andrew Russ:	Blurs image, more affect on areas with fine detail and edges
+01:37:30	Jerry M:	2 box blurs with differing cutoff frequencies
+01:37:36	Jennifer Woodward-Greene:	Edges are less defined.
+01:37:47	YAKOV PACHEPSKY:	why would you want to lose information?
+01:40:19	Timothy:	could this be used when there are missing pixels or so?
+01:40:24	Andrew.French:	yes
+01:41:58	Jerry M:	Is texture always high frequency?
+01:45:04	Kerrie Geil:	For folks that are new to Jupyter, you can also see help on different functions by showing the "contextual help" pane in your notebook. Type Ctl+I ("eye") to bring up the contextual help. Drag the contextual help tab around Jupyter Lab to place, for example, at the bottom of your screen so you can see your notebook and the contextual help. Then, when you place your cursor after a function you should be able to see the help in the contextual area
+01:53:32	Jennifer Woodward-Greene:	h3 appears 3D, it has 'depth' look
+01:53:38	Andrew Russ:	seems like they miss edges on the right
+01:53:47	Jennifer Woodward-Greene:	yes
+01:54:01	Maximilian Feldman:	h3 is vertical h4 is horizontal?
+01:54:43	Maximilian Feldman:	h3 is finding difference along y-axis
+01:56:35	Jennifer Woodward-Greene:	Because the distance between the coat and the stand is too close for 9x9?
+02:05:52	Maria Laura Cangiano:	How do you know which kernel to use? Meaning which numbers do you pick for your filters?
+02:07:29	Timothy:	I have heard of filtering using mean, median etc values. How do you specify those?
+02:07:38	Elizabeth Chin:	is there any filter to enhance texture? for example, the edges of the grass would be emphasized in the camera image.
+02:08:48	Maria Laura Cangiano:	yes, thanks
+02:10:11	Timothy:	Sure thanks
+02:12:25	Elizabeth Chin:	ok thanks!
+02:12:54	Jennifer Woodward-Greene:	will you send your copy of the notebook today?
+02:13:49	Kerrie Geil:	https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+02:14:39	Jennifer Woodward-Greene:	Thanks!
+02:17:21	Kerrie Geil:	--reservation=kerrie.geil_86 wednesday
+02:18:18	Maria Laura Cangiano:	In the instructions in the tutorial the  -xvfz to extract the files from the tar files  has an extra z it's actually -xvf, or at least it was like that for me
+02:19:17	YAKOV PACHEPSKY:	I concur with Maria
+02:20:51	Maria Laura Cangiano:	I already downloaded the files. Thank you for the workshop today, it was very informative and perfectly organized. See you on Wednesday!
+02:25:57	Elizabeth Chin:	i was able to untar and uncompress using: tar -xvzf filename (note the z and f are switched from the workshop website)
+02:26:05	Jennifer Woodward-Greene:	I extracted Annotations no problem. 101_ObjectCategories.tar went to 101_ObjectCategories.tar.gz. Am I done?
+02:26:21	Kerrie Geil:	You are done Jennifer
+02:26:42	Jennifer Woodward-Greene:	Thanks... no folder for the second one (like appears in your directory)
+02:27:36	Jennifer Woodward-Greene:	I am not able to open the tar.gz
+02:29:08	Mohamad Moussa:	what is supposed to be in the 101_objectCategoreis folder?
+02:30:30	Jennifer Woodward-Greene:	I do not show a second folder... it looks different than Suzy's!
+02:32:15	Jennifer Woodward-Greene:	can you put the command here? My powershell is disabled for scripts...
+02:40:13	Suzy Stillman:	tar -xvf 101_ObjectCategories.tar
+02:47:42	Jennifer Woodward-Greene:	Thanks all of you!!! See you Wednesday.
