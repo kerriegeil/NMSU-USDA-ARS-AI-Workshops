@@ -37,6 +37,9 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 [Tutorial1_Image_Processing_Essentials_complete.ipynb](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials_complete.ipynb)
 
+**Day 1 Zoom Recording**
+
+Unfortunately, we don't have a way to share the Workshop1 Day1 5/24/2021 recording because it wasn't saved to the Zoom Cloud. However, USDA employees and collaborators with eAuthentication can access the [Workshop1 Day1 video from 10/19/2020 on the REE-ARS-SCINet-Media Microsoft Stream Channel](https://web.microsoftstream.com/video/00856df6-b3e6-492a-8928-69e81d693ca0). Our apologies to those participants who can't access this video. All other workshop days will be recorded to the Zoom Cloud and available to everyone.
 
 
 ## Day 2
@@ -73,7 +76,9 @@ unzip '*.zip'
 
 **Day 2 Zoom Recording**
 
-[https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs](https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs)
+Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
+
+[Day2 Zoom Recording from 5/25/2021](https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs)
 
 
 ## Day 3
