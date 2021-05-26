@@ -62,7 +62,7 @@ cp /project/shared_files/NMSU-AI-WORKSHOP/*.zip ./
 unzip '*.zip'
 ```
 
-**Presentation slides:** 
+**Presentation slides** 
 
 [Day2_Rules_ML_DL.pdf](/slides/Day2_Rules_ML_DL.pdf)
 
@@ -70,6 +70,10 @@ unzip '*.zip'
 
 [Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning_complete.html)
 
+
+**Day 2 Zoom Recording**
+
+[https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs](https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs)
 
 
 ## Day 3
