@@ -35,7 +35,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 **Day 1 notebook with answers:** 
 
-[Tutorial1_Image_Processing_Essentials_complete.html](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials_complete.ipynb)
+[Tutorial1_Image_Processing_Essentials_complete.ipynb](/tutorials/2021-05_session/Tutorial1_Image_Processing_Essentials_complete.ipynb)
 
 
 
@@ -68,7 +68,7 @@ unzip '*.zip'
 
 **Day 2 notebook with answers:** 
 
-[Tutorial2_Classical_Machine_Learning_complete.html](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning_complete.ipynb)
+[Tutorial2_Classical_Machine_Learning_complete.ipynb](/tutorials/2021-05_session/Tutorial2_Classical_Machine_Learning_complete.ipynb)
 
 
 **Day 2 Zoom Recording**
@@ -101,7 +101,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 **Day 3 notebook with answers:** 
 
 to be posted
-<!---[Tutorial3_Deep_Learning_for_Images_complete.html](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images_complete.ipynb)--->
+<!---[Tutorial3_Deep_Learning_for_Images_complete.ipynb](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images_complete.ipynb)--->
 <br><br>
 
 
