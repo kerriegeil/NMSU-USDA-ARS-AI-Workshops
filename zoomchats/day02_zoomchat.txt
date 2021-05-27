@@ -1,0 +1,277 @@
+09:48:12 From Jennifer Chang to Everyone (in Waiting Room) : We will start admitting people from the waiting room at the top of the hour. Thanks for your patience.
+09:51:35 From Jennifer Chang to Everyone (in Waiting Room) : We will start admitting people from the waiting room at the top of the hour. Thanks for your patience.
+09:55:40 From Jennifer Chang to Everyone (in Waiting Room) : We will start admitting people from the waiting room at the top of the hour. Thanks for your patience.
+10:00:51 From Jennifer Chang to Everyone (in Waiting Room) : Thanks for your patience. Still setting up
+10:05:05 From Sheina Sim to Jennifer Chang(Direct Message) : Hi Jennifer! I’m not sure if you’re the one letting people in, but at around 3:15 central time, I’m going to have to dip out for maybe an hour (mandatory meeting here for our center), will someone be around to let me in at about 4:15 central?
+10:05:34 From Jennifer Chang to Sheina Sim(Direct Message) : Yes, we can let you in. Thanks for letting me know!
+10:05:44 From Simegnew Alaba to Everyone : There is an echo. I am not sure if that is my only problem
+10:06:03 From Melanie Kammerer to Everyone : It sounds OK to me
+10:06:04 From Sheina Sim to Everyone : You sound good to me
+10:06:05 From Lina Castano-Duque to Everyone : no echo for me
+10:06:07 From Greg Maurer (JRN LTER) to Everyone : I don't hear an echo
+10:06:11 From Ravindra Dwivedi to Everyone : It's okay here too
+10:09:00 From simegnew Y. Alaba to Everyone : Now it is fine. 
+10:09:49 From Ravindra Dwivedi to Everyone : Yesterday, we noted to delete and rename some files
+10:10:00 From Ravindra Dwivedi to Everyone : in the folder that we planned to use today
+10:14:29 From Siva Chudalayandi; MacOS; to Jennifer Chang(Direct Message) : I kept the breakout room open
+10:14:39 From Sheina Sim to Everyone : Is a screen being shared at the moment?
+10:15:06 From Jennifer Chang to Siva Chudalayandi; MacOS;(Direct Message) : Thanks! Yes extend the time for breakout room
+10:15:41 From Siva Chudalayandi; MacOS; to Jennifer Chang(Direct Message) : Ok!
+10:17:00 From Ravindra Dwivedi to Everyone : Laura: one extracted, do we need to delete the tar files
+10:17:34 From Ravindra Dwivedi to Everyone : Thank you
+10:35:21 From Siva Chudalayandi; MacOS; to Everyone : just for more context for glob… check this out later: https://docs.python.org/3/library/glob.html
+10:43:07 From Matthew Robbins to Everyone : If categories are sorted, why do Faces, Face_easy, Leopards, and Motorcycles show before the A’s?
+10:44:43 From Brian Abernathy to Everyone : sorts by ascii value, upper case letters have smaller values than lower case letters
+10:45:10 From Matthew Robbins to Everyone : I understand.
+10:45:22 From Matthew Robbins to Everyone : Thanks
+10:48:48 From Sara Duke to Everyone : on the Caltech 101 web site it says each image is roughly 300X200 pixels
+10:57:16 From Gerard Lazo to Jennifer Chang(Direct Message) : I may have an issue with attendance tomorrow. I have been assigned Jury Duty. I will try to attend as best is possible.
+10:58:01 From Jennifer Chang to Gerard Lazo(Direct Message) : Thanks for letting me know! We'll try to get the recording out to you
+11:13:06 From Kerrie Geil to Everyone : Hi everyone, if you are getting errors running your notebook today and want help figuring out what's going wrong by chat or breakout room, let me know. I'll be around up through the end of the first break
+11:14:25 From Sara Duke to Everyone : What do the 'r' and 'w' do
+11:19:09 From Pei L. to Everyone : Can we use the filters we learned yesterday and find the edges and use that to make a mask and skip the annotations
+11:20:28 From Kerrie Geil to Everyone : Who is the 915 number that's called in? Just want to make sure I've got everyone on the attendance sheet
+11:21:00 From Ravindra Dwivedi to Everyone : Would you please let me know the meaning of , \ on the first line of the code in section 1.2.3.
+11:22:15 From Pei L. to Everyone : Thank you!
+11:23:00 From Ravindra Dwivedi to Everyone : Thank you
+11:23:37 From Brian Nadon to Everyone : fyi if anyone wants to know, you can omit the "\" if you have a comma in python. anything with a comma is concatenated at runtime
+11:33:08 From Brian Nadon to Everyone : actually, anything in parentheses
+11:33:23 From Brian Nadon to Everyone : even strings on adjacent lines are done this way
+11:33:55 From Kerrie Geil to Jennifer Chang(Direct Message) : OK I'm checking out now. Can you keep an eye out for Li Li and Sagnik Banerjee? They are missing today, but I'd like to mark them down as present if they show up at all. I don't know who the call in number is. It could be one of them.
+11:34:14 From Jennifer Chang to Kerrie Geil(Direct Message) : Can do, yes noticed they were both missing
+11:34:34 From Jennifer Chang to Kerrie Geil(Direct Message) : If I see them, will let you know tomorrow morning
+11:34:40 From Kerrie Geil to Jennifer Chang(Direct Message) : Thank you!
+11:57:50 From simegnew Y. Alaba to Everyone : I tried this way, not exactly the same, but displayed overlapped eachother
+11:58:41 From Melanie Kammerer to Everyone : Laura, could you share code for your approach here?
+11:59:10 From Laura Boucheron to Everyone : # ann['box_coord'] appears to have the bounding box vertices specified 
+# as [row_min, col_min, row_max, col_max] or [y_min, x_min, y_max, 
+# x_max]
+# ann['obj_contour'] appears to have the row indices (y-axis) in the 
+# zeroth row and the column indices (x-axis) in the first row
+
+im_categories = sorted(glob.glob('101_ObjectCategories/*'))
+an_categories = sorted(glob.glob('Annotations/*'))
+
+plt.figure(figsize=(40,45))
+for k, im_category in enumerate(im_categories):
+    an_category = an_categories[k] # category has full path
+    ann = spio.loadmat(an_category+'/annotation_0001.mat')
+    I = imageio.imread(im_category+'/image_0001.jpg')
+    r,c = skimage.draw.polygon(ann['obj_contour'][1,:]+\
+                               ann['box_coord'][0,0]-1,\
+                               ann['obj_contour'][0,:]+\
+                               ann['box_coord'][0,2]-1,I.shape)
+    A = np.zeros(I.shape)
+    A[r,c] = 1
+    plt.subplot(11,10,k+1) # access the k-th supblot in an 11x10 grid
+    plt.imshow(A,cmap='gray')
+    p
+11:59:13 From Melanie Kammerer to Everyone : Thanks
+11:59:40 From Laura Boucheron to Everyone : plt.axis('off')
+    plt.title(os.path.basename(im_category)) # strip off basename for title
+12:16:54 From Sheina Sim to Everyone : Is it essentially doing a PCA?
+12:21:31 From Ravindra Dwivedi to Everyone : Laura: how did we get this set of 1's and 7's, i.e., features from an image
+12:31:25 From Ravindra Dwivedi to Everyone : Thank you
+13:43:10 From Laura Boucheron to Everyone : def extract_color_features_hsv(im,mask):
+    if len(im.shape)==2:
+        im = skimage.color.gray2rgb(im)
+    HSV = skimage.color.rgb2hsv(im)
+    H = HSV[:,:,0]
+    S = HSV[:,:,1]
+    V = HSV[:,:,2]
+    
+    f = np.array([])
+    f = np.append(f,[H[mask>0].mean(), H[mask>0].std(), np.median(H[mask>0]), \
+                     H[mask>0].min(),  H[mask>0].max()])
+    f = np.append(f,[S[mask>0].mean(), S[mask>0].std(), np.median(S[mask>0]), \
+                     S[mask>0].min(),  S[mask>0].max()])
+    f = np.append(f,[V[mask>0].mean(), V[mask>0].std(), np.median(V[mask>0]), \
+                     V[mask>0].min(),  V[mask>0].max()])
+
+    fnames = ('H_mean','H_std','H_median','H_min','H_max',\
+              'S_mean','S_std','S_median','S_min','S_max',\
+              'V_mean','V_std','V_median','V_min','V_max')
+    return f, fnames
+13:45:59 From Lina Castano-Duque to Everyone : could you send the second part of the code?
+13:46:10 From Lina Castano-Duque to Everyone : yes
+13:46:11 From Laura Boucheron to Everyone : im = np.asarray(imageio.imread('101_ObjectCategories/emu/image_0001.jpg'))
+ann = spio.loadmat('Annotations/emu/annotation_0001.mat')
+r,c = skimage.draw.polygon(ann['obj_contour'][1,:]+ann['box_coord'][0,0]-1,\
+                           ann['obj_contour'][0,:]+ann['box_coord'][0,2]-1,\
+                           (im.shape[0],im.shape[1]))
+mask = np.zeros((im.shape[0],im.shape[1]))
+mask[r,c] = 1
+    
+f,fnames = extract_color_features_hsv(im,mask)
+
+print('feature vector')
+print(f)
+print('feature names')
+print(fnames)
+13:46:23 From Lina Castano-Duque to Everyone : thanks
+13:49:22 From Harrison Smith to Everyone : Are HSV features only possible to use with RGB data? Or could you add another band like NIR?
+13:51:02 From Harrison Smith to Everyone : Good to know. Thank you!
+14:07:14 From Ravindra Dwivedi to Everyone : Laura: would you please explain the following two lines?
+14:07:15 From Ravindra Dwivedi to Everyone : mask = np.zeros((im.shape[0],im.shape[1]))mask[r,c] = 1
+14:09:30 From Ravindra Dwivedi to Everyone : Thanks
+14:16:21 From Matthew Robbins to Everyone : So, back on the mask[r,c] = 1, so does this mean that all the pixels inside the annotation are set as a value of 1, while the pixels outside the annotation are 0 because of mask = np.zeros((im.shape[0],im.shape[1]))?
+14:18:48 From Brian Nadon to Everyone : why did some of the vector values in the "_try1" function end up as ints, whereas in the second fixed function, they're all floats?
+14:28:48 From Pei L. to Everyone : Can you please explain the I_q again?
+14:29:44 From Harrison Smith to Everyone : Are 1,2,3,4 the most commonly used GLCM distances used in image classification or do people tend to vary these based on scale of the image/texture of interest?
+14:29:48 From Pei L. to Everyone : Thank you
+14:32:43 From santosh sharma to Everyone : while image segmentation in Imagej, I had used Gaussian and Hessian detectors. Are these also used for feature detection?
+14:33:31 From Gerard Lazo to Everyone : How do these methods compare to similar ones associated with using panda?
+14:34:05 From santosh sharma to Everyone : Thank you!
+14:35:24 From simegnew Y. Alaba to Everyone : panda is mostly for data manipulation and tabular data
+14:38:11 From Pei L. to Everyone : Can we use the masks like we did with the color feature extraction, and only look at our ROI in each image? vs. coding the background pixels 32.
+14:38:55 From Pei L. to Everyone : would that actually give us different texture results?
+14:44:30 From Laura Boucheron to Everyone : Pei:  Very good question.  The issue with using syntax like im[mask>0] as input to GLCM is it actually destroys the spatial relationships between the data.  That wasn't an issue for things like average values of  color, but will be an issue for GLCM.
+14:45:48 From Laura Boucheron to Everyone : The syntax im[mask>0] returns vectors of pixel value that satsify belonging to the mask.
+14:58:13 From Greg Maurer (JRN LTER) to Everyone : Is there any way to judge which features are more or less explanatory for the dataset? Perhaps to help come up with a more parsimonious feature set (<97) and decision model?
+14:59:12 From Mathew Pelletier to Everyone : This training is based on a data-set that was segmented by a human expert; when applying this model you’re building to an unknown image; how do you extract the segmented object?
+15:00:02 From Greg Maurer (JRN LTER) to Everyone : Thank you - thats helpful
+15:05:56 From Alex Hernandez to Everyone : Is it usual in ML to use these ratios 90/10? In ecology usually it is used 70/30. I wonder about the implications of using such a big training set
+15:07:48 From Lina Castano-Duque to Everyone : do you try to keep a certain level of equal proportion of images from different categories in your train and test sets?
+15:11:39 From santosh sharma to Everyone : In data splits, while using augmented data for training. The training set becomes too large than validation and test set. Is there convention on splitting augmented data?
+15:14:04 From Harrison Smith to Everyone : Is it possible to parallelize or does the classifier need access to everything at once?
+15:14:34 From santosh sharma to Everyone : Thank you!
+15:16:15 From Harrison Smith to Everyone : thank you, that makes sense to me
+15:17:32 From Siva Chudalayandi; MacOS; to Jennifer Chang(Direct Message) : I will have to leave shortly
+15:18:02 From Jennifer Chang to Siva Chudalayandi; MacOS;(Direct Message) : Kay, no worries
+15:23:22 From Pei L. to Everyone : Does the code only grab the images in an alphabetical order and the first 90% for training and 10% for testing? Is it better to be done randomly?
+15:25:46 From Pei L. to Everyone : Thank you!
+15:27:22 From Harrison Smith to Everyone : in sklearn I believe there is a train_test_split() function that works nicely for random subsets
+15:27:57 From Ravindra Dwivedi to Everyone : Laura: while trying to print the name of the classes as written in filenames_test, it printout the whole path. I tried using os.path.basename(), but it shows errors. Would you please let me know how should I check the quality of the classification job? Thanks,
+15:29:20 From Haitao Huang to Everyone : how is the image processing speed of python comparing to other languages, such as matlab, c++, etc?
+15:30:07 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : Hi Ravindra, give me a moment as I look into this. Feel free to direct message me
+15:31:21 From Haitao Huang to Everyone : sounds good to use python. thanks
+15:33:22 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : Oh, we haven't classified them as "emu" or "flamingo" yet. So far filename_test is a vector of filenames (mixed)
+15:33:33 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : Does that make sense?
+15:33:49 From Ravindra Dwivedi to Jennifer Chang(Direct Message) : yeah, thanks
+15:35:28 From Harrison Smith to Everyone : Why not normalize before we split the data?
+15:35:39 From simegnew Y. Alaba to Everyone : what about subtract the mean and divide by the std ? This normalizes between o and 1. 
+15:37:35 From simegnew Y. Alaba to Everyone : Thanks. I knew from statistics to normalize 
+15:39:16 From Laura Boucheron to Everyone : Xn_train,mx,mn = normalize_feature_columns(X_train)
+print(mx[0::10])
+print(mn[0::10])
+print(Xn_train,0)
+15:41:56 From Laura Boucheron to Everyone : Xn_test = normalize_feature_columns(X_test,mx,mn)
+#print(Xn_test[:,0].T)
+15:47:58 From Harrison Smith to Everyone : I also had slightly different values for Xn_test
+15:48:11 From Melanie Kammerer to Everyone : different division of training and test data, probably uses a random seed?
+15:48:20 From Harrison Smith to Everyone : -1.0, 1.98 here as well
+15:48:23 From Jennifer Chang to Everyone : Might be different alphabetical order?
+15:48:27 From Matthew Robbins to Everyone : For Xn_test.min(). I get -1.0
+15:48:28 From Brian Abernathy to Everyone : same here
+15:48:34 From Greg Maurer (JRN LTER) to Everyone : Me too
+15:48:41 From Melanie Kammerer to Everyone : oh wait, nevermind, it wasn't a random split.
+15:49:30 From simegnew Y. Alaba to Everyone : that's what I got. min of =-1.0 and max =1.98...
+15:50:31 From Ravin Poudel to Everyone : Does it has to do with how os list files? In the folder?
+15:50:46 From Alex Hernandez to Everyone : min of =-1.0 and max =1.98
+16:13:42 From Ravindra Dwivedi to Everyone : 3
+16:19:44 From Matthew Robbins to Everyone : When using categories = ('hawksbill', 'ewer', 'Faces', 'headgehog', 'mayfly', 'pizza', 'tick', 'menorah', 'rhino', 'butterfly’), the overall accuracy is: 0.8252427184466019
+16:19:57 From Jennifer Chang to Everyone : kernel can be "linear", "poly", "rbf", "sigmoid", "precomputed"
+16:23:09 From simegnew Y. Alaba to Everyone : I add brain to the given three categories and divide by the confusion (C) sum 
+16:23:11 From simegnew Y. Alaba to Everyone : The confusion matrix is:[[0.22222222 0.         0.         0.        ] [0.         0.25925926 0.         0.        ] [0.         0.         0.07407407 0.07407407] [0.         0.         0.         0.37037037]]The overall accuracy is: 0.9259259259259259
+16:23:29 From simegnew Y. Alaba to Everyone : To see in percentage format
+16:24:51 From Melanie Kammerer to Everyone : I tried to classify crab vs. crayfish vs. lobster. Interestingly, the classifier was pretty bad at crab vs. crayfish (~45% accurate), but could differentiate lobster images.
+16:24:57 From Ravindra Dwivedi to Everyone : ValueError                                Traceback (most recent call last)<ipython-input-72-1577785c4f6f> in <module>     32             y_test.append(category)     33 ---> 34 Xn_train,mx,mn = normalize_feature_columns(X_train)     35 Xn_test = normalize_feature_columns(X_test,mx,mn)     36 <ipython-input-53-2de03a45673c> in normalize_feature_columns(*argv)      3     if len(argv)==1: # no mx and mn supplied--compute from the input data      4         X = argv[0]----> 5         mn = np.amin(X,0) # minimum of feature (along columns)      6         X = X - np.matmul(np.ones(X.shape),np.diag(mn)) # zero minimum      7         mx = np.amax(X,0)<__array_function__ internals> in amin(*args, **kwargs)~\.conda\envs\aiworkshop\lib\site-packages\numpy\core\fromnumeric.py in amin(a, axis, out, keepdims, initial, where)   2856     6   2857     """-> 2858     return _wrapreduction(a, np.minimum, 'min', axis, None, out,   2859                           keepdims=keepdims, initial=initial, where=where)
+16:25:07 From Harrison Smith to Everyone : Are there any other classification stats you can calculate besides accuracy and confusion matrix?
+16:27:09 From Ravindra Dwivedi to Everyone : Thanks
+16:28:12 From Harrison Smith to Everyone : can you share screen?
+16:28:21 From Brian Abernathy to Everyone : The inclusion of 'cougar_body' seems to cause an error for me.
+16:28:31 From Brian Abernathy to Everyone : <ipython-input-23-82c14662642d>:9: RuntimeWarning: Mean of empty slice.
+16:28:48 From Brian Abernathy to Everyone : no problems if I switch 'cougar_body' to 'cougar_face'
+16:29:44 From Melanie Kammerer to Everyone : I also get an error with 'cougar_body'
+16:29:48 From Alex Hernandez to Everyone : Same here
+16:30:10 From Ravin Poudel to Everyone : To get all the categories with-out the path: import os
+im_categories_base = [os.path.basename(x) for x in im_categories]
+im_categories_base
+16:30:29 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : It sounds like you're trying to get list of categories
+16:30:36 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : categories = [os.path.basename(x) for x in glob.glob('101_ObjectCategories/*')]
+print(categories)
+16:30:47 From Laura Boucheron to Everyone : categories = ('emu', 'flamingo', 'strawberry') 
+
+# instantiate empty feature matrices and label vectors
+X_train = np.empty((0,78),float)
+y_train = list()
+X_test = np.empty((0,78),float)
+y_test = list()
+for category in categories: # loop over categories
+    ims = sorted(glob.glob('101_ObjectCategories/'+category+'/*.jpg')) # list of images 
+    ans = sorted(glob.glob('Annotations/'+category+'/*.mat')) # corresponding list of annotations
+    N_train = np.floor(len(ims)*0.9) # compute number of training samples
+    N_test = len(ims) - N_train # compute number of testing samples
+    for f,im_filename in enumerate(ims): # loop over all images
+        an_filename = ans[f] # grab corresponding annotation filename
+        im = np.asarray(imageio.imread(im_filename)) # read in image
+        #ann = spio.loadmat(an_filename) # load annotation
+        #r,c = skimage.draw.polygon(ann['obj_contour'][1,:]+ann['box_coord'][0,0]-1,\
+        #                           ann['obj_contour'][0,:]+ann['box_coord'][0,2]-1,\
+16:31:11 From Laura Boucheron to Everyone : #r,c = skimage.draw.polygon(ann['obj_contour'][1,:]+ann['box_coord'][0,0]-1,\
+        #                           ann['obj_contour'][0,:]+ann['box_coord'][0,2]-1,\
+        #                           (im.shape[0],im.shape[1])) # compute annotation polygon
+        #mask = np.zeros((im.shape[0],im.shape[1])) # initialize annotation mask
+        #mask[r,c] = 1 # define annotation mask
+        mask = np.ones((im.shape[0],im.shape[1]))
+        f_rgb,fnames_rgb = extract_color_features_rgb(im,mask) # extract RGB features
+        f_hsv,fnames_hsv = extract_color_features_hsv(im,mask) # extract HSV features
+        #f_region,fnames_region = extract_region_features(mask.astype(int)) # extract region features
+        f_texture,fnames_texture = extract_texture_features(im,mask) # extract texture features
+        if f<N_train: # append to training feature matrix and label vector
+            #X_train = np.vstack((X_train,np.concatenate((f_rgb,f_hsv,f_region,f_texture))))
+            X_train = np.vstack((X_train,np.concate
+16:31:32 From Laura Boucheron to Everyone : if f<N_train: # append to training feature matrix and label vector
+            #X_train = np.vstack((X_train,np.concatenate((f_rgb,f_hsv,f_region,f_texture))))
+            X_train = np.vstack((X_train,np.concatenate((f_rgb,f_hsv,f_texture))))
+            y_train.append(category)
+        else: # append to testing feature matrix and label vector
+            #X_test = np.vstack((X_test,np.concatenate((f_rgb,f_hsv,f_region,f_texture))))
+            X_test = np.vstack((X_test,np.concatenate((f_rgb,f_hsv,f_texture))))
+            y_test.append(category)
+            
+Xn_train,mx,mn = normalize_feature_columns(X_train)
+Xn_test = normalize_feature_columns(X_test,mx,mn)
+
+clf = svm.SVC(kernel='linear')
+clf.fit(Xn_train,y_train)
+
+y_test_hat = clf.predict(Xn_test)
+C = sklearn.metrics.confusion_matrix(y_test,y_test_hat,labels=categories)
+print('The confusion matrix is:')
+print(C)
+acc = np.diag(C).sum().astype(float)/C.sum()
+print('The overall accuracy is: '+ str(acc))
+16:33:05 From Melanie Kammerer to Everyone : send this in chat as a text file?
+16:33:22 From Melanie Kammerer to Everyone : maybe for next time.
+16:33:39 From simegnew Y. Alaba to Everyone : cagoular__body worked for me
+16:33:48 From Pei L. to Everyone : I'm using two different computer for Zoom and Jupyter so this is difficult...
+16:34:03 From Pei L. to Everyone : Any other way of sharing the text?
+16:34:20 From Ravindra Dwivedi to Everyone : Laura: this line seems incomplete and shows an error:X_train = np.vstack((X_train,np.concate
+16:34:46 From Pei L. to Everyone : thank you
+16:34:52 From Brian Abernathy to Everyone : X_train = np.vstack((X_train,np.concatenate((f_rgb,f_hsv,f_texture))))
+16:35:13 From Paula Ramos to Everyone : Thanks
+16:36:23 From Jennifer Chang to Everyone : Copied code to text file
+16:36:36 From Jennifer Chang to Everyone : (Check for any indent errors... hopefully it's right)
+16:41:35 From Ravindra Dwivedi to Jennifer Chang(Direct Message) : Hi Jennifer, the code in text file is not working
+16:41:53 From Matthew Robbins to Everyone : I had to delete some lines from Jennifer’s. This one worked for me.
+16:41:55 From Ravindra Dwivedi to Jennifer Chang(Direct Message) : as it is sowing errors:---------------------------------------------------------------------------ValueError                                Traceback (most recent call last)<ipython-input-81-4d9e78a8304f> in <module>     43      44 clf = svm.SVC(kernel='linear')---> 45 clf.fit(Xn_train,y_train)     46      47 y_test_hat = clf.predict(Xn_test)~\.conda\envs\aiworkshop\lib\site-packages\sklearn\svm\_base.py in fit(self, X, y, sample_weight)    167             check_consistent_length(X, y)    168         else:--> 169             X, y = self._validate_data(X, y, dtype=np.float64,    170                                        order='C', accept_sparse='csr',    171                                        accept_large_sparse=False)~\.conda\envs\aiworkshop\lib\site-packages\sklearn\base.py in _validate_data(self, X, y, reset, validate_separately, **check_params)    431                 y = check_array(y, **check_y_params)    432             else:--> 433                 X, y = check_X_y(X, y, **check_
+16:42:49 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : I see it, yeah something about "f<N_train:" as invalid syntax... I'm trying to debug it
+16:48:21 From Jennifer Chang to Everyone : Yes, the "code.txt" earlier had an extra "if f<N_train" statement. Fixed here
+16:49:01 From Ravindra Dwivedi to Jennifer Chang(Direct Message) : Thank you
+16:49:15 From Jennifer Chang to Ravindra Dwivedi(Direct Message) : Sure thing : )
+16:56:23 From Sheina Sim to Everyone : Apologies, I had to step out due to a mandatory meeting at my center. Will the recording for today be available before the class tomorrow? I understand it probably takes a long time to put together. If it’s not going to be ready by tomorrow, which of the topics today should I make sure I have a good foundation of for tomorrow?
+16:57:10 From simegnew Y. Alaba to Everyone : Thank you
+16:57:16 From 3 Ron Collins to Jennifer Chang(Direct Message) : I have deleted the URL of course web site can you give it to me.
+16:58:01 From Jennifer Chang to Everyone : @Ron https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/
+16:58:02 From Sheina Sim to Everyone : Gotcha, thank you!
+16:58:18 From Jennifer Chang to Everyone : @Sheina, Day 1 is nearly done. Yes will need to see if zoom renders Day2 faster
+16:58:38 From Ravindra Dwivedi to Everyone : Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz11493376/11490434 [==============================] - 1s 0us/stepDownloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz32768/29515 [=================================] - 0s 1us/stepDownloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz26427392/26421880 [==============================] - 2s 0us/stepDownloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz8192/5148 [===============================================] - 0s 0us/stepDownloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz4423680/4422102 [==============================] - 0s 0us/step
+16:59:10 From Harrison Smith to Everyone : Yes that’s what mine did as well
+16:59:25 From simegnew Y. Alaba to Everyone : Yes that should be fine
+16:59:26 From Harrison Smith to Everyone : Run again and you won’t see the downloading message anymore
+16:59:54 From Ravindra Dwivedi to Everyone : Thank you
+17:00:49 From Harrison Smith to Everyone : Thanks Laura!
+17:00:49 From Jesse Tabor to Everyone : Thank you
+17:00:52 From Alex Hernandez to Everyone : thanks
+17:00:57 From Ravin Poudel to Everyone : Thanks Laura…

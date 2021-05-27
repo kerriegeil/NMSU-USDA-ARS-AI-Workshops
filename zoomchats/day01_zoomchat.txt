@@ -1,0 +1,183 @@
+10:09:26 From Kerrie Geil to Everyone : Laura, is there any way you can adjust your microphone? We are hearing that it's difficult to understand you
+10:10:16 From Sheina Sim to Everyone : I just turned down my volume a little bit and it helped
+10:10:17 From Zebulun Arendsee to Everyone : definitely distorted, but I can understand and volume is fine for me
+10:10:27 From Brian Nadon to Everyone : Try reducing your mic gain
+10:11:11 From Lina Castano-Duque to Everyone : where can I access the notebooks?
+10:11:11 From Paula Ramos to Everyone : Your sound is noisy. Maybe it could be better if you can connect an external mic or headphones.
+10:11:45 From Kerrie Geil to Everyone : here is the link to the workshop website learn page where all the materials are https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+10:11:54 From Sheina Sim to Everyone : Oh that’s a lot better
+10:11:57 From Brian Nadon to Everyone : That’s much better!
+10:12:00 From Paula Ramos to Everyone : Much better
+10:12:14 From El Hamidi Hay to Everyone : start over pelase 
+10:12:15 From Zebulun Arendsee to Everyone : I understood
+10:12:19 From Greg Maurer (JRN LTER) to Everyone : I understood
+10:12:22 From alex hernandez to Everyone : That is a lot better
+10:13:11 From Sagnik Banerjee to Everyone : Will the workshop be recorded?
+10:13:45 From Jennifer Chang (MacOS, Helper) to Everyone : yes
+10:17:06 From Jennifer Chang (MacOS, Helper) to Everyone : Notebooks are on the Learn page, under "Day 1"
+10:17:08 From Jennifer Chang (MacOS, Helper) to Everyone : https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+10:20:50 From Kerrie Geil to Everyone : So mine is on the participants panel
+10:22:15 From Ravindra Dwivedi to Everyone : It is at the bottom right on my zoom screen
+10:24:54 From Gerard Lazo to Everyone : ls -lrt
+10:25:21 From Lina Castano-Duque to Everyone : would it be possible to have your pointer a bit bigger or with a highlighter or orb around it?
+10:26:40 From Kerrie Geil to Everyone : Hi Everyone, If you are experiencing any computer issues that I can help you with I'll be here everyday up through the first break but then I'm planning on leaving. Shoot me a message first thing in the morning if you need help.
+10:27:53 From Simegnew Alaba to Everyone : I think it is good now
+10:28:07 From Harrison Smith to Everyone : Should be under Start Menu>Settings>Ease of Access
+10:32:08 From Simegnew Alaba to Everyone : I am using my machine
+10:32:22 From Kerrie Geil to Everyone : I think we only have 2? using the HPC
+10:32:38 From Lina Castano-Duque to Everyone : I am on CERES
+10:32:43 From Melanie Kammerer to Everyone : I am on Ceres too.
+10:33:42 From Kerrie Geil to Everyone : Lina and Melanie, I ran this workshop on Ceres the first time it was offered so you should be good to go
+10:34:37 From Melanie Kammerer to Everyone : Great, thanks.
+10:35:19 From Lina Castano-Duque to Everyone : Awesome!
+10:44:06 From El Hamidi Hay to Everyone : how do i set the working directory on jupyter, I'm using Ceres 
+10:45:20 From Jennifer Chang (MacOS, Helper) to Everyone : From python, can set working directory using the `os.chdir("path here")` command
+10:45:50 From Jennifer Chang (MacOS, Helper) to Everyone : Alternatively, you can read in the "cameraman.png" by specifying the entire path "/path/to/image/cameraman.png"
+10:48:05 From Kerrie Geil to Everyone : You can also set your working directory on Ceres from the server options page when you log in through https://jupyterhub.scinet.usda.gov/hub/login. There's a "Working Directory" field
+10:50:07 From Kerrie Geil to Everyone : so for example if I wanted one of my project directories to be my working directory when I login with JupyterHub I would put /project/my_project_name/ in that working directory field
+10:51:25 From Harrison Smith to Everyone : can imageio handle geospatial images such as satellite images that have a GCS or projected CRS?
+10:51:32 From Sheina Sim to Everyone : On your Mac, choose Apple menu > System Preferences, then click Accessibility. Click Display, click Cursor, then drag the Cursor size slider to the right to make it larger.
+10:52:51 From Li Li to Jennifer Chang (MacOS, Helper)(Direct Message) : I can run it. I am using iPad for zoom meeting, but running jupyter on my desktop.
+10:53:40 From Kerrie Geil to Everyone : FYI to everyone, this class has about 2/3 people that are more experienced with Python/Jupyter/Conda and 1/3 people that are intermediate to advanced in other languages but are less knowledgeable about these tools. So please ask all your questions! It's likely someone else would like to know too
+10:54:03 From Jennifer Chang (MacOS, Helper) to Li Li(Direct Message) : Hi Li Li, were you asking for help?
+10:54:53 From Li Li to Jennifer Chang (MacOS, Helper)(Direct Message) : No, just for clarifying, thanks!
+10:55:17 From Jennifer Chang (MacOS, Helper) to Li Li(Direct Message) : Oh, sounds good! : )
+10:58:52 From Lina Castano-Duque to Everyone : I tried importing a new image but it did not display it on gray scale....is there a specific type of command or import code change?
+10:59:11 From Lina Castano-Duque to Everyone : color
+10:59:43 From Lina Castano-Duque to Everyone : oh, cool. Thanks!
+11:02:52 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : You may have already seen Sheina's comments on curser size "On your Mac, choose Apple menu > System Preferences, then click Accessibility. Click Display, click Cursor, then drag the Cursor size slider to the right to make it larger."
+11:03:08 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : Copying it, just in case
+11:04:20 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : Sorry about the reactions hiccup, on my end reactions disappear after 10 secs. I'm trying to google search why yours are remaining
+11:05:23 From Laura Boucheron to Jennifer Chang (MacOS, Helper)(Direct Message) : No worries.  I figured out how to clear them.
+11:05:50 From Laura Boucheron to Jennifer Chang (MacOS, Helper)(Direct Message) : I don't have a windows or a mac machine.  I run linux...
+11:06:06 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : Oh! Ubuntu/Redhat variant?
+11:06:11 From Laura Boucheron to Jennifer Chang (MacOS, Helper)(Direct Message) : Ubuntu
+11:06:57 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : Hmm, I'm finding a "Settings Utility" for Ubuntu
+11:06:59 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : https://vitux.com/how-to-change-cursor-size-on-ubuntu-desktop/#:~:text=Change%20Cursor%20size%20on%20Ubuntu%20Through%20the%20GUI&text=Select%20the%20Universal%20Access%20tab,change%20to%20your%20desired%20setting.
+11:07:25 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : Not sure if that link is right...Haha, I didn't realize you were on linux! :)
+11:08:16 From Kerrie Geil to Everyone : Last call for computer assistance today. I'll be around for about 5 more minutes. Enjoy the workshop everyone!
+11:08:25 From Sheina Sim to Everyone : I_camera_zmb = np.asarray(imageio.imread('zoey_midbark.jpg'))
+I_camera_zmb_gs = skimage.color.rgb2gray(I_camera_zmb)
+11:08:37 From Sheina Sim to Everyone : skimage.color.rgv2gray(image)
+11:08:47 From Sheina Sim to Everyone : Will change color to grayscale
+11:11:37 From Haitao Huang to Everyone : does this command working in Spyder?
+11:12:35 From Kerrie Geil to Jennifer Chang (MacOS, Helper)(Direct Message) : I'm checking out now. Good luck today! Just email me if there's anything I need to post to the website
+11:12:47 From Kerrie Geil to Jennifer Chang (MacOS, Helper)(Direct Message) : Thanks for hosting!
+11:12:54 From Jennifer Chang (MacOS, Helper) to Kerrie Geil(Direct Message) : Sounds good, thanks for organizing!
+11:20:25 From Ravindra Dwivedi to Everyone : Laura: would you please let me know what do these values represent? Are they unit8?
+11:31:23 From Sara Duke to Everyone : mostly very dark with a diagonal almost white line thru it lower left  to upper right
+11:32:07 From Paula Ramos to Everyone : It is a diagonal line (lighter than the rest).
+11:32:18 From Simegnew Alaba to Everyone : There is an edge from bottom to upper diagonal
+11:34:51 From Haitao Huang to Everyone : plt.imshow(I_camera_portion)shows a color image, why?
+11:48:19 From Jennifer Chang (MacOS, Helper) to Everyone : Link to color maps: https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html
+11:53:55 From Haitao Huang to Everyone : how to get help for 'figsize', in plt.figure(figsize=(5,5))?
+11:53:59 From Ravindra Dwivedi to Everyone : how can we invert the colormap, if we need to
+11:56:37 From Harrison Smith to Everyone : Is it conventional to always use unsigned 8 bit data in image processing? Or are floating point values also commonly used?
+11:57:17 From Sheina Sim to Everyone : I_camera*-1 worked
+11:57:20 From Sheina Sim to Everyone : To invert
+11:57:36 From Greg Maurer (JRN LTER) to Everyone : Usually you can add '_r' the the end of the name of the colormap should work
+11:57:42 From Siva Chudalayandi to Everyone : https://stackoverflow.com/questions/3279560/reverse-colormap-in-matplotlib
+11:58:16 From Greg Maurer (JRN LTER) to Everyone : For the default matplotlib colormap 'viridis' the inverted is 'viridis_r'
+11:58:34 From Ravindra Dwivedi to Everyone : Thanks
+11:58:56 From Ravindra Dwivedi to Everyone : I used cmap='gray_r', and it worked
+12:03:33 From Harrison Smith to Everyone : That’s helpful thank you
+12:43:20 From Laura Boucheron to Jennifer Chang (MacOS, Helper)(Direct Message) : Are you there?  My husband went out and bought me a microphone.  I wanted to test it and see if it works okay.
+12:43:41 From Jennifer Chang (MacOS, Helper) to Laura Boucheron(Direct Message) : Yes, I'm here
+12:44:57 From Zebulun Arendsee to Everyone : sounds fine to me now
+12:45:03 From Sheina Sim to Everyone : It’s a lot better
+12:45:06 From Sheina Sim to Everyone : As good as headset
+12:55:33 From Simegnew Alaba to Everyone : yes
+12:55:55 From Brian Nadon to Everyone : Sounds great
+12:56:06 From Melanie Kammerer to Everyone : I agree, sounds good.
+12:57:17 From Ravindra Dwivedi to Everyone : Hi Laura, would you please let me know how can we load images from a specific folder?
+12:59:04 From Haitao Huang to Everyone : what does the last line plt.show() do? with/without it, results are same.
+12:59:34 From Ravindra Dwivedi to Everyone : Thank you
+13:00:46 From Ernesto Trujillo-Gomez to Everyone : @Haitao it's python nomenclature, in a python script it won't show the image unless you use it
+13:01:16 From Haitao Huang to Everyone : thanks
+13:14:20 From Siva Chudalayandi to Everyone : Human eyes can distinguish approx 10 million different colors.
+13:26:38 From Laura Boucheron to Everyone : test_img = np.zeros((5,5,3)).astype(np.uint8) # create a 5x5x3 nparray initialized to zeros
+13:27:06 From Melanie Kammerer to Everyone : the notebook I downloaded already had the 'astype'
+13:27:07 From Sheina Sim to Everyone : In the .ipynb I downloaded, it already said “astype"
+13:36:43 From Simegnew Alaba to Everyone : sorry, my computer restarted. That was why I left the room
+13:51:07 From Ravindra Dwivedi to Everyone : Laura: don't we need to specify channel # when drawing lines?
+14:10:05 From Lina Castano-Duque to Everyone : do you need to read the image in color first before transforming or can you import as grey scale?
+14:14:19 From Simegnew Alaba to Everyone : Lina you can read and convert in one shot like this I_pepper_gray = skimage.color.rgb2gray(imageio.imread('peppers.png')) if meant it
+14:18:33 From Lina Castano-Duque to Everyone : Yeah, I am thinking more in terms of computational time when you do this in a lot of images. If the one shot code would reduce the processing time if is millions of images to convert to gray scale
+14:24:24 From Simegnew Alaba to Everyone : in this case, you need to loop over the whole image.
+14:28:33 From Simegnew Alaba to Everyone : if the image is the folder, which has many images
+14:45:09 From Simegnew Alaba to Everyone : All the channels are the same. can we say this is a color image?
+14:46:51 From Simegnew Alaba to Everyone : Thank you. I found this kind of dataset before, but I was confused at the time
+14:51:07 From Sheina Sim to Everyone : Is the %whos command a python command or part of one of the packages?
+14:52:03 From Siva Chudalayandi to Everyone : python magic command: https://ipython.readthedocs.io/en/stable/interactive/magics.html
+14:54:45 From Siva Chudalayandi to Everyone : should be IPython magic commands
+15:09:26 From Melanie Kammerer to Everyone : This is clear so far, thanks.
+15:15:25 From Ravindra Dwivedi to Everyone : Laura: what if the pixels are of different sizes?
+15:16:42 From Ravindra Dwivedi to Everyone : is there any command to print out the pixel size
+15:17:59 From Ravindra Dwivedi to Everyone : Thank you!
+15:23:35 From Sheina Sim to Everyone : To change the dimensions and shape, does it matter (is it important) the order? Do you crop and then resize or resize and then crop?
+15:29:44 From Sheina Sim to Everyone : This may be stupid, but can you crop to make it bigger?
+15:30:18 From Sheina Sim to Everyone : (Add empty or black pixels?)
+15:32:21 From Sheina Sim to Everyone : Gotcha, thanks!
+15:33:37 From Sheina Sim to Everyone : My first approach was to crop to a square then resize, but if I wanted to retain the whole thing, I might add to the image to make it a square and then resize to 256x256
+15:34:50 From Brian Abernathy to Everyone : I tried 2 approaches.
+15:35:13 From Brian Abernathy to Everyone : 1) crop out background, resize to 256x256 (lose aspect ratio)
+15:35:19 From Pei L. to Everyone : Similar approach to Sheina here. I did crop the center of the image hoping to retain more info, but I understand that depends on the application.
+15:35:20 From Simegnew Alaba to Everyone : I did this way: I_pepper_gray_crop = resize(I_pepper_gray[80:340,10:320],(256,256))
+15:35:33 From Brian Abernathy to Everyone : 2) crop to 384x384, capturing as many veggies as possible, then resize
+15:35:40 From Paula Ramos to Everyone : Resize the image to 257x257 and then crop just one pixel 256x256.
+15:35:49 From Simegnew Alaba to Everyone : resize is the whole skimage.transform.reszie
+15:36:48 From Matthew Robbins to Everyone : I cropped to the middle 384x384, then resize to 256x256
+15:37:53 From Ravindra Dwivedi to Everyone : I cropped the image to just show vegetables (iterative process) and then resized
+15:38:15 From Melanie Kammerer to Everyone : I resized to 256x314 (to maintain aspect ratio), then cropped the x dimension to be 256 pixels.
+15:38:42 From Simegnew Alaba to Everyone : I used from skimage.transform import resize reszie then I used I_pepper_gray_crop = resize(I_pepper_gray[80:340,10:320],(256,256))...
+15:38:56 From Melanie Kammerer to Everyone : *larger dimension
+15:39:14 From Paula Ramos to Everyone : Sorry resize the x and y values proportional to height and width. And then crop to 256x256. I lost aspect ratio.
+15:39:34 From Simegnew Alaba to Everyone : Sorry I made typo error : I used from skimage.transform import resize  as reszie then I used I_pepper_gray_crop = resize(I_pepper_gray[80:340,10:320],(256,256))...
+15:41:34 From Hye-Seon(HiSun)|Window10 to Everyone : could you please copy the code here?
+15:42:02 From Hye-Seon(HiSun)|Window10 to Everyone : yes
+15:42:05 From Laura Boucheron to Everyone : # first use cropping to create square peppers image and then resize to 256x256
+# peppers is 384x512, so take center 384x384 section
+# (512-384)/2=64
+I_pepper_gray_myresize = skimage.transform.resize(I_pepper_gray[:,65:65+384],(256,256))
+plt.figure(figsize=(5,5)) 
+plt.imshow(I_pepper_gray_myresize,cmap='gray') 
+plt.axis('off') 
+plt.title('Peppers, gray, cropped and resized')
+plt.show()
+15:42:14 From Hye-Seon(HiSun)|Window10 to Everyone : thank you
+15:42:21 From Sheina Sim to Everyone : I_pepper_gray_crop3 = I_pepper_gray[-64:448,0:512] this doesn’t add pixels
+15:42:58 From Simegnew Alaba to Everyone : The converted cameraman image or the one channel one?
+15:46:56 From Simegnew Alaba to Everyone : You can call me by my last name..Alaba. I think that is easier than first name
+15:47:10 From Sheina Sim to Everyone : For the camera rgb I did the same, cropped to the center in terms of height to maintain the aspect ratio  and then resized to 384,512
+15:48:05 From Simegnew Alaba to Everyone : from skimage.transform import resize as resize
+trans_cameraman=  resize(I_camera_rgb, (384, 512, 3))
+15:48:17 From Simegnew Alaba to Everyone : I used the converted cameraman image
+15:48:27 From Simegnew Alaba to Everyone : that has 3 channels
+15:49:06 From Sheina Sim to Everyone : I didn’t specify the third index but it kept all three channels anyway
+15:50:57 From Paula Ramos to Everyone : cameraman_resized = skimage.transform.resize(I_camera, (I_pepper.shape[0], I_pepper.shape[1]))cameraman_resized_colored = skimage.color.gray2rgb(cameraman_resized)
+15:51:10 From Simegnew Alaba to Everyone : or we can do this way from skimage.transform import resize as resize
+trans_cameraman=  resize(I_camera_rgb, I_pepper.shape)
+15:52:37 From Brian Abernathy to Everyone : resize to 512x512, then crop
+15:53:08 From Ravindra Dwivedi to Everyone : I followed: (1) resize the image to the size 512 x512; (2)  crop the image to 384 x 512; and (3) use gray2rgb to increase the # of channels
+16:08:38 From Sheina Sim to Everyone : I_pepper_gray[-64:448,0:512].shape
+16:08:46 From Sheina Sim to Everyone : Returns (64, 512)
+16:25:20 From Sheina Sim to Everyone : Is it effectively lowering the resolution since now the pixels are bigger?
+16:28:20 From Haitao Huang to Everyone : is there some functions in python to do the inverse of the convolution to make blurred image sharp?
+16:32:39 From Siva Chudalayandi MacOS, to Everyone : @haitao: may be deconvolve?
+16:38:53 From Melanie Kammerer to Everyone : are there edge-enhancing filters that are rotated 90 degrees (enhancing contrast between left and right side of the 'neighborhood' rather than top/bottom)?
+16:39:41 From Melanie Kammerer to Everyone : ahhh, right! didn't look at that one.
+17:00:04 From Paula Ramos to Everyone : Thanks Laura
+17:00:14 From Sheina Sim to Everyone : Thanks! See you tomorrow.
+17:00:16 From Ravin Poudel to Everyone : Thanks Laura.
+17:00:17 From Harrison Smith to Everyone : Thank you so much Laura! Looking forward to tommorrow
+17:00:48 From Brian Abernathy to Everyone : no problem here with linux
+17:00:48 From Simegnew Alaba to Everyone : Thank you
+17:00:55 From santosh sharma to Everyone : Thank you very much ! see you tomorrow
+17:01:18 From Ernesto Trujillo-Gomez to Everyone : tar -xzvf Annotations.tar
+17:01:23 From Brian Abernathy to Everyone : tar xvf Annotations.tar
+17:01:27 From Brian Abernathy to Everyone : remove the z
+17:01:35 From Matthew Robbins to Everyone : Take out the z
+17:01:43 From Brian Abernathy to Everyone : unzip
+17:01:49 From Siva Chudalayandi MacOS, to Everyone : z is for zipping
+17:01:53 From Matthew Robbins to Everyone : Z mean unzip
+17:04:19 From Haitao Huang to Everyone : applying high pass kernels h3 and h4 on blurred I_camera_h1 or I_camera_h2 doesn't get original I_camera back.

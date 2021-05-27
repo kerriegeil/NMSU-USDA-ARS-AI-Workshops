@@ -1,0 +1,813 @@
+09:52:53 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people at the top of the hour.
+09:58:09 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:02:08 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:04:28 From Ravindra Dwivedi to Everyone : Kerrie: good morning. Would you please let me know where can I find the video links
+10:05:42 From Kerrie Geil to Everyone : workshop website: https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn page: https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+10:07:06 From Kerrie Geil to Everyone : video links on the learn page under the answer key ipynb for each day. We're still working on getting the day 1 link up there, but day 2 is there
+10:07:25 From alex hernandez to Everyone : Luckily it ran without issues :)
+10:10:22 From Ravindra Dwivedi to Everyone : Thank you
+10:10:56 From Haitao Huang to Everyone : What is C in CNN?
+10:13:01 From Pei L. to Everyone : Can you please explain the relationship between keras and tensorflow, and why we need to build the Conda environment and install keras using Powershell and not just import keras like other packages?
+10:14:05 From Jennifer Chang to Everyone : @Pei Keras depends on tensorflow. Sometimes tensor flow may have issues installing, so need to run the install command multiple times
+10:14:06 From Ravindra Dwivedi to Everyone : Would you please let me know what is GPU?
+10:14:32 From Ravindra Dwivedi to Everyone : Thanks
+10:15:11 From Jennifer Chang to Everyone : GPU=thousands of threads; CPU= maybe 8 or 16 threads?
+10:15:51 From Jennifer Chang to Everyone : GPGPU= general purpose graphical processing units
+10:16:52 From santosh sharma to Everyone : Tensorflow has both GPU and CPU version how they manage computation with so few thread in CPU?
+10:16:58 From Paula Ramos Giraldo to Everyone : How the system is managing or scheduling the GPU or?
+10:17:04 From Paula Ramos Giraldo to Everyone : VPU
+10:17:11 From Pei L. to Everyone : @Jennifer, thank you, I'm also curious about how all these elements are related to each other.
+10:17:44 From Jennifer Chang to Everyone : @santhosh, with fewer threads in CPU, the pipeline will run slower (fewer threads)
+10:18:09 From Jennifer Chang to Everyone : @Paula. System should have GPU drivers... um that's below the level of python. There are drivers for
+10:18:15 From Jennifer Chang to Everyone : AMD GPU and NVI
+10:18:21 From Jennifer Chang to Everyone : Nvidia GPU (cuda)
+10:18:30 From santosh sharma to Everyone : @Jennifer, thanks
+10:18:40 From Paula Ramos Giraldo to Everyone : @Jennifer, thanks
+10:19:06 From Siva Chudalayandi to Everyone : https://towardsdatascience.com/what-is-a-gpu-and-do-you-need-one-in-deep-learning-718b9597aa0d
+10:19:19 From Brian Nadon to Everyone : If I'm running on a laptop with integrated graphics, do the tensor operations run on the CPU or the GPU segment of that CPU?
+10:19:57 From Jennifer Chang to Everyone : @Brain, The driver should find the GPU segment, I think
+10:19:59 From santosh sharma to Everyone : what is cuda?
+10:20:23 From Haitao Huang to Everyone : Good to know there are drivers for AMD GPU
+10:21:01 From Jennifer Chang to Everyone : @Santhosh: CUDA is https://developer.nvidia.com/cuda-zone. I'm actually not sure what it's an acronym for... one moment
+10:21:06 From Siva Chudalayandi to Everyone : CUDA: Compute Unified Device Architecture
+10:21:25 From Simegnew Alaba to Everyone : The architectural difference between cpu and GPU is that more transistor is devoted for GPU so that it handles many computations(ALu part...). Since GPU has many cores we can process  tasks in parallel
+10:22:40 From Simegnew Alaba to Everyone : CUDA stands for compute unified architecture device architecture, which is important to process tasks in parallel  in GPU
+10:24:24 From santosh sharma to Everyone : Is there comparison between Theano and Keras on performance?
+10:24:26 From Haitao Huang to Everyone : @Jennifer, Do you know some link for setting up AMD GPU?
+10:24:57 From Simegnew Alaba to Everyone : AMD GPU has no CUDA@Haitao
+10:25:10 From Jennifer Chang to Everyone : Ah, I'll have to look around. I actually haven't worked with the AMD GPU. Yes CUDA is Nvidia specific
+10:25:44 From Jennifer Chang to Everyone : Programming AMD should use OpenMP (MP?) Someone else may know more
+10:26:06 From Paula Ramos Giraldo to Everyone : Can we select GPU or CPU to run in the same code, different layers?
+10:26:06 From Simegnew Alaba to Everyone : OPENMP yes
+10:26:43 From Brian Abernathy to Everyone : https://rocmdocs.amd.com/en/latest/
+10:28:01 From Simegnew Alaba to Everyone : @Jennifer OpenMp is almost similar to CUDA and you can use it for AMD GPU architeture
+10:28:32 From Jennifer Chang to Everyone : @Simegnew Good to know! Haha, I was supposed to look at OpenMP but totally didn't get to it
+10:28:38 From Pei L. to Everyone : so we installed keras for the specific workspace/environment that we are working within, is it possible to have keras installed on a more universal level within Conda?
+10:30:03 From Jennifer Chang to Everyone : @Pei keres should be in the conda environment... either via a "conda install..." or "pip install..."
+10:30:23 From Siva Chudalayandi to Everyone : @Pei, I think that can be done… yes as Jennifer just posted
+10:31:11 From Haitao Huang to Everyone : Is it possible to use AMD GPU
+10:32:35 From Jennifer Chang to Everyone : Titan! : )
+10:32:44 From Pei L. to Everyone : I am asking because I started Jupyter yesterday without specifically selecting the aiworkshop environment and it told me that I didn't have keras - so does that mean every time I start a new project I'll create a new environment and install keras?
+10:34:16 From Sheina Sim to Everyone : @pei, I think that’s because keras is installed in the aiworkshop environment
+10:34:36 From Jennifer Chang to Everyone : @Pei Oh! If keres installed correctly, you should only need to activate the environment "conda activate aiworkshop" and keres should be available
+10:34:37 From Paula Ramos Giraldo to Everyone : What about Intel and AMD GPU? What is the role of OpenCL?
+10:34:40 From Lina Castano-Duque to Everyone : For those of us who are users of CERES, do you have any particular advice about these compatibility issues?
+10:34:43 From Jennifer Chang to Everyone : Yes, as @Sheina posted
+10:35:26 From Siva Chudalayandi to Everyone : @Lina, are you having any problems with compatibility today?
+10:35:59 From Lina Castano-Duque to Everyone : @Siva, not today, I am asking for future updates of the software
+10:36:32 From Jennifer Chang to Pei L.(Direct Message) : Hi Pei, let me know if I'm misunderstanding your questions. I'm also happy to look at any error messages (feel free to direct message)
+10:36:55 From Kerrie Geil to Everyone : @Pei in Jupyter notebook you can change your kernel to aiworkshop. Your lab session may open in the "Python3" environment by default (depends on the OS I think). Just go to Kernel > Change Kernel > then select aiworkshop
+10:37:07 From Jennifer Chang to Pei L.(Direct Message) : Kerrie/Siva should also be available to help
+10:37:23 From Simegnew Alaba to Everyone : The direct equivalent of CUDA for AMD GPU is OpenCL not OpenMP. Sorry long time since I used OpenCL. But, I am not sure if AMD GPU can handle Deep learning kernels
+10:37:45 From Pei L. to Everyone : sorry for all the keras questions...BUT for future personal projects, do I always come back and activate this environment? or I create a new one? I guess I'm thinking this more like a R interface where you have workspaces and load packages per workspace. It's working now, since I'm selecting the kernel, but I'm curious for future projects.
+10:38:26 From Brian Abernathy to Everyone : Looks like plaidml library allows use of AMD GPU with keras.
+10:38:28 From Brian Abernathy to Everyone : https://www.petelawson.com/post/using-an-amd-gpu-in-keras/
+10:38:29 From Siva Chudalayandi to Everyone : @pei, yes you can have separate environments for each project and load the appropriate one.
+10:39:55 From Sheina Sim to Everyone : @pei you could also use the aiworkshop environment for different projects
+10:40:38 From Sheina Sim to Everyone : It’s basically just a path structure so that everything you need is in your path and accessible and compatible
+10:41:04 From Pei L. to Everyone : Thank you! That explains it.
+10:41:47 From Sheina Sim to Everyone : 🥳
+10:41:49 From Kerrie Geil to Everyone : @Pei, no problem. I've created a "general computing" conda environment for myself that has the packages that I use most in it. I use that environment for quick things. For major projects I'll create a new environment for each project. Then when opening Jupyter I'll make sure to change the kernel to the project environment every time. Since keras/tensorflow are so tricky I'd create a new env with those packages and any others that I need for each project where I know I need keras/tensorflow
+10:42:42 From Siva Chudalayandi to Everyone : We are out of water today as well… water mains break!
+10:43:21 From Pei L. to Everyone : @Kerrie, thank you! that's very helpful!
+10:48:04 From Sheina Sim to Everyone : @kerrie, I’ve always been curious, when multiple conda environments have the same program (for example BLAST), does conda install it for every environment, or does it just install it just the first time it’s used in an environment and conda pulls the appropriate paths for subsequent environments that use the same program and version?
+10:52:12 From Kerrie Geil to Everyone : I believe once you've installed a package in one environment conda recognizes that and it won't take up that space again for the same package if you install it in another environment. But the environments are still entirely separated and not dependent on each other in any way even if they have similar packages installed. Not sure exactly how it does that behind the scenes. Maybe someone here knows more details
+10:52:56 From Sheina Sim to Everyone : Ah, okay! Thanks!
+10:54:12 From Siva Chudalayandi to Everyone : @Sheina: This might answer your question: https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
+10:56:51 From Sheina Sim to Everyone : @Siva, thanks!
+10:57:47 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I will be now gone for some time… the VPR meeting
+10:57:58 From Jennifer Chang to Siva Chudalayandi(Direct Message) : No worries, see you later!
+10:58:50 From Paula Ramos Giraldo to Everyone : Do you have a rule to define if the data is balance or not?
+10:59:26 From Brian Nadon to Everyone : you can also just use range(10), it assumes you start at 0 if you don't tell it
+11:01:12 From Sheina Sim to Everyone : If the data set was more imbalanced, does it make it better for identifying the overrepresented digits, worse for identifying the underrepresented digits, or worse overall?
+11:01:22 From Paula Ramos Giraldo to Everyone : Thanks.
+11:08:30 From Ravin Poudel to Everyone : Can we sample at equal percentage per categories—? So that we get equal representation
+11:08:31 From Sheina Sim to Everyone : Thanks!
+11:09:48 From Ravin Poudel to Everyone : Thanks
+11:11:12 From Haitao Huang to Everyone : all these training images are very clean. so for new set of images for training, we have to remove the background/noise first?
+11:14:22 From Ernesto Trujillo-Gomez to Everyone : it works without it
+11:16:08 From Sheina Sim to Everyone : When I try to do two rows of numbers, it prints it in two rows that are really far apart
+11:16:55 From Ernesto Trujillo-Gomez to Everyone : probablu the y size is too large
+11:17:10 From Ernesto Trujillo-Gomez to Everyone : *probably
+11:20:25 From Hye-Seon(HiSun)|Window10 to Everyone : I got this error AttributeError: module 'matplotlib.pyplot' has no attribute 'subpolt'
+11:20:40 From Hye-Seon(HiSun)|Window10 to Everyone : sorry 
+11:20:42 From Hye-Seon(HiSun)|Window10 to Everyone : opps
+11:21:19 From Sheina Sim to Everyone : That last 9 looks like an 8
+11:24:31 From Sheina Sim to Everyone : Adding this plt.title(str(y_train[d])) doesn’t add the right label
+11:26:41 From Ernesto Trujillo-Gomez to Everyone : add y_train
+11:27:03 From Ernesto Trujillo-Gomez to Everyone : sorry, add:
+11:27:05 From Ernesto Trujillo-Gomez to Everyone : plt.title(y_train[np.where(y_train==d)[0][k]])
+11:27:40 From Ernesto Trujillo-Gomez to Everyone : you need to loop over the selected digit, not the full y_train
+11:27:55 From Sheina Sim to Everyone : A, thanks!
+11:44:56 From Sheina Sim to Everyone : In which cases would you want to change the order of the info so that it wants a channels_first format?
+11:45:10 From Sheina Sim to Everyone : Or is it just a preference?
+11:46:20 From Kerrie Geil to Jennifer Chang(Direct Message) : I haven't received any questions in a while... you guys good if I quit for the day?
+11:46:43 From Jennifer Chang to Kerrie Geil(Direct Message) : Yes, thank you Kerrie! Siva will be back later, he had a meeting with Andrew
+11:46:57 From Jennifer Chang to Kerrie Geil(Direct Message) : We can email/MS teams msg if anything comes up
+11:50:47 From Kerrie Geil to Jennifer Chang(Direct Message) : Great! I forgot to ask this morning, did you see Li Li or Sagnik yesterday at all? Today we're missing Li Li, El Hamidi Hay, and Gerard Lazo. I've marked them as absent today but will change that if you notice they show up at some point
+11:51:15 From Jennifer Chang to Kerrie Geil(Direct Message) : Sagnik showed up for the last 5 minutes, not sure if that counts. Li Li didn't show up
+11:51:42 From Jennifer Chang to Kerrie Geil(Direct Message) : I'll keep an eye out for them today (Hey, Li Li, Gerard)
+11:52:53 From Jennifer Chang to Kerrie Geil(Direct Message) : Actually Lazo may have msged me yesterday (jury duty) he's going to try to log in when he can
+11:53:21 From Ravindra Dwivedi to Everyone : Laura: would you please let me know if you can paste the .squeeze example here in the chat window
+11:53:29 From Kerrie Geil to Jennifer Chang(Direct Message) : lol ok ya I'll just keep him as absent for yesterday. Thanks! So frustrating because the waiting list for this is super long and Li Li showed up only on the first day last time the workshop was offered too. I should have put him at the bottom of the waiting list!
+11:53:44 From Laura Boucheron to Everyone : plt.figure(figsize=(20,20))
+for k in range(0,10):
+    plt.subplot(1,10,k+1)
+    plt.imshow(X_train[k].squeeze(),cmap='gray')
+    plt.axis('off')
+plt.show()
+11:53:55 From Ravindra Dwivedi to Everyone : Thanks
+11:55:47 From Kerrie Geil to Jennifer Chang(Direct Message) : Also Paula said she was having some sort of zoom problem and would rejoin later. No idea what's going there. Ok, I'm leaving now!
+12:01:53 From Haitao Huang to Everyone : using 32bit is much faster?
+12:02:14 From Ravin Poudel to Everyone : When checked after dividing my 255, X_train.max() is not 1— rather I got  0.003921569
+12:03:11 From Ravin Poudel to Everyone : Got it , thanks
+12:05:11 From Siva Chudalayandi to Jennifer Chang(Direct Message) : How are things going?
+12:05:56 From Jennifer Chang to Siva Chudalayandi(Direct Message) : So far okay, Paula had trouble joining zoom. Ravindra had some questions about organizing training data (folders)
+12:06:32 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Mainly trying to remember to look at chat : P Or I miss the coding questions
+12:07:00 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Ok… now that I rejoined, I lost all the older questions on chat.
+12:07:20 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Gah, good to know. No pending questions yet
+12:07:57 From Siva Chudalayandi to Jennifer Chang(Direct Message) : May be I should’ve just muted zoom and joined webex.
+12:08:31 From Jennifer Chang to Siva Chudalayandi(Direct Message) : No worries, sometimes Laura answers (audio)
+12:13:23 From santosh sharma to Everyone : is it one hot coding for each pixel or label?
+12:13:40 From Jennifer Chang to Everyone : For each picture (label)
+12:14:05 From alex hernandez to Everyone : Can these probabilities be in the range from 0-1 or always 0 or 1?
+12:14:25 From alex hernandez to Everyone : Thanks
+12:17:17 From santosh sharma to Everyone : I was thinking if it is not each pixel how does it learns features in images for prediction?
+12:18:44 From santosh sharma to Everyone : Thank you!
+12:19:07 From Melanie Kammerer to Everyone : One-hot encoding is equivalent to creating 'dummy variables' from a categorical variable, correct?
+12:20:07 From Jennifer Chang to Everyone : @Melanie Yes I think so
+12:20:52 From Melanie Kammerer to Everyone : OK, thanks.
+12:24:08 From Pei L. to Everyone : that means today if we are not using the MNIST dataset, our previous codes that loop through d in range(0.10) wouldn't work, correct?
+12:29:26 From Harrison Smith to Everyone : Are there circumstances where we would use probabilities other than 1 and 0? For example to predict a continuous y variable rather than categorical ones
+12:32:50 From Ravindra Dwivedi to Everyone : what is the purpose of axis=1, Laura?
+12:34:16 From Ravindra Dwivedi to Everyone : Thanks
+13:30:01 From Haitao Huang to Everyone : the deeper the accurate?
+13:34:21 From Ernesto Trujillo-Gomez to Everyone : Is a layer an epoch?
+13:35:11 From santosh sharma to Everyone : is batch size smaller good or larger good for small dataset in hundreds?
+13:38:11 From Ravin Poudel to Everyone : Does each batch take unique input data or may be taking n number of random images ?
+13:38:39 From santosh sharma to Everyone : Thank you!
+13:39:32 From Lina Castano-Duque to Everyone : yesterday our X_train consisted of rows = observations and columns = features. Could you remind me what do rows and columns of our X_train today represent?
+13:39:39 From Sheina Sim to Everyone : So is that the equivalent of bootstrapping?
+13:43:31 From Haitao Huang to Everyone : image has to be square
+13:45:13 From Pei L. to Everyone : so if we want to analyze the Caltech images that are all different sizes, we will have to pretreat the images before building the model?
+13:45:22 From Haitao Huang to Everyone : pooling is not masking?
+13:47:19 From Sheina Sim to Everyone : So we would use those bounding lines to make them all square, and resize them to all the same dimensions if we wanted to do DL on the 101 Caltech dataset?
+13:47:35 From Haitao Huang to Everyone : after pooling , the size it 1/4
+13:47:45 From Haitao Huang to Everyone : after pooling , the size is 1/4
+13:49:23 From Laura Boucheron to Jennifer Chang(Direct Message) : I am referring Lina to you with a question.
+13:49:38 From Jennifer Chang to Laura Boucheron(Direct Message) : Sounds good
+13:49:51 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Jennifer, I am afraid I still do not understand what exactly is the X_train, pixels? are the columns pixel intensity? What are the columns, the rows? I am coming from an R background so I am confused as to what type of object/matrix the X_train is today
+13:50:17 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hi Lina!
+13:50:30 From Haitao Huang to Everyone : we have 6 layer now?
+13:51:14 From Jennifer Chang to Lina Castano-Duque(Direct Message) : X_train rows should be different images in groups (0...9)
+13:51:21 From Jennifer Chang to Lina Castano-Duque(Direct Message) : I'm double checking before I give you a better answer
+13:52:13 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Thanks!
+13:53:18 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Shiva, I am afraid I still do not understand what exactly is the X_train, pixels? are the columns pixel intensity? What are the columns, the rows? I am coming from an R background so I am confused as to what type of object/matrix the X_train is today
+13:53:30 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sorry Jennifer, that was for Shiva
+13:53:41 From Jennifer Chang to Lina Castano-Duque(Direct Message) : No worries : ) Definitely ask around
+13:53:45 From Haitao Huang to Everyone : the kernel is dynamic?
+13:53:46 From Jennifer Chang to Lina Castano-Duque(Direct Message) : I'll still work at it
+13:54:04 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Thanks! Any help with this would be awesome
+13:54:51 From Jennifer Chang to Lina Castano-Duque(Direct Message) : When you have "X_train.shape" do you get "(60000, 28, 28, 1)" ?
+13:55:23 From Jennifer Chang to Lina Castano-Duque(Direct Message) : My interpretation is 60K images, 28 x 28 pixels, greyscale
+13:55:26 From Lina Castano-Duque to Jennifer Chang(Direct Message) : yes
+13:55:40 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Each unit=pixel
+13:56:18 From Lina Castano-Duque to Jennifer Chang(Direct Message) : so, X_train a matrix or object-like (From R language style)
+13:56:34 From Pei L. to Everyone : are the numbers of filter kernels = features to be extracted?
+13:56:50 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Yes : )
+13:56:52 From Lina Castano-Duque to Jennifer Chang(Direct Message) : like does it have 56 columns?
+13:57:16 From Lina Castano-Duque to Jennifer Chang(Direct Message) : or does each column open up a new matrix with 28 obesvations each?
+13:57:25 From santosh sharma to Everyone : is 'channels_last' is required since I have not seen used commonly?
+13:57:43 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Oh, I see... matrix vs data.frame (encapsulated list)
+13:58:22 From Jennifer Chang to Lina Castano-Duque(Direct Message) : %whos shows X_train is ndarray... so like R's matrix
+13:58:24 From Lina Castano-Duque to Jennifer Chang(Direct Message) : yeah, I do not undestrand what this X_train is, like yesterday I knew it was columns were features and rows observations, but today, what are they
+13:59:15 From Siva Chudalayandi to Jennifer Chang(Direct Message) : HI Jennifer, x_train and y_train are all data points of type uint8 right?
+13:59:16 From Simegnew Alaba to Everyone : The size for the first dense layer is 144 when flattened, I think. Can we use any number?
+13:59:20 From santosh sharma to Everyone : Thank you!
+13:59:57 From Jennifer Chang to Siva Chudalayandi(Direct Message) : %whos shows x_train and x_train are ndarray, of all numbers unit8 yes
+14:01:11 From Lina Castano-Duque to Jennifer Chang(Direct Message) : I see, still confused, if it is a matrix, what are the rows, and what are the columns. How does it represent the 6000x28x28x1
+14:01:52 From Haitao Huang to Everyone : layer 1, 28 x 28layer 2, 28 x 28layer 3, 7 x 7layer 4, 49 x 1
+14:02:30 From Haitao Huang to Everyone : sorry for too many questions
+14:02:59 From Siva Chudalayandi to Jennifer Chang(Direct Message) : this is a question from Lina … “as far as I understand, X_train is a matrix, but what are the rows, and what are the columns. How does it represent the 6000x28x28x1”
+14:03:19 From Jennifer Chang to Lina Castano-Duque(Direct Message) : It might make sense for us to discuss in a breakout room during break : )
+14:03:20 From Haitao Huang to Everyone : layer 3, 14 x 14
+14:03:26 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hard to convey with chat
+14:03:57 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sounds good
+14:04:42 From Jennifer Chang to Siva Chudalayandi(Direct Message) : I told Lina we'll talk to her in breakout room during break
+14:05:14 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Ok thanks!
+14:05:33 From Haitao Huang to Everyone : layer 4, 196 x 1
+14:06:00 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sounds good
+14:08:39 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Making sure I understand X_train = pictures; Y_train = classification 0-9
+14:09:03 From Jennifer Chang to Siva Chudalayandi(Direct Message) : X_train.shape  is (60K images, 28 x 28 pixels)
+14:09:28 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Y_train.shape is (60K images, 10 one-hot coding)
+14:09:32 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Yes! I checked this on stack overflow: https://stackoverflow.com/questions/58081284/what-does-reshape60000-28-28-1-mean
+14:09:58 From santosh sharma to Everyone : do we need to specify learning rate if optimizer is adam?
+14:10:27 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Oh, feel free to send to Lina
+14:12:28 From Sheina Sim to Everyone : Are batch sizes always square?
+14:13:30 From Sheina Sim to Everyone : 8^2
+14:13:36 From Sheina Sim to Everyone : ah
+14:13:45 From santosh sharma to Everyone : what does verbose tells?
+14:14:38 From Ravin Poudel to Everyone : Batch = 64— means for each category its taking 64 images at a time?
+14:15:29 From Sheina Sim to Everyone : Mines taking ~30+ seconds
+14:15:39 From alex hernandez to Everyone : 57 seconds
+14:15:43 From Ravindra Dwivedi to Everyone : I got this:Epoch 1/5938/938 [==============================] - 33s 35ms/step - loss: 0.0422 - accuracy: 0.9866Epoch 2/5938/938 [==============================] - 33s 35ms/step - loss: 0.0260 - accuracy: 0.9923Epoch 3/5938/938 [==============================] - 33s 35ms/step - loss: 0.0175 - accuracy: 0.9940Epoch 4/5938/938 [==============================] - 32s 35ms/step - loss: 0.0131 - accuracy: 0.9958Epoch 5/5938/938 [==============================] - 33s 35ms/step - loss: 0.0123 - accuracy: 0.9958
+14:16:20 From Sheina Sim to Everyone : Is it automatically threaded or do we need to tell it how many threads to use?
+14:16:51 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Is ndarray usually a matrix of matrices?
+14:17:14 From Sheina Sim to Everyone : You’re frozen
+14:17:16 From Sheina Sim to Everyone : Or I am
+14:17:25 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I think that’s where Lina is getting confused. because there are 4 d
+14:17:32 From Pei L. to Everyone : Laura is frozen for me too
+14:17:34 From Jennifer Chang to Everyone : It's frozen on my end
+14:17:35 From Greg Maurer (JRN LTER) to Everyone : Frozen for me too
+14:17:40 From Sheina Sim to Everyone : Okay, great
+14:17:41 From Ravindra Dwivedi to Everyone : I don't hear anything
+14:17:44 From Lina Castano-Duque to Everyone : frozen
+14:17:50 From Simegnew Alaba to Everyone : For me too
+14:17:55 From Siva Chudalayandi to Everyone : Yes! Laura may have lost internet
+14:22:55 From Jennifer Chang to Laura Boucheron(Direct Message) : I'm going to meet with Lina in a breakout room, so don't worry if I'm missing
+14:23:19 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Lina I'm setting up breakout room
+14:23:29 From Lina Castano-Duque to Jennifer Chang(Direct Message) : great
+09:52:53 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people at the top of the hour.
+09:58:09 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:02:08 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:04:28 From Ravindra Dwivedi to Everyone : Kerrie: good morning. Would you please let me know where can I find the video links
+10:05:42 From Kerrie Geil to Everyone : workshop website: https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn page: https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+10:07:06 From Kerrie Geil to Everyone : video links on the learn page under the answer key ipynb for each day. We're still working on getting the day 1 link up there, but day 2 is there
+10:07:25 From alex hernandez to Everyone : Luckily it ran without issues :)
+10:10:22 From Ravindra Dwivedi to Everyone : Thank you
+10:10:56 From Haitao Huang to Everyone : What is C in CNN?
+10:13:01 From Pei L. to Everyone : Can you please explain the relationship between keras and tensorflow, and why we need to build the Conda environment and install keras using Powershell and not just import keras like other packages?
+10:14:05 From Jennifer Chang to Everyone : @Pei Keras depends on tensorflow. Sometimes tensor flow may have issues installing, so need to run the install command multiple times
+10:14:06 From Ravindra Dwivedi to Everyone : Would you please let me know what is GPU?
+10:14:32 From Ravindra Dwivedi to Everyone : Thanks
+10:15:11 From Jennifer Chang to Everyone : GPU=thousands of threads; CPU= maybe 8 or 16 threads?
+10:15:51 From Jennifer Chang to Everyone : GPGPU= general purpose graphical processing units
+10:16:52 From santosh sharma to Everyone : Tensorflow has both GPU and CPU version how they manage computation with so few thread in CPU?
+10:16:58 From Paula Ramos Giraldo to Everyone : How the system is managing or scheduling the GPU or?
+10:17:04 From Paula Ramos Giraldo to Everyone : VPU
+10:17:11 From Pei L. to Everyone : @Jennifer, thank you, I'm also curious about how all these elements are related to each other.
+10:17:44 From Jennifer Chang to Everyone : @santhosh, with fewer threads in CPU, the pipeline will run slower (fewer threads)
+10:18:09 From Jennifer Chang to Everyone : @Paula. System should have GPU drivers... um that's below the level of python. There are drivers for
+10:18:15 From Jennifer Chang to Everyone : AMD GPU and NVI
+10:18:21 From Jennifer Chang to Everyone : Nvidia GPU (cuda)
+10:18:30 From santosh sharma to Everyone : @Jennifer, thanks
+10:18:40 From Paula Ramos Giraldo to Everyone : @Jennifer, thanks
+10:19:06 From Siva Chudalayandi to Everyone : https://towardsdatascience.com/what-is-a-gpu-and-do-you-need-one-in-deep-learning-718b9597aa0d
+10:19:19 From Brian Nadon to Everyone : If I'm running on a laptop with integrated graphics, do the tensor operations run on the CPU or the GPU segment of that CPU?
+10:19:57 From Jennifer Chang to Everyone : @Brain, The driver should find the GPU segment, I think
+10:19:59 From santosh sharma to Everyone : what is cuda?
+10:20:23 From Haitao Huang to Everyone : Good to know there are drivers for AMD GPU
+10:21:01 From Jennifer Chang to Everyone : @Santhosh: CUDA is https://developer.nvidia.com/cuda-zone. I'm actually not sure what it's an acronym for... one moment
+10:21:06 From Siva Chudalayandi to Everyone : CUDA: Compute Unified Device Architecture
+10:21:25 From Simegnew Alaba to Everyone : The architectural difference between cpu and GPU is that more transistor is devoted for GPU so that it handles many computations(ALu part...). Since GPU has many cores we can process  tasks in parallel
+10:22:40 From Simegnew Alaba to Everyone : CUDA stands for compute unified architecture device architecture, which is important to process tasks in parallel  in GPU
+10:24:24 From santosh sharma to Everyone : Is there comparison between Theano and Keras on performance?
+10:24:26 From Haitao Huang to Everyone : @Jennifer, Do you know some link for setting up AMD GPU?
+10:24:57 From Simegnew Alaba to Everyone : AMD GPU has no CUDA@Haitao
+10:25:10 From Jennifer Chang to Everyone : Ah, I'll have to look around. I actually haven't worked with the AMD GPU. Yes CUDA is Nvidia specific
+10:25:44 From Jennifer Chang to Everyone : Programming AMD should use OpenMP (MP?) Someone else may know more
+10:26:06 From Paula Ramos Giraldo to Everyone : Can we select GPU or CPU to run in the same code, different layers?
+10:26:06 From Simegnew Alaba to Everyone : OPENMP yes
+10:26:43 From Brian Abernathy to Everyone : https://rocmdocs.amd.com/en/latest/
+10:28:01 From Simegnew Alaba to Everyone : @Jennifer OpenMp is almost similar to CUDA and you can use it for AMD GPU architeture
+10:28:32 From Jennifer Chang to Everyone : @Simegnew Good to know! Haha, I was supposed to look at OpenMP but totally didn't get to it
+10:28:38 From Pei L. to Everyone : so we installed keras for the specific workspace/environment that we are working within, is it possible to have keras installed on a more universal level within Conda?
+10:30:03 From Jennifer Chang to Everyone : @Pei keres should be in the conda environment... either via a "conda install..." or "pip install..."
+10:30:23 From Siva Chudalayandi to Everyone : @Pei, I think that can be done… yes as Jennifer just posted
+10:31:11 From Haitao Huang to Everyone : Is it possible to use AMD GPU
+10:32:35 From Jennifer Chang to Everyone : Titan! : )
+10:32:44 From Pei L. to Everyone : I am asking because I started Jupyter yesterday without specifically selecting the aiworkshop environment and it told me that I didn't have keras - so does that mean every time I start a new project I'll create a new environment and install keras?
+10:34:16 From Sheina Sim to Everyone : @pei, I think that’s because keras is installed in the aiworkshop environment
+10:34:36 From Jennifer Chang to Everyone : @Pei Oh! If keres installed correctly, you should only need to activate the environment "conda activate aiworkshop" and keres should be available
+10:34:37 From Paula Ramos Giraldo to Everyone : What about Intel and AMD GPU? What is the role of OpenCL?
+10:34:40 From Lina Castano-Duque to Everyone : For those of us who are users of CERES, do you have any particular advice about these compatibility issues?
+10:34:43 From Jennifer Chang to Everyone : Yes, as @Sheina posted
+10:35:26 From Siva Chudalayandi to Everyone : @Lina, are you having any problems with compatibility today?
+10:35:59 From Lina Castano-Duque to Everyone : @Siva, not today, I am asking for future updates of the software
+10:36:32 From Jennifer Chang to Pei L.(Direct Message) : Hi Pei, let me know if I'm misunderstanding your questions. I'm also happy to look at any error messages (feel free to direct message)
+10:36:55 From Kerrie Geil to Everyone : @Pei in Jupyter notebook you can change your kernel to aiworkshop. Your lab session may open in the "Python3" environment by default (depends on the OS I think). Just go to Kernel > Change Kernel > then select aiworkshop
+10:37:07 From Jennifer Chang to Pei L.(Direct Message) : Kerrie/Siva should also be available to help
+10:37:23 From Simegnew Alaba to Everyone : The direct equivalent of CUDA for AMD GPU is OpenCL not OpenMP. Sorry long time since I used OpenCL. But, I am not sure if AMD GPU can handle Deep learning kernels
+10:37:45 From Pei L. to Everyone : sorry for all the keras questions...BUT for future personal projects, do I always come back and activate this environment? or I create a new one? I guess I'm thinking this more like a R interface where you have workspaces and load packages per workspace. It's working now, since I'm selecting the kernel, but I'm curious for future projects.
+10:38:26 From Brian Abernathy to Everyone : Looks like plaidml library allows use of AMD GPU with keras.
+10:38:28 From Brian Abernathy to Everyone : https://www.petelawson.com/post/using-an-amd-gpu-in-keras/
+10:38:29 From Siva Chudalayandi to Everyone : @pei, yes you can have separate environments for each project and load the appropriate one.
+10:39:55 From Sheina Sim to Everyone : @pei you could also use the aiworkshop environment for different projects
+10:40:38 From Sheina Sim to Everyone : It’s basically just a path structure so that everything you need is in your path and accessible and compatible
+10:41:04 From Pei L. to Everyone : Thank you! That explains it.
+10:41:47 From Sheina Sim to Everyone : 🥳
+10:41:49 From Kerrie Geil to Everyone : @Pei, no problem. I've created a "general computing" conda environment for myself that has the packages that I use most in it. I use that environment for quick things. For major projects I'll create a new environment for each project. Then when opening Jupyter I'll make sure to change the kernel to the project environment every time. Since keras/tensorflow are so tricky I'd create a new env with those packages and any others that I need for each project where I know I need keras/tensorflow
+10:42:42 From Siva Chudalayandi to Everyone : We are out of water today as well… water mains break!
+10:43:21 From Pei L. to Everyone : @Kerrie, thank you! that's very helpful!
+10:48:04 From Sheina Sim to Everyone : @kerrie, I’ve always been curious, when multiple conda environments have the same program (for example BLAST), does conda install it for every environment, or does it just install it just the first time it’s used in an environment and conda pulls the appropriate paths for subsequent environments that use the same program and version?
+10:52:12 From Kerrie Geil to Everyone : I believe once you've installed a package in one environment conda recognizes that and it won't take up that space again for the same package if you install it in another environment. But the environments are still entirely separated and not dependent on each other in any way even if they have similar packages installed. Not sure exactly how it does that behind the scenes. Maybe someone here knows more details
+10:52:56 From Sheina Sim to Everyone : Ah, okay! Thanks!
+10:54:12 From Siva Chudalayandi to Everyone : @Sheina: This might answer your question: https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
+10:56:51 From Sheina Sim to Everyone : @Siva, thanks!
+10:57:47 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I will be now gone for some time… the VPR meeting
+10:57:58 From Jennifer Chang to Siva Chudalayandi(Direct Message) : No worries, see you later!
+10:58:50 From Paula Ramos Giraldo to Everyone : Do you have a rule to define if the data is balance or not?
+10:59:26 From Brian Nadon to Everyone : you can also just use range(10), it assumes you start at 0 if you don't tell it
+11:01:12 From Sheina Sim to Everyone : If the data set was more imbalanced, does it make it better for identifying the overrepresented digits, worse for identifying the underrepresented digits, or worse overall?
+11:01:22 From Paula Ramos Giraldo to Everyone : Thanks.
+11:08:30 From Ravin Poudel to Everyone : Can we sample at equal percentage per categories—? So that we get equal representation
+11:08:31 From Sheina Sim to Everyone : Thanks!
+11:09:48 From Ravin Poudel to Everyone : Thanks
+11:11:12 From Haitao Huang to Everyone : all these training images are very clean. so for new set of images for training, we have to remove the background/noise first?
+11:14:22 From Ernesto Trujillo-Gomez to Everyone : it works without it
+11:16:08 From Sheina Sim to Everyone : When I try to do two rows of numbers, it prints it in two rows that are really far apart
+11:16:55 From Ernesto Trujillo-Gomez to Everyone : probablu the y size is too large
+11:17:10 From Ernesto Trujillo-Gomez to Everyone : *probably
+11:20:25 From Hye-Seon(HiSun)|Window10 to Everyone : I got this error AttributeError: module 'matplotlib.pyplot' has no attribute 'subpolt'
+11:20:40 From Hye-Seon(HiSun)|Window10 to Everyone : sorry 
+11:20:42 From Hye-Seon(HiSun)|Window10 to Everyone : opps
+11:21:19 From Sheina Sim to Everyone : That last 9 looks like an 8
+11:24:31 From Sheina Sim to Everyone : Adding this plt.title(str(y_train[d])) doesn’t add the right label
+11:26:41 From Ernesto Trujillo-Gomez to Everyone : add y_train
+11:27:03 From Ernesto Trujillo-Gomez to Everyone : sorry, add:
+11:27:05 From Ernesto Trujillo-Gomez to Everyone : plt.title(y_train[np.where(y_train==d)[0][k]])
+11:27:40 From Ernesto Trujillo-Gomez to Everyone : you need to loop over the selected digit, not the full y_train
+11:27:55 From Sheina Sim to Everyone : A, thanks!
+11:44:56 From Sheina Sim to Everyone : In which cases would you want to change the order of the info so that it wants a channels_first format?
+11:45:10 From Sheina Sim to Everyone : Or is it just a preference?
+11:46:20 From Kerrie Geil to Jennifer Chang(Direct Message) : I haven't received any questions in a while... you guys good if I quit for the day?
+11:46:43 From Jennifer Chang to Kerrie Geil(Direct Message) : Yes, thank you Kerrie! Siva will be back later, he had a meeting with Andrew
+11:46:57 From Jennifer Chang to Kerrie Geil(Direct Message) : We can email/MS teams msg if anything comes up
+11:50:47 From Kerrie Geil to Jennifer Chang(Direct Message) : Great! I forgot to ask this morning, did you see Li Li or Sagnik yesterday at all? Today we're missing Li Li, El Hamidi Hay, and Gerard Lazo. I've marked them as absent today but will change that if you notice they show up at some point
+11:51:15 From Jennifer Chang to Kerrie Geil(Direct Message) : Sagnik showed up for the last 5 minutes, not sure if that counts. Li Li didn't show up
+11:51:42 From Jennifer Chang to Kerrie Geil(Direct Message) : I'll keep an eye out for them today (Hey, Li Li, Gerard)
+11:52:53 From Jennifer Chang to Kerrie Geil(Direct Message) : Actually Lazo may have msged me yesterday (jury duty) he's going to try to log in when he can
+11:53:21 From Ravindra Dwivedi to Everyone : Laura: would you please let me know if you can paste the .squeeze example here in the chat window
+11:53:29 From Kerrie Geil to Jennifer Chang(Direct Message) : lol ok ya I'll just keep him as absent for yesterday. Thanks! So frustrating because the waiting list for this is super long and Li Li showed up only on the first day last time the workshop was offered too. I should have put him at the bottom of the waiting list!
+11:53:44 From Laura Boucheron to Everyone : plt.figure(figsize=(20,20))
+for k in range(0,10):
+    plt.subplot(1,10,k+1)
+    plt.imshow(X_train[k].squeeze(),cmap='gray')
+    plt.axis('off')
+plt.show()
+11:53:55 From Ravindra Dwivedi to Everyone : Thanks
+11:55:47 From Kerrie Geil to Jennifer Chang(Direct Message) : Also Paula said she was having some sort of zoom problem and would rejoin later. No idea what's going there. Ok, I'm leaving now!
+12:01:53 From Haitao Huang to Everyone : using 32bit is much faster?
+12:02:14 From Ravin Poudel to Everyone : When checked after dividing my 255, X_train.max() is not 1— rather I got  0.003921569
+12:03:11 From Ravin Poudel to Everyone : Got it , thanks
+12:05:11 From Siva Chudalayandi to Jennifer Chang(Direct Message) : How are things going?
+12:05:56 From Jennifer Chang to Siva Chudalayandi(Direct Message) : So far okay, Paula had trouble joining zoom. Ravindra had some questions about organizing training data (folders)
+12:06:32 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Mainly trying to remember to look at chat : P Or I miss the coding questions
+12:07:00 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Ok… now that I rejoined, I lost all the older questions on chat.
+12:07:20 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Gah, good to know. No pending questions yet
+12:07:57 From Siva Chudalayandi to Jennifer Chang(Direct Message) : May be I should’ve just muted zoom and joined webex.
+12:08:31 From Jennifer Chang to Siva Chudalayandi(Direct Message) : No worries, sometimes Laura answers (audio)
+12:13:23 From santosh sharma to Everyone : is it one hot coding for each pixel or label?
+12:13:40 From Jennifer Chang to Everyone : For each picture (label)
+12:14:05 From alex hernandez to Everyone : Can these probabilities be in the range from 0-1 or always 0 or 1?
+12:14:25 From alex hernandez to Everyone : Thanks
+12:17:17 From santosh sharma to Everyone : I was thinking if it is not each pixel how does it learns features in images for prediction?
+12:18:44 From santosh sharma to Everyone : Thank you!
+12:19:07 From Melanie Kammerer to Everyone : One-hot encoding is equivalent to creating 'dummy variables' from a categorical variable, correct?
+12:20:07 From Jennifer Chang to Everyone : @Melanie Yes I think so
+12:20:52 From Melanie Kammerer to Everyone : OK, thanks.
+12:24:08 From Pei L. to Everyone : that means today if we are not using the MNIST dataset, our previous codes that loop through d in range(0.10) wouldn't work, correct?
+12:29:26 From Harrison Smith to Everyone : Are there circumstances where we would use probabilities other than 1 and 0? For example to predict a continuous y variable rather than categorical ones
+12:32:50 From Ravindra Dwivedi to Everyone : what is the purpose of axis=1, Laura?
+12:34:16 From Ravindra Dwivedi to Everyone : Thanks
+13:30:01 From Haitao Huang to Everyone : the deeper the accurate?
+13:34:21 From Ernesto Trujillo-Gomez to Everyone : Is a layer an epoch?
+13:35:11 From santosh sharma to Everyone : is batch size smaller good or larger good for small dataset in hundreds?
+13:38:11 From Ravin Poudel to Everyone : Does each batch take unique input data or may be taking n number of random images ?
+13:38:39 From santosh sharma to Everyone : Thank you!
+13:39:32 From Lina Castano-Duque to Everyone : yesterday our X_train consisted of rows = observations and columns = features. Could you remind me what do rows and columns of our X_train today represent?
+13:39:39 From Sheina Sim to Everyone : So is that the equivalent of bootstrapping?
+13:43:31 From Haitao Huang to Everyone : image has to be square
+13:45:13 From Pei L. to Everyone : so if we want to analyze the Caltech images that are all different sizes, we will have to pretreat the images before building the model?
+13:45:22 From Haitao Huang to Everyone : pooling is not masking?
+13:47:19 From Sheina Sim to Everyone : So we would use those bounding lines to make them all square, and resize them to all the same dimensions if we wanted to do DL on the 101 Caltech dataset?
+13:47:35 From Haitao Huang to Everyone : after pooling , the size it 1/4
+13:47:45 From Haitao Huang to Everyone : after pooling , the size is 1/4
+13:49:23 From Laura Boucheron to Jennifer Chang(Direct Message) : I am referring Lina to you with a question.
+13:49:38 From Jennifer Chang to Laura Boucheron(Direct Message) : Sounds good
+13:49:51 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Jennifer, I am afraid I still do not understand what exactly is the X_train, pixels? are the columns pixel intensity? What are the columns, the rows? I am coming from an R background so I am confused as to what type of object/matrix the X_train is today
+13:50:17 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hi Lina!
+13:50:30 From Haitao Huang to Everyone : we have 6 layer now?
+13:51:14 From Jennifer Chang to Lina Castano-Duque(Direct Message) : X_train rows should be different images in groups (0...9)
+13:51:21 From Jennifer Chang to Lina Castano-Duque(Direct Message) : I'm double checking before I give you a better answer
+13:52:13 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Thanks!
+13:53:18 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Shiva, I am afraid I still do not understand what exactly is the X_train, pixels? are the columns pixel intensity? What are the columns, the rows? I am coming from an R background so I am confused as to what type of object/matrix the X_train is today
+13:53:30 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sorry Jennifer, that was for Shiva
+13:53:41 From Jennifer Chang to Lina Castano-Duque(Direct Message) : No worries : ) Definitely ask around
+13:53:45 From Haitao Huang to Everyone : the kernel is dynamic?
+13:53:46 From Jennifer Chang to Lina Castano-Duque(Direct Message) : I'll still work at it
+13:54:04 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Thanks! Any help with this would be awesome
+13:54:51 From Jennifer Chang to Lina Castano-Duque(Direct Message) : When you have "X_train.shape" do you get "(60000, 28, 28, 1)" ?
+13:55:23 From Jennifer Chang to Lina Castano-Duque(Direct Message) : My interpretation is 60K images, 28 x 28 pixels, greyscale
+13:55:26 From Lina Castano-Duque to Jennifer Chang(Direct Message) : yes
+13:55:40 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Each unit=pixel
+13:56:18 From Lina Castano-Duque to Jennifer Chang(Direct Message) : so, X_train a matrix or object-like (From R language style)
+13:56:34 From Pei L. to Everyone : are the numbers of filter kernels = features to be extracted?
+13:56:50 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Yes : )
+13:56:52 From Lina Castano-Duque to Jennifer Chang(Direct Message) : like does it have 56 columns?
+13:57:16 From Lina Castano-Duque to Jennifer Chang(Direct Message) : or does each column open up a new matrix with 28 obesvations each?
+13:57:25 From santosh sharma to Everyone : is 'channels_last' is required since I have not seen used commonly?
+13:57:43 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Oh, I see... matrix vs data.frame (encapsulated list)
+13:58:22 From Jennifer Chang to Lina Castano-Duque(Direct Message) : %whos shows X_train is ndarray... so like R's matrix
+13:58:24 From Lina Castano-Duque to Jennifer Chang(Direct Message) : yeah, I do not undestrand what this X_train is, like yesterday I knew it was columns were features and rows observations, but today, what are they
+13:59:15 From Siva Chudalayandi to Jennifer Chang(Direct Message) : HI Jennifer, x_train and y_train are all data points of type uint8 right?
+13:59:16 From Simegnew Alaba to Everyone : The size for the first dense layer is 144 when flattened, I think. Can we use any number?
+13:59:20 From santosh sharma to Everyone : Thank you!
+13:59:57 From Jennifer Chang to Siva Chudalayandi(Direct Message) : %whos shows x_train and x_train are ndarray, of all numbers unit8 yes
+14:01:11 From Lina Castano-Duque to Jennifer Chang(Direct Message) : I see, still confused, if it is a matrix, what are the rows, and what are the columns. How does it represent the 6000x28x28x1
+14:01:52 From Haitao Huang to Everyone : layer 1, 28 x 28layer 2, 28 x 28layer 3, 7 x 7layer 4, 49 x 1
+14:02:30 From Haitao Huang to Everyone : sorry for too many questions
+14:02:59 From Siva Chudalayandi to Jennifer Chang(Direct Message) : this is a question from Lina … “as far as I understand, X_train is a matrix, but what are the rows, and what are the columns. How does it represent the 6000x28x28x1”
+14:03:19 From Jennifer Chang to Lina Castano-Duque(Direct Message) : It might make sense for us to discuss in a breakout room during break : )
+14:03:20 From Haitao Huang to Everyone : layer 3, 14 x 14
+14:03:26 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hard to convey with chat
+14:03:57 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sounds good
+14:04:42 From Jennifer Chang to Siva Chudalayandi(Direct Message) : I told Lina we'll talk to her in breakout room during break
+14:05:14 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Ok thanks!
+14:05:33 From Haitao Huang to Everyone : layer 4, 196 x 1
+14:06:00 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sounds good
+14:08:39 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Making sure I understand X_train = pictures; Y_train = classification 0-9
+14:09:03 From Jennifer Chang to Siva Chudalayandi(Direct Message) : X_train.shape  is (60K images, 28 x 28 pixels)
+14:09:28 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Y_train.shape is (60K images, 10 one-hot coding)
+14:09:32 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Yes! I checked this on stack overflow: https://stackoverflow.com/questions/58081284/what-does-reshape60000-28-28-1-mean
+14:09:58 From santosh sharma to Everyone : do we need to specify learning rate if optimizer is adam?
+14:10:27 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Oh, feel free to send to Lina
+14:12:28 From Sheina Sim to Everyone : Are batch sizes always square?
+14:13:30 From Sheina Sim to Everyone : 8^2
+14:13:36 From Sheina Sim to Everyone : ah
+14:13:45 From santosh sharma to Everyone : what does verbose tells?
+14:14:38 From Ravin Poudel to Everyone : Batch = 64— means for each category its taking 64 images at a time?
+14:15:29 From Sheina Sim to Everyone : Mines taking ~30+ seconds
+14:15:39 From alex hernandez to Everyone : 57 seconds
+14:15:43 From Ravindra Dwivedi to Everyone : I got this:Epoch 1/5938/938 [==============================] - 33s 35ms/step - loss: 0.0422 - accuracy: 0.9866Epoch 2/5938/938 [==============================] - 33s 35ms/step - loss: 0.0260 - accuracy: 0.9923Epoch 3/5938/938 [==============================] - 33s 35ms/step - loss: 0.0175 - accuracy: 0.9940Epoch 4/5938/938 [==============================] - 32s 35ms/step - loss: 0.0131 - accuracy: 0.9958Epoch 5/5938/938 [==============================] - 33s 35ms/step - loss: 0.0123 - accuracy: 0.9958
+14:16:20 From Sheina Sim to Everyone : Is it automatically threaded or do we need to tell it how many threads to use?
+14:16:51 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Is ndarray usually a matrix of matrices?
+14:17:14 From Sheina Sim to Everyone : You’re frozen
+14:17:16 From Sheina Sim to Everyone : Or I am
+14:17:25 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I think that’s where Lina is getting confused. because there are 4 d
+14:17:32 From Pei L. to Everyone : Laura is frozen for me too
+14:17:34 From Jennifer Chang to Everyone : It's frozen on my end
+14:17:35 From Greg Maurer (JRN LTER) to Everyone : Frozen for me too
+14:17:40 From Sheina Sim to Everyone : Okay, great
+14:17:41 From Ravindra Dwivedi to Everyone : I don't hear anything
+14:17:44 From Lina Castano-Duque to Everyone : frozen
+14:17:50 From Simegnew Alaba to Everyone : For me too
+14:17:55 From Siva Chudalayandi to Everyone : Yes! Laura may have lost internet
+14:22:55 From Jennifer Chang to Laura Boucheron(Direct Message) : I'm going to meet with Lina in a breakout room, so don't worry if I'm missing
+14:23:19 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Lina I'm setting up breakout room
+14:23:29 From Lina Castano-Duque to Jennifer Chang(Direct Message) : great
+09:52:53 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people at the top of the hour.
+09:58:09 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:02:08 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:04:28 From Ravindra Dwivedi to Everyone : Kerrie: good morning. Would you please let me know where can I find the video links
+10:05:42 From Kerrie Geil to Everyone : workshop website: https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn page: https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+10:07:06 From Kerrie Geil to Everyone : video links on the learn page under the answer key ipynb for each day. We're still working on getting the day 1 link up there, but day 2 is there
+10:07:25 From alex hernandez to Everyone : Luckily it ran without issues :)
+10:10:22 From Ravindra Dwivedi to Everyone : Thank you
+10:10:56 From Haitao Huang to Everyone : What is C in CNN?
+10:13:01 From Pei L. to Everyone : Can you please explain the relationship between keras and tensorflow, and why we need to build the Conda environment and install keras using Powershell and not just import keras like other packages?
+10:14:05 From Jennifer Chang to Everyone : @Pei Keras depends on tensorflow. Sometimes tensor flow may have issues installing, so need to run the install command multiple times
+10:14:06 From Ravindra Dwivedi to Everyone : Would you please let me know what is GPU?
+10:14:32 From Ravindra Dwivedi to Everyone : Thanks
+10:15:11 From Jennifer Chang to Everyone : GPU=thousands of threads; CPU= maybe 8 or 16 threads?
+10:15:51 From Jennifer Chang to Everyone : GPGPU= general purpose graphical processing units
+10:16:52 From santosh sharma to Everyone : Tensorflow has both GPU and CPU version how they manage computation with so few thread in CPU?
+10:16:58 From Paula Ramos Giraldo to Everyone : How the system is managing or scheduling the GPU or?
+10:17:04 From Paula Ramos Giraldo to Everyone : VPU
+10:17:11 From Pei L. to Everyone : @Jennifer, thank you, I'm also curious about how all these elements are related to each other.
+10:17:44 From Jennifer Chang to Everyone : @santhosh, with fewer threads in CPU, the pipeline will run slower (fewer threads)
+10:18:09 From Jennifer Chang to Everyone : @Paula. System should have GPU drivers... um that's below the level of python. There are drivers for
+10:18:15 From Jennifer Chang to Everyone : AMD GPU and NVI
+10:18:21 From Jennifer Chang to Everyone : Nvidia GPU (cuda)
+10:18:30 From santosh sharma to Everyone : @Jennifer, thanks
+10:18:40 From Paula Ramos Giraldo to Everyone : @Jennifer, thanks
+10:19:06 From Siva Chudalayandi to Everyone : https://towardsdatascience.com/what-is-a-gpu-and-do-you-need-one-in-deep-learning-718b9597aa0d
+10:19:19 From Brian Nadon to Everyone : If I'm running on a laptop with integrated graphics, do the tensor operations run on the CPU or the GPU segment of that CPU?
+10:19:57 From Jennifer Chang to Everyone : @Brain, The driver should find the GPU segment, I think
+10:19:59 From santosh sharma to Everyone : what is cuda?
+10:20:23 From Haitao Huang to Everyone : Good to know there are drivers for AMD GPU
+10:21:01 From Jennifer Chang to Everyone : @Santhosh: CUDA is https://developer.nvidia.com/cuda-zone. I'm actually not sure what it's an acronym for... one moment
+10:21:06 From Siva Chudalayandi to Everyone : CUDA: Compute Unified Device Architecture
+10:21:25 From Simegnew Alaba to Everyone : The architectural difference between cpu and GPU is that more transistor is devoted for GPU so that it handles many computations(ALu part...). Since GPU has many cores we can process  tasks in parallel
+10:22:40 From Simegnew Alaba to Everyone : CUDA stands for compute unified architecture device architecture, which is important to process tasks in parallel  in GPU
+10:24:24 From santosh sharma to Everyone : Is there comparison between Theano and Keras on performance?
+10:24:26 From Haitao Huang to Everyone : @Jennifer, Do you know some link for setting up AMD GPU?
+10:24:57 From Simegnew Alaba to Everyone : AMD GPU has no CUDA@Haitao
+10:25:10 From Jennifer Chang to Everyone : Ah, I'll have to look around. I actually haven't worked with the AMD GPU. Yes CUDA is Nvidia specific
+10:25:44 From Jennifer Chang to Everyone : Programming AMD should use OpenMP (MP?) Someone else may know more
+10:26:06 From Paula Ramos Giraldo to Everyone : Can we select GPU or CPU to run in the same code, different layers?
+10:26:06 From Simegnew Alaba to Everyone : OPENMP yes
+10:26:43 From Brian Abernathy to Everyone : https://rocmdocs.amd.com/en/latest/
+10:28:01 From Simegnew Alaba to Everyone : @Jennifer OpenMp is almost similar to CUDA and you can use it for AMD GPU architeture
+10:28:32 From Jennifer Chang to Everyone : @Simegnew Good to know! Haha, I was supposed to look at OpenMP but totally didn't get to it
+10:28:38 From Pei L. to Everyone : so we installed keras for the specific workspace/environment that we are working within, is it possible to have keras installed on a more universal level within Conda?
+10:30:03 From Jennifer Chang to Everyone : @Pei keres should be in the conda environment... either via a "conda install..." or "pip install..."
+10:30:23 From Siva Chudalayandi to Everyone : @Pei, I think that can be done… yes as Jennifer just posted
+10:31:11 From Haitao Huang to Everyone : Is it possible to use AMD GPU
+10:32:35 From Jennifer Chang to Everyone : Titan! : )
+10:32:44 From Pei L. to Everyone : I am asking because I started Jupyter yesterday without specifically selecting the aiworkshop environment and it told me that I didn't have keras - so does that mean every time I start a new project I'll create a new environment and install keras?
+10:34:16 From Sheina Sim to Everyone : @pei, I think that’s because keras is installed in the aiworkshop environment
+10:34:36 From Jennifer Chang to Everyone : @Pei Oh! If keres installed correctly, you should only need to activate the environment "conda activate aiworkshop" and keres should be available
+10:34:37 From Paula Ramos Giraldo to Everyone : What about Intel and AMD GPU? What is the role of OpenCL?
+10:34:40 From Lina Castano-Duque to Everyone : For those of us who are users of CERES, do you have any particular advice about these compatibility issues?
+10:34:43 From Jennifer Chang to Everyone : Yes, as @Sheina posted
+10:35:26 From Siva Chudalayandi to Everyone : @Lina, are you having any problems with compatibility today?
+10:35:59 From Lina Castano-Duque to Everyone : @Siva, not today, I am asking for future updates of the software
+10:36:32 From Jennifer Chang to Pei L.(Direct Message) : Hi Pei, let me know if I'm misunderstanding your questions. I'm also happy to look at any error messages (feel free to direct message)
+10:36:55 From Kerrie Geil to Everyone : @Pei in Jupyter notebook you can change your kernel to aiworkshop. Your lab session may open in the "Python3" environment by default (depends on the OS I think). Just go to Kernel > Change Kernel > then select aiworkshop
+10:37:07 From Jennifer Chang to Pei L.(Direct Message) : Kerrie/Siva should also be available to help
+10:37:23 From Simegnew Alaba to Everyone : The direct equivalent of CUDA for AMD GPU is OpenCL not OpenMP. Sorry long time since I used OpenCL. But, I am not sure if AMD GPU can handle Deep learning kernels
+10:37:45 From Pei L. to Everyone : sorry for all the keras questions...BUT for future personal projects, do I always come back and activate this environment? or I create a new one? I guess I'm thinking this more like a R interface where you have workspaces and load packages per workspace. It's working now, since I'm selecting the kernel, but I'm curious for future projects.
+10:38:26 From Brian Abernathy to Everyone : Looks like plaidml library allows use of AMD GPU with keras.
+10:38:28 From Brian Abernathy to Everyone : https://www.petelawson.com/post/using-an-amd-gpu-in-keras/
+10:38:29 From Siva Chudalayandi to Everyone : @pei, yes you can have separate environments for each project and load the appropriate one.
+10:39:55 From Sheina Sim to Everyone : @pei you could also use the aiworkshop environment for different projects
+10:40:38 From Sheina Sim to Everyone : It’s basically just a path structure so that everything you need is in your path and accessible and compatible
+10:41:04 From Pei L. to Everyone : Thank you! That explains it.
+10:41:47 From Sheina Sim to Everyone : 🥳
+10:41:49 From Kerrie Geil to Everyone : @Pei, no problem. I've created a "general computing" conda environment for myself that has the packages that I use most in it. I use that environment for quick things. For major projects I'll create a new environment for each project. Then when opening Jupyter I'll make sure to change the kernel to the project environment every time. Since keras/tensorflow are so tricky I'd create a new env with those packages and any others that I need for each project where I know I need keras/tensorflow
+10:42:42 From Siva Chudalayandi to Everyone : We are out of water today as well… water mains break!
+10:43:21 From Pei L. to Everyone : @Kerrie, thank you! that's very helpful!
+10:48:04 From Sheina Sim to Everyone : @kerrie, I’ve always been curious, when multiple conda environments have the same program (for example BLAST), does conda install it for every environment, or does it just install it just the first time it’s used in an environment and conda pulls the appropriate paths for subsequent environments that use the same program and version?
+10:52:12 From Kerrie Geil to Everyone : I believe once you've installed a package in one environment conda recognizes that and it won't take up that space again for the same package if you install it in another environment. But the environments are still entirely separated and not dependent on each other in any way even if they have similar packages installed. Not sure exactly how it does that behind the scenes. Maybe someone here knows more details
+10:52:56 From Sheina Sim to Everyone : Ah, okay! Thanks!
+10:54:12 From Siva Chudalayandi to Everyone : @Sheina: This might answer your question: https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
+10:56:51 From Sheina Sim to Everyone : @Siva, thanks!
+10:57:47 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I will be now gone for some time… the VPR meeting
+10:57:58 From Jennifer Chang to Siva Chudalayandi(Direct Message) : No worries, see you later!
+10:58:50 From Paula Ramos Giraldo to Everyone : Do you have a rule to define if the data is balance or not?
+10:59:26 From Brian Nadon to Everyone : you can also just use range(10), it assumes you start at 0 if you don't tell it
+11:01:12 From Sheina Sim to Everyone : If the data set was more imbalanced, does it make it better for identifying the overrepresented digits, worse for identifying the underrepresented digits, or worse overall?
+11:01:22 From Paula Ramos Giraldo to Everyone : Thanks.
+11:08:30 From Ravin Poudel to Everyone : Can we sample at equal percentage per categories—? So that we get equal representation
+11:08:31 From Sheina Sim to Everyone : Thanks!
+11:09:48 From Ravin Poudel to Everyone : Thanks
+11:11:12 From Haitao Huang to Everyone : all these training images are very clean. so for new set of images for training, we have to remove the background/noise first?
+11:14:22 From Ernesto Trujillo-Gomez to Everyone : it works without it
+11:16:08 From Sheina Sim to Everyone : When I try to do two rows of numbers, it prints it in two rows that are really far apart
+11:16:55 From Ernesto Trujillo-Gomez to Everyone : probablu the y size is too large
+11:17:10 From Ernesto Trujillo-Gomez to Everyone : *probably
+11:20:25 From Hye-Seon(HiSun)|Window10 to Everyone : I got this error AttributeError: module 'matplotlib.pyplot' has no attribute 'subpolt'
+11:20:40 From Hye-Seon(HiSun)|Window10 to Everyone : sorry 
+11:20:42 From Hye-Seon(HiSun)|Window10 to Everyone : opps
+11:21:19 From Sheina Sim to Everyone : That last 9 looks like an 8
+11:24:31 From Sheina Sim to Everyone : Adding this plt.title(str(y_train[d])) doesn’t add the right label
+11:26:41 From Ernesto Trujillo-Gomez to Everyone : add y_train
+11:27:03 From Ernesto Trujillo-Gomez to Everyone : sorry, add:
+11:27:05 From Ernesto Trujillo-Gomez to Everyone : plt.title(y_train[np.where(y_train==d)[0][k]])
+11:27:40 From Ernesto Trujillo-Gomez to Everyone : you need to loop over the selected digit, not the full y_train
+11:27:55 From Sheina Sim to Everyone : A, thanks!
+11:44:56 From Sheina Sim to Everyone : In which cases would you want to change the order of the info so that it wants a channels_first format?
+11:45:10 From Sheina Sim to Everyone : Or is it just a preference?
+11:46:20 From Kerrie Geil to Jennifer Chang(Direct Message) : I haven't received any questions in a while... you guys good if I quit for the day?
+11:46:43 From Jennifer Chang to Kerrie Geil(Direct Message) : Yes, thank you Kerrie! Siva will be back later, he had a meeting with Andrew
+11:46:57 From Jennifer Chang to Kerrie Geil(Direct Message) : We can email/MS teams msg if anything comes up
+11:50:47 From Kerrie Geil to Jennifer Chang(Direct Message) : Great! I forgot to ask this morning, did you see Li Li or Sagnik yesterday at all? Today we're missing Li Li, El Hamidi Hay, and Gerard Lazo. I've marked them as absent today but will change that if you notice they show up at some point
+11:51:15 From Jennifer Chang to Kerrie Geil(Direct Message) : Sagnik showed up for the last 5 minutes, not sure if that counts. Li Li didn't show up
+11:51:42 From Jennifer Chang to Kerrie Geil(Direct Message) : I'll keep an eye out for them today (Hey, Li Li, Gerard)
+11:52:53 From Jennifer Chang to Kerrie Geil(Direct Message) : Actually Lazo may have msged me yesterday (jury duty) he's going to try to log in when he can
+11:53:21 From Ravindra Dwivedi to Everyone : Laura: would you please let me know if you can paste the .squeeze example here in the chat window
+11:53:29 From Kerrie Geil to Jennifer Chang(Direct Message) : lol ok ya I'll just keep him as absent for yesterday. Thanks! So frustrating because the waiting list for this is super long and Li Li showed up only on the first day last time the workshop was offered too. I should have put him at the bottom of the waiting list!
+11:53:44 From Laura Boucheron to Everyone : plt.figure(figsize=(20,20))
+for k in range(0,10):
+    plt.subplot(1,10,k+1)
+    plt.imshow(X_train[k].squeeze(),cmap='gray')
+    plt.axis('off')
+plt.show()
+11:53:55 From Ravindra Dwivedi to Everyone : Thanks
+11:55:47 From Kerrie Geil to Jennifer Chang(Direct Message) : Also Paula said she was having some sort of zoom problem and would rejoin later. No idea what's going there. Ok, I'm leaving now!
+12:01:53 From Haitao Huang to Everyone : using 32bit is much faster?
+12:02:14 From Ravin Poudel to Everyone : When checked after dividing my 255, X_train.max() is not 1— rather I got  0.003921569
+12:03:11 From Ravin Poudel to Everyone : Got it , thanks
+12:05:11 From Siva Chudalayandi to Jennifer Chang(Direct Message) : How are things going?
+12:05:56 From Jennifer Chang to Siva Chudalayandi(Direct Message) : So far okay, Paula had trouble joining zoom. Ravindra had some questions about organizing training data (folders)
+12:06:32 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Mainly trying to remember to look at chat : P Or I miss the coding questions
+12:07:00 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Ok… now that I rejoined, I lost all the older questions on chat.
+12:07:20 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Gah, good to know. No pending questions yet
+12:07:57 From Siva Chudalayandi to Jennifer Chang(Direct Message) : May be I should’ve just muted zoom and joined webex.
+12:08:31 From Jennifer Chang to Siva Chudalayandi(Direct Message) : No worries, sometimes Laura answers (audio)
+12:13:23 From santosh sharma to Everyone : is it one hot coding for each pixel or label?
+12:13:40 From Jennifer Chang to Everyone : For each picture (label)
+12:14:05 From alex hernandez to Everyone : Can these probabilities be in the range from 0-1 or always 0 or 1?
+12:14:25 From alex hernandez to Everyone : Thanks
+12:17:17 From santosh sharma to Everyone : I was thinking if it is not each pixel how does it learns features in images for prediction?
+12:18:44 From santosh sharma to Everyone : Thank you!
+12:19:07 From Melanie Kammerer to Everyone : One-hot encoding is equivalent to creating 'dummy variables' from a categorical variable, correct?
+12:20:07 From Jennifer Chang to Everyone : @Melanie Yes I think so
+12:20:52 From Melanie Kammerer to Everyone : OK, thanks.
+12:24:08 From Pei L. to Everyone : that means today if we are not using the MNIST dataset, our previous codes that loop through d in range(0.10) wouldn't work, correct?
+12:29:26 From Harrison Smith to Everyone : Are there circumstances where we would use probabilities other than 1 and 0? For example to predict a continuous y variable rather than categorical ones
+12:32:50 From Ravindra Dwivedi to Everyone : what is the purpose of axis=1, Laura?
+12:34:16 From Ravindra Dwivedi to Everyone : Thanks
+13:30:01 From Haitao Huang to Everyone : the deeper the accurate?
+13:34:21 From Ernesto Trujillo-Gomez to Everyone : Is a layer an epoch?
+13:35:11 From santosh sharma to Everyone : is batch size smaller good or larger good for small dataset in hundreds?
+13:38:11 From Ravin Poudel to Everyone : Does each batch take unique input data or may be taking n number of random images ?
+13:38:39 From santosh sharma to Everyone : Thank you!
+13:39:32 From Lina Castano-Duque to Everyone : yesterday our X_train consisted of rows = observations and columns = features. Could you remind me what do rows and columns of our X_train today represent?
+13:39:39 From Sheina Sim to Everyone : So is that the equivalent of bootstrapping?
+13:43:31 From Haitao Huang to Everyone : image has to be square
+13:45:13 From Pei L. to Everyone : so if we want to analyze the Caltech images that are all different sizes, we will have to pretreat the images before building the model?
+13:45:22 From Haitao Huang to Everyone : pooling is not masking?
+13:47:19 From Sheina Sim to Everyone : So we would use those bounding lines to make them all square, and resize them to all the same dimensions if we wanted to do DL on the 101 Caltech dataset?
+13:47:35 From Haitao Huang to Everyone : after pooling , the size it 1/4
+13:47:45 From Haitao Huang to Everyone : after pooling , the size is 1/4
+13:49:23 From Laura Boucheron to Jennifer Chang(Direct Message) : I am referring Lina to you with a question.
+13:49:38 From Jennifer Chang to Laura Boucheron(Direct Message) : Sounds good
+13:49:51 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Jennifer, I am afraid I still do not understand what exactly is the X_train, pixels? are the columns pixel intensity? What are the columns, the rows? I am coming from an R background so I am confused as to what type of object/matrix the X_train is today
+13:50:17 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hi Lina!
+13:50:30 From Haitao Huang to Everyone : we have 6 layer now?
+13:51:14 From Jennifer Chang to Lina Castano-Duque(Direct Message) : X_train rows should be different images in groups (0...9)
+13:51:21 From Jennifer Chang to Lina Castano-Duque(Direct Message) : I'm double checking before I give you a better answer
+13:52:13 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Thanks!
+13:53:18 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Shiva, I am afraid I still do not understand what exactly is the X_train, pixels? are the columns pixel intensity? What are the columns, the rows? I am coming from an R background so I am confused as to what type of object/matrix the X_train is today
+13:53:30 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sorry Jennifer, that was for Shiva
+13:53:41 From Jennifer Chang to Lina Castano-Duque(Direct Message) : No worries : ) Definitely ask around
+13:53:45 From Haitao Huang to Everyone : the kernel is dynamic?
+13:53:46 From Jennifer Chang to Lina Castano-Duque(Direct Message) : I'll still work at it
+13:54:04 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Thanks! Any help with this would be awesome
+13:54:51 From Jennifer Chang to Lina Castano-Duque(Direct Message) : When you have "X_train.shape" do you get "(60000, 28, 28, 1)" ?
+13:55:23 From Jennifer Chang to Lina Castano-Duque(Direct Message) : My interpretation is 60K images, 28 x 28 pixels, greyscale
+13:55:26 From Lina Castano-Duque to Jennifer Chang(Direct Message) : yes
+13:55:40 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Each unit=pixel
+13:56:18 From Lina Castano-Duque to Jennifer Chang(Direct Message) : so, X_train a matrix or object-like (From R language style)
+13:56:34 From Pei L. to Everyone : are the numbers of filter kernels = features to be extracted?
+13:56:50 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Yes : )
+13:56:52 From Lina Castano-Duque to Jennifer Chang(Direct Message) : like does it have 56 columns?
+13:57:16 From Lina Castano-Duque to Jennifer Chang(Direct Message) : or does each column open up a new matrix with 28 obesvations each?
+13:57:25 From santosh sharma to Everyone : is 'channels_last' is required since I have not seen used commonly?
+13:57:43 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Oh, I see... matrix vs data.frame (encapsulated list)
+13:58:22 From Jennifer Chang to Lina Castano-Duque(Direct Message) : %whos shows X_train is ndarray... so like R's matrix
+13:58:24 From Lina Castano-Duque to Jennifer Chang(Direct Message) : yeah, I do not undestrand what this X_train is, like yesterday I knew it was columns were features and rows observations, but today, what are they
+13:59:15 From Siva Chudalayandi to Jennifer Chang(Direct Message) : HI Jennifer, x_train and y_train are all data points of type uint8 right?
+13:59:16 From Simegnew Alaba to Everyone : The size for the first dense layer is 144 when flattened, I think. Can we use any number?
+13:59:20 From santosh sharma to Everyone : Thank you!
+13:59:57 From Jennifer Chang to Siva Chudalayandi(Direct Message) : %whos shows x_train and x_train are ndarray, of all numbers unit8 yes
+14:01:11 From Lina Castano-Duque to Jennifer Chang(Direct Message) : I see, still confused, if it is a matrix, what are the rows, and what are the columns. How does it represent the 6000x28x28x1
+14:01:52 From Haitao Huang to Everyone : layer 1, 28 x 28layer 2, 28 x 28layer 3, 7 x 7layer 4, 49 x 1
+14:02:30 From Haitao Huang to Everyone : sorry for too many questions
+14:02:59 From Siva Chudalayandi to Jennifer Chang(Direct Message) : this is a question from Lina … “as far as I understand, X_train is a matrix, but what are the rows, and what are the columns. How does it represent the 6000x28x28x1”
+14:03:19 From Jennifer Chang to Lina Castano-Duque(Direct Message) : It might make sense for us to discuss in a breakout room during break : )
+14:03:20 From Haitao Huang to Everyone : layer 3, 14 x 14
+14:03:26 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hard to convey with chat
+14:03:57 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sounds good
+14:04:42 From Jennifer Chang to Siva Chudalayandi(Direct Message) : I told Lina we'll talk to her in breakout room during break
+14:05:14 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Ok thanks!
+14:05:33 From Haitao Huang to Everyone : layer 4, 196 x 1
+14:06:00 From Lina Castano-Duque to Jennifer Chang(Direct Message) : sounds good
+14:08:39 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Making sure I understand X_train = pictures; Y_train = classification 0-9
+14:09:03 From Jennifer Chang to Siva Chudalayandi(Direct Message) : X_train.shape  is (60K images, 28 x 28 pixels)
+14:09:28 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Y_train.shape is (60K images, 10 one-hot coding)
+14:09:32 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Yes! I checked this on stack overflow: https://stackoverflow.com/questions/58081284/what-does-reshape60000-28-28-1-mean
+14:09:58 From santosh sharma to Everyone : do we need to specify learning rate if optimizer is adam?
+14:10:27 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Oh, feel free to send to Lina
+14:12:28 From Sheina Sim to Everyone : Are batch sizes always square?
+14:13:30 From Sheina Sim to Everyone : 8^2
+14:13:36 From Sheina Sim to Everyone : ah
+14:13:45 From santosh sharma to Everyone : what does verbose tells?
+14:14:38 From Ravin Poudel to Everyone : Batch = 64— means for each category its taking 64 images at a time?
+14:15:29 From Sheina Sim to Everyone : Mines taking ~30+ seconds
+14:15:39 From alex hernandez to Everyone : 57 seconds
+14:15:43 From Ravindra Dwivedi to Everyone : I got this:Epoch 1/5938/938 [==============================] - 33s 35ms/step - loss: 0.0422 - accuracy: 0.9866Epoch 2/5938/938 [==============================] - 33s 35ms/step - loss: 0.0260 - accuracy: 0.9923Epoch 3/5938/938 [==============================] - 33s 35ms/step - loss: 0.0175 - accuracy: 0.9940Epoch 4/5938/938 [==============================] - 32s 35ms/step - loss: 0.0131 - accuracy: 0.9958Epoch 5/5938/938 [==============================] - 33s 35ms/step - loss: 0.0123 - accuracy: 0.9958
+14:16:20 From Sheina Sim to Everyone : Is it automatically threaded or do we need to tell it how many threads to use?
+14:16:51 From Siva Chudalayandi to Jennifer Chang(Direct Message) : Is ndarray usually a matrix of matrices?
+14:17:14 From Sheina Sim to Everyone : You’re frozen
+14:17:16 From Sheina Sim to Everyone : Or I am
+14:17:25 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I think that’s where Lina is getting confused. because there are 4 d
+14:17:32 From Pei L. to Everyone : Laura is frozen for me too
+14:17:34 From Jennifer Chang to Everyone : It's frozen on my end
+14:17:35 From Greg Maurer (JRN LTER) to Everyone : Frozen for me too
+14:17:40 From Sheina Sim to Everyone : Okay, great
+14:17:41 From Ravindra Dwivedi to Everyone : I don't hear anything
+14:17:44 From Lina Castano-Duque to Everyone : frozen
+14:17:50 From Simegnew Alaba to Everyone : For me too
+14:17:55 From Siva Chudalayandi to Everyone : Yes! Laura may have lost internet
+14:22:55 From Jennifer Chang to Laura Boucheron(Direct Message) : I'm going to meet with Lina in a breakout room, so don't worry if I'm missing
+14:23:19 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Lina I'm setting up breakout room
+14:23:29 From Lina Castano-Duque to Jennifer Chang(Direct Message) : great
+14:28:19 From Siva Chudalayandi to Jennifer Chang(Direct Message) : That was good
+14:28:28 From Jennifer Chang to Siva Chudalayandi(Direct Message) : S objects in R are a little weird
+14:28:52 From Siva Chudalayandi to Jennifer Chang(Direct Message) : We can talk about that later
+14:29:00 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Yup Yup : )
+14:33:55 From Laura Boucheron to Jennifer Chang(Direct Message) : My zoom is acting up again.  I'm going to have to log out and back in again...
+14:36:03 From Haitao Huang to Everyone : layer 1, 28 x 28layer 2, 28 x 28layer 3, 14 x 14layer 4, 196 x 1layer 5, ?layer 6, ?
+14:37:29 From Jennifer Chang to Everyone : @Haitao. I see your question, hopefully the presentation will give more details
+14:39:41 From Haitao Huang to Everyone : @Jennifer, yes the presentation helps
+14:50:15 From Lina Castano-Duque to Everyone : Is Laura using full screen? Because I am not seeing her full screen
+14:50:39 From Jennifer Chang to Everyone : It's slightly smaller so she can switch views quickly
+14:51:05 From Jennifer Chang to Everyone : @Lina is text size big enough to read?
+14:53:22 From Lina Castano-Duque to Everyone : yeah, I ask because she references a picture but points at a different part of the screen...kind of like she might be using full screen but we are not looking at her full screen
+14:53:47 From Jennifer Chang to Everyone : Oh makes sense!
+14:54:05 From Harrison Smith to Everyone : So are the filters in the CNN analogous to the “features” that we delineated manually yesterday in the classical machine learning?
+14:55:19 From Jennifer Chang to Everyone : Yes, or closer to the h1 h2 filters in Day 1
+14:56:12 From alex hernandez to Everyone : Silly question… but are we including features like texture, rgb-derived features, region features here with the CNN?
+14:56:28 From Jennifer Chang to Everyone : @Harrison Where it highlighted (lighter pixels) where filter matched
+14:56:57 From Jennifer Chang to Everyone : @ Alex: In this case, we're including pixels (so no explicitly region features)
+14:57:13 From Harrison Smith to Everyone : Thank you Jennifer!
+14:57:24 From alex hernandez to Everyone : Thanks!
+15:00:34 From Sheina Sim to Everyone : Are we going to learn in this workshop how to visualize the filters? And will this tell us visually which features are important?
+15:00:41 From Melanie Kammerer to Everyone : Are we using a 3rd layer? I thought our architecture only had 2 convolutions.
+15:01:15 From Jennifer Chang to Everyone : In our example today, we have 2 layers. We may be creating deeper CNNs in later workshop
+15:01:23 From Jennifer Chang to Everyone : And may visualize the internal filters
+15:01:35 From Sheina Sim to Everyone : Thanks!
+15:01:53 From Melanie Kammerer to Everyone : OK, thanks.
+15:04:31 From Sheina Sim to Everyone : How do we define dimensions and channels if we’re not using image data?
+15:05:57 From alex hernandez to Everyone : Are parameters being prioritized at some point? Or are all of them used?
+15:07:18 From Jennifer Chang to Everyone : @Alex: there are usually later steps for parameter prioritization (pruning the parameters)
+15:09:30 From alex hernandez to Everyone : Thanks Jennifer!
+15:11:40 From Paula Ramos Giraldo to Everyone : Would it be logical to think that in some experiment it would be good to use as input preprocessed images with some previously extracted features and use these as CNN inputs?
+15:13:22 From Jennifer Chang to Everyone : @Paula: It depends, having an input of previously extracted features should bias it toward those features.
+15:13:31 From Sheina Sim to Everyone : Is the difference between the ML we learned yesterday and the DL we’re learning now, that we’re not defining the features (color or hue or defined masks), the convolutional defines the features on its own?
+15:13:35 From Jennifer Chang to Everyone : Might be a problem if a feature that is important is left out
+15:13:52 From Jennifer Chang to Everyone : @Sheina: Yes
+15:14:21 From Sheina Sim to Everyone : Sorry, that was probably already covered, I’m starting at 5:00 am here so my brain isn’t really warmed up until now :)
+15:14:32 From Jennifer Chang to Everyone : No worries!
+15:15:06 From Melanie Kammerer to Everyone : Could you explain again what an 'activation' is? I'm a little confused because I thought the output images of the convolution layers were also called 'activations'
+15:15:39 From Jennifer Chang to Everyone : @Melanie: Ah the output images are visualization of "activations" (light pixel=activated)
+15:17:06 From Jennifer Chang to Everyone : @Melanie: ah this section
+15:17:38 From Sheina Sim to Everyone : Are the last two layers an array of ones and zeros? And the last one is just one 1 depending on which category it belongs to?
+15:19:17 From Melanie Kammerer to Everyone : hmm, OK. Glad you're recording this- I will probably need to watch it again.
+15:26:15 From Lina Castano-Duque to Everyone : when the model is learning and fine tuning, how do I used the fine tuned model....like how is it saved after it trains it in case I get new data and I need to feed new data to my previous model?
+15:26:25 From santosh sharma to Everyone : is this loss a cross entropy loss in last example?
+15:27:36 From Jennifer Chang to Everyone : @Lina: fine tuned model is the layers (Conv,max-pool, Dense parameters). Python should have ways to save the model and apply to new data
+15:29:05 From Jennifer Chang to Everyone : @Santhosh feel free to ask out loud, I might not be understanding your question
+15:29:24 From Sheina Sim to Everyone : Is it possible to build a model that works, runs, accurate on and also works on a test dataset, but we built the model incorrectly to start?
+15:29:32 From Haitao Huang to Everyone : We choose these 6 layers because they work good for MNIST?
+15:30:59 From Sheina Sim to Everyone : Or if it is accurate and works on a test dataset, do we call that a good model?
+15:33:02 From Sheina Sim to Everyone : Nope, that’s basically it, thanks!
+15:33:35 From Haitao Huang to Everyone : Any other model besides Sequential works for MNIST?
+15:34:48 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I have to be away for a bit. But I am not logging off.
+15:34:57 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Good to know!
+15:46:12 From Haitao Huang to Everyone : could you explain loss function a little more?
+15:47:46 From Haitao Huang to Everyone : thanks
+15:57:06 From Ravindra Dwivedi to Everyone : Hi Laura, would you please let me know what is the difference between CNN and Restricted Boltzmann machine learning method
+15:58:58 From Laura Boucheron to Jennifer Chang(Direct Message) : I need another 3 mins...
+15:59:10 From Jennifer Chang to Everyone : @Revindra: Keep in mind that's a very specific question...
+16:00:24 From Jennifer Chang to Everyone : We'll see if Laura has used it before, but otherwise might need to focus on the workshop material to have a reasonable end time.
+16:04:13 From Ravindra Dwivedi to Everyone : Thanks
+16:09:34 From Haitao Huang to Everyone : accuracy is different. since random number used in computing.
+16:09:56 From Sheina Sim to Everyone : What are the 157 steps?
+16:10:53 From Sheina Sim to Everyone : Sorry, could you reiterate what a 6% loss means?
+16:11:22 From Haitao Huang to Everyone : 157 = size of test / size of batch?
+16:11:32 From Simegnew Alaba to Everyone : @Sheina 10000/batch_size(64 in this case)=epochs
+16:11:36 From Sheina Sim to Everyone : Gotcha, okay, thanks!
+16:11:36 From santosh sharma to Everyone : what is difference between model.evaluate and model.compile and model.fit, looks like they are using same weights?
+16:12:22 From santosh sharma to Everyone : Thanks
+16:16:06 From Sheina Sim to Everyone : It looks like it doesn’t want to every say probability of 0
+16:16:27 From Jennifer Chang to Everyone : @Sheina: agree
+16:16:55 From Sheina Sim to Everyone : My first line is 100% zero for 7 and very close to zero for all the other numbers
+16:17:01 From Sheina Sim to Everyone : But never 0
+16:17:57 From Siva Chudalayandi to Jennifer Chang(Direct Message) : I am back
+16:18:06 From Haitao Huang to Everyone : sum of percentage of each line is 100%?
+16:18:08 From Jennifer Chang to Siva Chudalayandi(Direct Message) : Hello
+16:20:26 From Pei L. to Everyone : why is the axis -1 instead of 1 now?
+16:25:25 From Haitao Huang to Everyone : my understanding: axis -1 means last dimension
+16:31:49 From Lina Castano-Duque to Everyone : can you paste the code in the chat?
+16:32:02 From Jennifer Chang to Everyone : score = model3.evaluate(X_test, Y_test, verbose=1)
+print(score)
+
+Y_predict = model3.predict(X_test,batch_size=64,verbose=1)
+y_predict = Y_predict.argmax(axis=-1)
+
+my_acc = (y_predict==y_test).sum()/len(y_predict)
+print('My accuracy computation says:')
+print(my_acc)
+
+print(Y_predict)
+print(np.round(Y_predict[0:10,:],2))
+
+print('Actual labels are:')
+print(y_test[0:10])
+print('Predicted labels are:')
+print(y_predict[0:10])
+16:36:18 From Jennifer Chang to Everyone : Model4.evalute code:
+16:36:20 From Jennifer Chang to Everyone : score = model4.evaluate(X_test, Y_test, verbose=1)
+print(score)
+
+Y_predict = model4.predict(X_test,batch_size=64,verbose=1)
+y_predict = Y_predict.argmax(axis=-1)
+
+my_acc = (y_predict==y_test).sum()/len(y_predict)
+print('My accuracy computation says:')
+print(my_acc)
+
+print(Y_predict)
+print(np.round(Y_predict[0:10,:],2))
+
+print('Actual labels are:')
+print(y_test[0:10])
+print('Predicted labels are:')
+print(y_predict[0:10])
+16:53:23 From Sheina Sim to Everyone : My accuracy using evaluate was way higher than during the training
+16:53:54 From Sheina Sim to Everyone : 0.39% during the training but 73% using evaluate
+16:54:26 From Sheina Sim to Everyone : Sorry 39% to 73%
+16:55:13 From Jennifer Chang to Everyone : @Sheina: Can mean high variance in training. The new data is very similar to the accurate test set
+16:56:12 From Sheina Sim to Everyone : Gotcha, thanks!
+16:58:01 From Jennifer Chang to Everyone : Zoom videos will be posted tonight
+16:58:57 From Sheina Sim to Everyone : Thanks!
+17:01:00 From Jennifer Chang to Everyone : Usually I go with citing the package (kerns)
+17:01:05 From Jennifer Chang to Everyone : *keras
+17:02:27 From santosh sharma to Everyone : Does model.predict get same weights as model.get_weights() in a model for predictions?
+17:02:35 From Ravindra Dwivedi to Everyone : Thank you
+17:03:59 From santosh sharma to Everyone : Thanks
+17:04:20 From Matthew Robbins to Everyone : Thanks!!!
