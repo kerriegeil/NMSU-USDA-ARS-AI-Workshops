@@ -78,7 +78,7 @@ unzip '*.zip'
 
 Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
 
-[Day2 Zoom Recording from 5/25/2021](https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs)
+[Day2 Zoom Recording from 5/25/2021](https://zoom.us/rec/share/2wIrWkqeicsxybc4ltnyQkanDtnWbpvQmRI7t-Bz7lfIYhhPNv3HrFcdiO1FHOBe.5ZxAluyNl8f4dcKs), [Day2 Zoom Chat from 5/25/2021](/zoomchats/day02_zoomchat.txt)
 
 
 ## Day 3
@@ -112,7 +112,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
 
-[Day3 Zoom Recording from 5/26/2021](https://zoom.us/rec/share/wS3IltV33IA5b4xnRAZuafWXjgXCAs8M-vJ_vh5ehxFyMa-WOj6qE5izp3Nx4Cyl.OSMyD0Xa0af6QMOo)
+[Day3 Zoom Recording from 5/26/2021](https://zoom.us/rec/share/wS3IltV33IA5b4xnRAZuafWXjgXCAs8M-vJ_vh5ehxFyMa-WOj6qE5izp3Nx4Cyl.OSMyD0Xa0af6QMOo), [Day3 Zoom Chat from 5/26/2021](/zoomchats/day03_zoomchat.txt)
 
 
 # Workshop 2
@@ -139,6 +139,13 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 [Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.ipynb](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.ipynb)
 
+**Day 1 Zoom Recording**
+
+Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
+
+to be posted
+<!---[Day1 Zoom Recording from 5/27/2021](), [Day1 Zoom Chat from 5/27/2021](/zoomchats/day04_zoomchat.txt)--->
+
 
 
 ## Day 2
@@ -159,3 +166,10 @@ navigate to your working directory, then:
 ```
 curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks_complete.ipynb 
 ```
+
+**Day 2 Zoom Recording**
+
+Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
+
+to be posted
+<!---[Day2 Zoom Recording from 5/28/2021](), [Day2 Zoom Chat from 5/28/2021](/zoomchats/day05_zoomchat.txt)--->
