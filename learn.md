@@ -137,8 +137,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 **Day 1 notebook with outputs/answers:** 
 
-to be posted
-<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.html)--->
+[Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.ipynb](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks_complete.ipynb)
 
 
 
@@ -146,8 +145,7 @@ to be posted
 
 **If working on a laptop** 
 
-to be posted
-<!---[Tutorial5_Advanced_DL_Networks.ipynb](/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks.ipynb)--->
+[Tutorial5_Advanced_DL_Networks_complete.ipynb (notebook with answers)](/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks_complete.ipynb)
 
 <!---[https://pjreddie.com/media/files/yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) (236 MB)--->
 
@@ -156,14 +154,8 @@ to be posted
 
 **If working on the ARS Ceres HPC**
 
-to be posted
-<!---navigate to your working directory, then:--->
+navigate to your working directory, then:
 
-<!---```--->
-<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks.ipynb -O https://pjreddie.com/media/files/yolov3.weights -O https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/zebra.jpg--->
-<!---```--->
-
-**Day 2 notebook with outputs/answers:** 
-
-to be posted
-<!---[Tutorial5_Advanced_DL_Networks_complete.html](/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks_complete.html)--->
+```
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial5_Advanced_DL_Networks_complete.ipynb 
+```
