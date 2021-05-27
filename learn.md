@@ -109,6 +109,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 <br><br>
 
 **Day 3 Zoom Recording**
+
 Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
 
 [Day3 Zoom Recording from 5/26/2021](https://zoom.us/rec/share/wS3IltV33IA5b4xnRAZuafWXjgXCAs8M-vJ_vh5ehxFyMa-WOj6qE5izp3Nx4Cyl.OSMyD0Xa0af6QMOo)
