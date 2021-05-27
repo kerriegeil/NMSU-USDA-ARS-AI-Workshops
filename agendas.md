@@ -67,25 +67,26 @@ classes: wide
 9:00am-9:10am	|	Welcome and Preliminaries
 9:10am-10:10am	|	Section 1: Printed Summaries of Network Architectures
 10:10am-10:20am	| Break
-10:20am-11:30am	| Section 2: Visualizing Activations of Neurons
-11:30am-12:30pm	| Lunch Break
-12:30pm-1:30pm	|	Section 2: Visualizing Activations of Neurons (cont.)
-1:30pm-1:40pm	|	Break
-1:40pm-2:40pm	|	Section 3: Inputting New and Different Data to a Trained Network
-2:40pm-2:50pm	|	Break
-2:40pm-3:50pm	|	Section 4: The VGG16 architecture
-3:50pm-4:00pm	|	Recap
+10:20am-11:00am	| Section 2: Visualizing Activations of Neurons
+11:00am-11:50am	| Lunch Break
+11:50am-1:00pm	|	Section 2: Visualizing Activations of Neurons (cont.)
+1:00pm-1:10pm	|	Break
+1:10pm-2:00pm	|	Section 3: Inputting New and Different Data to a Trained Network
+2:00pm-2:10pm	|	Break
+2:10pm-3:30pm	|	Section 4: The VGG16 architecture
+3:30pm-4:00pm	|	Catchup/Recap
 
 ## Day 2
 
 ---|---
-9:00am-9:15am	|	Welcome and Preliminaries
-9:15am-10:45am	|	Section 1: YOLO-v3 for Object Detection
-10:45am-11:00am	| Break
-11:00am-12:30pm	| Section 2: Mask-RCNN for Object Segmentation
-12:30pm-1:30pm	|	Lunch Break
-12:30pm-2:00pm	|	Section 3: Time Series Prediction with an LSTM
-2:00pm-2:15pm	|	Recap
-2:15pm-2:30pm	|	Workshop Evaluation
+9:00am-9:10am	|	Welcome and Preliminaries
+9:10am-10:00am	|	Section 1: Activation Maximization
+10:00am-10:10am	| Break
+10:10am-11:00am	| Section 2: YOLO-v3 for Object Detection
+11:00am-11:50am	|	Lunch Break
+11:50am-12:40pm	|	Section 3: Style Transfer
+12:40pm-12:50pm	|	Break
+12:50pm-1:40pm  | Section 4: Generative Adversarial Networks
+1:40pm-2:30pm	|	Catchup/Recap/Workshop Evaluation
 
 
