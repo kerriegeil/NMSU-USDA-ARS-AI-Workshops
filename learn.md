@@ -105,10 +105,13 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 **Day 3 notebook with answers:** 
 
-to be posted
-<!---[Tutorial3_Deep_Learning_for_Images_complete.ipynb](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images_complete.ipynb)--->
+[Tutorial3_Deep_Learning_for_Images_complete.ipynb](/tutorials/2021-05_session/Tutorial3_Deep_Learning_for_Images_complete.ipynb)
 <br><br>
 
+**Day 3 Zoom Recording**
+Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
+
+[Day3 Zoom Recording from 5/26/2021](https://zoom.us/rec/share/wS3IltV33IA5b4xnRAZuafWXjgXCAs8M-vJ_vh5ehxFyMa-WOj6qE5izp3Nx4Cyl.OSMyD0Xa0af6QMOo)
 
 
 # Workshop 2
@@ -117,21 +120,19 @@ to be posted
 
 **If working on a laptop** (right click the links to download and save to working directory)
 
-to be posted
-<!---[Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)--->
+[Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb](/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb)
 
-<!---[my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg)--->
+[my_digits1_compressed.jpg](/data_images/my_digits1_compressed.jpg)
 
-<!---[latest_256_0193.jpg](/data_images/latest_256_0193.jpg)--->
+[latest_256_0193.jpg](/data_images/latest_256_0193.jpg)
 
 **If working on the ARS Ceres HPC**
 
-to be posted
-<!---navigate to your working directory, then:--->
+navigate to your working directory, then:
 
-<!---```--->
-<!---curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg--->
-<!---```--->
+```
+curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-05_session/Tutorial4_Visualizing_and_Modifying_DL_Networks.ipynb -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/my_digits1_compressed.jpg -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/data_images/latest_256_0193.jpg
+```
 
 **Day 1 notebook with outputs/answers:** 
 
