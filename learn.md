@@ -143,8 +143,7 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
 
-to be posted
-<!---[Day1 Zoom Recording from 5/27/2021](), [Day1 Zoom Chat from 5/27/2021](/zoomchats/day04_zoomchat.txt)--->
+[Day1 Zoom Recording from 5/27/2021](https://zoom.us/rec/share/1bNHDPeInvbS3CVYDstJYCXo82nRvu9JxFEKt5yhVV_TGtjbYeGImvf_9TPvvtwA.TsRGNAetj_eL83bZ)<!---, [Day1 Zoom Chat from 5/27/2021](/zoomchats/day04_zoomchat.txt)--->
 
 
 
@@ -171,5 +170,4 @@ curl -O https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/tutorials/2021-0
 
 Recordings likely will NOT be available indefinitely. Please follow the link and download the video file to your local computer to guarantee your future access to the recording.
 
-to be posted
-<!---[Day2 Zoom Recording from 5/28/2021](), [Day2 Zoom Chat from 5/28/2021](/zoomchats/day05_zoomchat.txt)--->
+[Day2 Zoom Recording from 5/28/2021](https://zoom.us/rec/share/kaF-LbeAC04OVpyuuyqObPVaP3oP2Jfcl8-50HF0nm8uVdkb8AeZEfII1ELV8Vww.Ou63Ux5cI1RjdFjb)<!---, [Day2 Zoom Chat from 5/28/2021](/zoomchats/day05_zoomchat.txt)--->
