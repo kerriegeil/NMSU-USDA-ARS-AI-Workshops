@@ -1,0 +1,309 @@
+09:54:40 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+09:59:22 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:01:04 From Jennifer Chang to Everyone (in Waiting Room) : Thank you for your patience. We will be admitting people near the start.
+10:04:30 From Lina Castano-Duque to Everyone : Hi, is anyone running CERES who is having issues with the kernel?
+10:05:59 From Matthew Robbins to Everyone : It is working for me on Ceres.
+10:07:04 From Lina Castano-Duque to Everyone : I am having an error on mine, says there is an error starting the kernel
+10:08:29 From Jennifer Chang to Kerrie Geil(Direct Message) : Maybe I should ask Lina to come to a breakout room? I'm not sure if I can debug it
+10:08:43 From Jennifer Chang to Kerrie Geil(Direct Message) : Altho I could look, or if you'd prefer
+10:08:54 From Kerrie Geil to Everyone : I'm not having problems on Ceres either. I would go to File>Hub Control Panel > Stop My Server to shut everything down completely and then try logging back in to JupyterHub
+10:09:24 From Kerrie Geil to Jennifer Chang(Direct Message) : Let's let her log out and log in again and see what happens
+10:13:18 From Lina Castano-Duque to Everyone : I am trying but has been 5min since I requested a server.... :(
+10:15:07 From Kerrie Geil to Everyone : @Lina, Melanie had this happen yesterday and was successful getting in after a couple of login attempts. Occasionally when JupyterHub resets itself it takes 6 minutes before it will allow another login
+10:16:28 From Kerrie Geil to Everyone : @Lina if your current login attempt fails try requesting a shorter time period like 4 hrs on short
+10:19:48 From Lina Castano-Duque to Everyone : @Kerrie, I am getting this errors: API request failed (400): lina.castano-duque is pending spawn, please wait. I contacted SciNet help desk and I hope they can help me soon
+10:21:28 From Haitao Huang to Everyone : can we design some image on purpose to fool nn?
+10:21:53 From Harrison Smith to Everyone : So would you say these are examples of CNNs that are “overfitted” to a training dataset or are these resulting from different issues entirely?
+10:22:01 From Kerrie Geil to Everyone : @Lina, ok sounds like a good plan. It may just be it needs a bit to reset itself again. But at least the help desk can see if there's something else going wrong.
+10:23:04 From Jennifer Chang to Everyone : @Haitao: Yes, these are examples of designing an image to fool a nn. Designing one may be outside the scope of the workshop but these papers are great resources
+10:24:02 From Jennifer Chang to Everyone : @Harrison: Your interpretation is reasonable "overfitted to training dataset". Someone can correct me, but I think CNN also trains more on texture (vs silhouette)
+10:24:12 From Jennifer Chang to Everyone : So can be fooled by texture
+10:25:46 From Paula Ramos Giraldo to Everyone : Could we use perturbation on images as data augmentation technique?
+10:26:22 From Simegnew Alaba to Everyone : That's why we augment the dataset before training to avoid these kind of epics
+10:33:15 From Kerrie Geil to Jennifer Chang(Direct Message) : Can you put me and Sara Duke in a breakout room please?
+10:33:32 From Jennifer Chang to Kerrie Geil(Direct Message) : Yes, one mo
+10:39:05 From Sheina (Shen-uh) to Everyone : Does the test dataset have to be the same dimensions as  the training dataset?
+10:39:46 From Jennifer Chang to Everyone : @Sheina: Yes, hence the reshape commands
+10:41:05 From Sheina (Shen-uh) to Everyone : 👍
+10:41:21 From Pei L. to Everyone : Are the param # the number of features extracted (for conv layers) and used (for dense layers)?
+10:42:25 From Pei L. to Everyone : I see now :)
+10:42:34 From Haitao Huang to Everyone : param is # of weights?
+10:54:08 From Haitao Huang to Everyone : could show the line including %config?
+10:54:25 From Sheina (Shen-uh) to Everyone : %config Completer.use_jedi = False
+10:54:33 From Haitao Huang to Everyone : thanks
+10:55:06 From Sheina (Shen-uh) to Everyone : When do you use an old model and when do you use a new one?
+10:55:33 From Sheina (Shen-uh) to Everyone : I wouldn’t have thought that the same model for numbers could be used for fashion
+10:55:45 From Sheina (Shen-uh) to Everyone : Or build a new one
+10:57:28 From Ravindra Dwivedi to Everyone : Laura: would you please let me know how do you decide how many convolution layers to include?
+10:58:06 From Sheina (Shen-uh) to Everyone : Are there publicly available models that are already trained for different purposes (not image data)?
+10:58:12 From santosh sharma to Everyone : is there also a way to visualize complete network map?
+10:59:07 From Jennifer Chang to Everyone : Re: number of layers. There's some online discussion: https://stackoverflow.com/questions/24509921/how-do-you-decide-the-parameters-of-a-convolutional-neural-network-for-image-cla
+10:59:37 From Ravindra Dwivedi to Everyone : Thanks
+11:00:54 From Alex Hernandez to Everyone : Are there any public trained models for land cover classification?
+11:02:20 From Jennifer Chang to Everyone : @Alex: I imagine there should be... at least I can find a set of papers:
+11:02:21 From Jennifer Chang to Everyone : https://www.semanticscholar.org/search?q=cnn%20land%20cover&sort=relevance
+11:02:42 From Sheina (Shen-uh) to Everyone : Is the strategy for building new models or using CNN for classification of non-image data to turn your data into an image?
+11:03:27 From santosh sharma to Everyone : That looks great! Thank you. I will try that.
+11:04:07 From Haitao Huang to Everyone : is google translate using similar NN we are studying?
+11:05:04 From Alex Hernandez to Everyone : Thanks!
+11:05:19 From Jennifer Chang to Everyone : Re: google translate: may use similar NN for character recognition: https://en.wikipedia.org/wiki/Google_Translate
+11:06:06 From Haitao Huang to Everyone : @Jennifer, thanks
+11:06:54 From Sheina (Shen-uh) to Everyone : https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6684600/
+11:07:15 From Ernesto Trujillo-Gomez to Everyone : outside of googling, what is a good reference to learn more about the specifics of CNNs?
+11:08:09 From Ernesto Trujillo-Gomez to Everyone : great, thanks
+11:08:24 From Jennifer Chang to Everyone : https://machinelearningmastery.com/
+11:10:36 From Pei L. to Everyone : Is the feature selection only for classical ML
+11:12:47 From Pei L. to Everyone : Also, in classical ML we remove outliers to improve model performance, would DL do similar things?
+11:17:46 From Jennifer Chang to Everyone : Will need to modify the "ltype==..." Lines if you have a different structure
+11:26:29 From Jennifer Chang to Kerrie Geil(Direct Message) : Need any help? We're at the first break
+11:27:53 From Laura Boucheron to Everyone : @Pei: You can remove outliers in DL, but that would generally be a preprocessing step, similar to how you might preprocess for classical ML.  DL may be more or less sensitive to outliers.
+11:28:39 From Laura Boucheron to Everyone : So the choice of leaving them in may come down to expected conventions in your field or whehter you believe those outliers might be representative of a true phenomenon.
+11:29:48 From Laura Boucheron to Everyone : This is a freely available book on Deep Learning: https://www.deeplearningbook.org/.  It, however, comes at it from the mathematics, not from a tutorial aspect.
+11:30:43 From Laura Boucheron to Everyone : There are many books hitting the market on deep learning, but I have not read any of those in particular.  I tend to rely on online sources and tutorials.  (This and the previous message toward those who asked about books).
+11:31:16 From Pei L. to Everyone : Thank you so much Laura!
+11:31:34 From Kerrie Geil to Jennifer Chang(Direct Message) : No I think we got it worked out. Sara had something really weird happening with Jupyter lab where she was launching it from her working directory but it wasn't opening in the working directory so she couldn't find any of her tutorial files. Usually when stuff like that happens it's fixed with a computer restart but she didn't really want to restart. We got her running in whatever directory jupyter opened in. She also corrupted her conda env. But hopefully she doesn't have any more problems. If she does today/tomorrow after I leave just tell her she definitely needs to restart her computer
+11:31:35 From Haitao Huang to Everyone : what is the purpose of freezing the layers?if part of the layers frozen, is the model still trainable?
+11:33:01 From Laura Boucheron to Everyone : @Haitao: the purpose of freezing layers is to reuse the information from those layers (not trainable) but fine-tune the use of that information for another problem by allowing some of the later layers to train.
+11:33:45 From Laura Boucheron to Everyone : So you can re-use features learned in the conv layers from another dataset (freeze the conv layers), but learn how to use those features for a new classification problem (learn the dense layers).
+11:33:57 From Laura Boucheron to Everyone : This can save on computation since you don't have to learn a network from scratch.
+11:37:05 From Haitao Huang to Everyone : thanks @Laura
+11:38:34 From Sheina (Shen-uh) to Everyone : That’d probably work on me
+11:39:09 From Jennifer Chang to Everyone : I also like the 3Blue1Brown tutorials, visualizes a DL network: https://youtu.be/aircAruvnKk
+11:40:07 From Laura Boucheron to Everyone : https://yosinski.com/deepvis
+11:41:08 From Simegnew Alaba to Everyone : good for me
+11:44:57 From Jeffrey Neyhart to Everyone : Is a good analogy for this an fMRI for neural networks?
+11:50:41 From Simegnew Alaba to Everyone : how do the network(CNN) choose the order of features to learn? For example first learn horizontal lines/edges then diagonal or vice versa. CNN learn features through convolution. So, how do CNN prefers one feature to learn first than others?
+11:54:46 From Ernesto Trujillo-Gomez to Everyone : can then increasing the number of epoch improve the results by allowing for more iterations of the filters that the CNN optimizes for?
+11:55:19 From Ernesto Trujillo-Gomez to Everyone : *epochs
+11:55:23 From Paula Ramos Giraldo to Everyone : If you have a different number of channels (RGB)  could it affect the process if you have HSV or BRG?
+11:55:52 From Simegnew Alaba to Everyone : Thank you.
+11:56:55 From Jennifer Chang to Everyone : @Paula: Yes, it can affect since the model has been trained on RGB. So HSV and BRG would have to be preprocessed to RGB
+11:58:10 From Pei L. to Everyone : If we want to run DL on a relatively small dataset (low thousands), is there a good way to make sure it doesn't overfit or other complications that may come with small data set?
+11:59:49 From Pei L. to Everyone : Thank you!
+12:00:05 From Sheina (Shen-uh) to Everyone : If your model is overfitted, is the only option to train it again from scratch?
+12:00:19 From Sheina (Shen-uh) to Everyone : Or overfit*
+12:01:07 From Jennifer Chang to Everyone : @Sheina: I'm not sure... I'd probably start retraining it again from scratch (vs debugging the overfitted model)
+12:01:35 From Jennifer Chang to Everyone : @Sheina: Or provide the model with a wider range of inputs
+12:02:13 From Ravin Poudel to Everyone : In transfer learning, if we have a trained model with rbg data/images-- can it be used for modeling infrared images (flir images). Do you have any suggestion on resources for infrared images analyses.
+12:02:53 From Harrison Smith to Everyone : If I have a smaller dataset in a highly specific field, is it better to just use a classical machine learning approach?
+12:04:23 From Ravin Poudel to Everyone : Thanks
+12:04:48 From Kerrie Geil to Everyone : A quick announcement before I check out for the week:If anyone is interested in digging in further on neural networks I can recommend the Deep Learning Specialization by Andrew Ng on Coursera https://www.coursera.org/specializations/deep-learning. I've taken the first course in the series so far and it was really great. It walked through the mathematics of neural nets in depth. The next course in the series that I'm about to start is about how to choose all the hyperparameters and optimize your neural net. These courses use python and jupyter.
+12:04:51 From Kerrie Geil to Everyone : I think you can access the course content for free (I could be wrong) but if you want to be able to print out a certificate of completion you can apply for a quarterly coursera license through the SCINet program here: https://scinet.usda.gov/training/coursera. (If you are a University collaborator, put your USDA ARS collaborator as your supervisor for questions 11 and 12). I think there are only a couple of licenses available currently but a whole bunch will be opening up in the beginning of August.
+12:10:42 From Sheina (Shen-uh) to Everyone : This is a stupid question, but when do functions end with () and when do they not?
+12:11:58 From Jennifer Chang to Everyone : @Sheina: Python is an object oriented language. So the object.attribute. object.function()
+12:12:49 From Jennifer Chang to Everyone : Java/swift/Groovy is object oriented
+12:20:49 From Kerrie Geil to Everyone : @Sheina, one thing that might be helpful in Jupyter lab is if you type Ctrl+I (that's a capital i) it will bring up the contextual help. You can then drag the contextual help tab down or to the side so that you are able to see your tutorial 4 and the contextual help on the screen at the same time. Then in your tutorial you can place your cursor on any function and contextual help will tell you all about the function and have use examples
+12:24:51 From Haitao Huang to Everyone : @Kerrie, that's what I have searched for long time. thanks.
+13:04:07 From Haitao Huang to Everyone : in the line  model1_layer0 = Model(inputs=model1.inputs, outputs=model1.layers[0].output)does the function 'Model'  take the shape of model1.layers[0] as input,  take the shape of model1.layers[0].output as output,  and also copy the trained weights and bias of model1's first layer?
+13:11:57 From Sheina (Shen-uh) to Everyone : Are these in order?
+13:14:06 From Jennifer Chang to Everyone : @Sheina: These neurons are all on the same layer but may be displayed in different orders
+13:14:12 From Alex Hernandez to Jennifer Chang(Direct Message) : Hi Jennifer. I’m gonna have to disconnect. Something came up. I’ll try to connect in a couple of hours. I hope that is Ok.
+13:14:27 From Sheina (Shen-uh) to Everyone : Gotcha, thanks!
+13:14:27 From Jennifer Chang to Alex Hernandez(Direct Message) : No worries! Thanks for letting me know!
+13:14:34 From Alex Hernandez to Jennifer Chang(Direct Message) : Thanks!
+13:15:08 From Brian Abernathy to Everyone : I have a strong response to the diagonal.
+13:15:51 From Pei L. to Everyone : I have one looking at outline
+13:16:40 From Brian Abernathy to Everyone : I have outlines of the diagonal component, but the top horizontal is solid.
+13:17:44 From Matthew Robbins to Everyone : I have several where the top left of the 7 is very pronounced, a bit like the one top right, 3rd from the right of yours, but much more pronounced.
+13:20:45 From Ernesto Trujillo-Gomez to Everyone : What does the bias represent? is there one per  filter?
+13:22:16 From Lina Castano-Duque to Everyone : no
+13:22:20 From Ravindra Dwivedi to Everyone : yes
+13:22:22 From Matthew Robbins to Everyone : yes
+13:22:30 From santosh sharma to Everyone : yes
+13:23:49 From Ravindra Dwivedi to Everyone : I see, some figures now have higher intensity than the previous figure
+13:24:14 From santosh sharma to Everyone : it looks like 3D number 7
+13:25:39 From Ernesto Trujillo-Gomez to Everyone : the range is reduced in that filter
+13:25:45 From Brian Abernathy to Everyone : The vmax in the lower image is much lower than above.
+13:26:07 From Pei L. to Everyone : it's interesting the (4.4) is still dark even without scaling
+13:28:16 From Gerard Lazo to Everyone : If the changes are very small from the previous what would that say?
+13:29:22 From Harrison Smith to Everyone : You might need to remove the vmin and vmax values in the code. Mine had code but still included the min max args
+13:30:02 From Kerrie Geil to Jennifer Chang(Direct Message) : I'm checking out for the week now! Just sent you and Laura an email- if you need me to post anything contact me at kgeil.jrn.lter@gmail.com. Have a great weekend!
+13:30:20 From Jennifer Chang to Kerrie Geil(Direct Message) : Saw the email. Thanks for sticking around longer today!
+13:30:52 From Jennifer Chang to Kerrie Geil(Direct Message) : Will send zoom link, etc to your gmail
+13:33:28 From Ernesto Trujillo-Gomez to Everyone : thanks!
+13:34:57 From Lina Castano-Duque to Everyone : Is there a scenario where one can/want to join layer from different models in a third type of model?
+13:36:57 From Lina Castano-Duque to Everyone : both ways
+13:40:19 From Sheina (Shen-uh) to Everyone : Do you do that using model.add to models that already exist?
+13:40:55 From santosh sharma to Everyone : Does these attention network combines different activations?
+13:44:34 From Harrison Smith to Everyone : So each layer has its own set of kernels? Or similar kernels are reused?
+13:48:23 From Ravindra Dwivedi to Everyone : Laura: I got this warning:
+13:48:25 From Ravindra Dwivedi to Everyone : WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001FF4F1D2310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+13:48:53 From Ravindra Dwivedi to Everyone : Thanks
+13:48:56 From Laura Boucheron to Everyone : model1_layer2 = Model(inputs=model1.inputs, outputs=model1.layers[2].output)
+layer2_activations = model1_layer2.predict(X_example)
+plt.figure(figsize=(7,7))
+min_int = layer2_activations.min() # find min intensity for all activations
+max_int = layer2_activations.max() # find max intensity for all activations
+subplot_rows = np.ceil(np.sqrt(layer2_activations.shape[-1])).astype(int) # determine subplots rows
+for f in range(0,layer2_activations.shape[-1]): # loop over filters
+    plt.subplot(subplot_rows,subplot_rows,f+1) # choose current subplot
+    plt.imshow(np.squeeze(layer2_activations[:,:,:,f]),cmap='gray',\
+               vmin=min_int,vmax=max_int) # plot filter coeffs
+    plt.axis('off')
+13:52:53 From Sheina (Shen-uh) to Everyone : Tensor flow can suck it up
+13:55:48 From Sheina (Shen-uh) to Everyone : Congratulations, it’s a 7!
+14:03:29 From Jennifer Chang to Everyone : Really neat emergent property of CNN
+14:04:06 From Matthew Robbins to Everyone : @Laura Wow! When you explain it like that, it is really cool!
+14:04:07 From Sheina (Shen-uh) to Everyone : X_test[900] is a 1 but model called it a 3, I think because one of the filters is calling it 3 pieces
+14:05:33 From Sheina (Shen-uh) to Everyone : 2nd convolutional layer for number called 3 (actually 1) and number called 3 and is 3
+14:05:44 From Pei L. to Everyone : Interesting, mine called it 1 with about 12% chance of being a 3
+14:06:57 From santosh sharma to Everyone : X_test[35] it learned most feature in first convolutional layer, to my eyes it learned very few in second convolution layer.
+14:09:28 From Jennifer Chang to Everyone : X_test[35] Yes 1st layer is bright, 2nd is mostly dark
+14:10:57 From Ravindra Dwivedi to Everyone : it seems hand-written 2 and 6 are very good for the network to learn from
+14:11:46 From Ravindra Dwivedi to Everyone : Yes
+14:12:03 From Ravindra Dwivedi to Everyone : especially, after the first convolution layer
+14:14:32 From Pei L. to Everyone : mine classified X_test[8331] into a 6 where it is actually a 5
+14:17:51 From Pei L. to Everyone : interesting! I didn't think it was that clear even to my eyes
+14:31:31 From Jennifer Chang to Everyone : https://kerriegeil.github.io/NMSU-USDA-ARS-AI-Workshops/learn/
+14:35:48 From Sheina (Shen-uh) to Everyone : How centered do the numbers need to be?
+14:52:46 From Laura Boucheron to Everyone : some other hints: digit 1: (355-505, 2035-2190), digit 2: (425-625, 2900-3100), digit 3: (465-665, 3775-3975), digit 4: (1250-1400, 1140-1290), digit 5: (1270-1460, 1950-2140), digit 6: (1365-1515, 2855-2995), digit 7: (1375-1565, 3705-3895), digit 8: (1890-2090, 1100-1300), digit 9: (1915-2100, 1890-2075)
+14:59:28 From Simegnew Alaba to Everyone : Do we need to train or just evaluate it?
+14:59:51 From Jennifer Chang to Everyone : Evaluate
+15:01:24 From Sheina (Shen-uh) to Everyone : How do we arrange the images into an array?
+15:01:41 From Sheina (Shen-uh) to Everyone : Oh, I see
+15:01:46 From Pei L. to Everyone : Does the image need to be normalized to (0,255)?
+15:01:49 From Sheina (Shen-uh) to Everyone : np.array() then np.append
+15:02:15 From Laura Boucheron to Everyone : @Sheina: you can put them in an array.  I just left mine separate and evaluated them separately.
+15:02:25 From Sheina (Shen-uh) to Everyone : Ah, okay!
+15:02:46 From Laura Boucheron to Everyone : @Sheina: you can certainly put them in an array, but I didn't bother since there's only 10.
+15:03:01 From Laura Boucheron to Everyone : @Pei: the network expects images in the range [0,1].
+15:03:51 From Pei L. to Everyone : well right, but do they need to be normalized so they have .max() = 1 and .min() = 0
+15:05:00 From Laura Boucheron to Everyone : @Pei: I didn't.  But you could.
+15:05:14 From Pei L. to Everyone : Thanks!
+15:09:02 From alex hernandez to Everyone : When converting to grayscale, the max intensity will always be 1/
+15:09:03 From alex hernandez to Everyone : ?
+15:09:49 From alex hernandez to Everyone : Thanks
+15:10:16 From Sheina (Shen-uh) to Everyone : Mine thinks your 9 is a 4
+15:10:42 From santosh sharma to Everyone : mine thinks 9 is a 3
+15:13:58 From Sheina (Shen-uh) to Everyone : My model got 0 right
+15:14:07 From Sheina (Shen-uh) to Everyone : Does that mean it was overfit?
+15:16:31 From Matthew Robbins to Everyone : If the images used to train were a mix of light/dark digits, do you think the network would be able to predict accurately?
+15:20:28 From Sheina (Shen-uh) to Everyone : Actual = 0, predicted:3
+Actual = 1, predicted:4
+Actual = 2, predicted:6
+Actual = 3, predicted:3
+Actual = 4, predicted:1
+Actual = 5, predicted:7
+Actual = 6, predicted:7
+Actual = 7, predicted:0
+Actual = 8, predicted:4
+Actual = 9, predicted:4
+15:20:32 From Sheina (Shen-uh) to Everyone : I got 1 right
+15:22:12 From Ravindra Dwivedi to Everyone : I got one wrong. My network predicted 9 as 7
+15:24:13 From Ravindra Dwivedi to Everyone : When I changed the background to as white with black color for numbers, I got 8 for the actual value of 9
+15:24:18 From santosh sharma to Everyone : I got one wrong, 9 predicted as 3. Based on both results my thinking is changing background is not effecting its learning. May be if we mix background it will be different outcome.
+15:31:58 From Sheina (Shen-uh) to Everyone : 263: 'Pembroke, Pembroke Welsh corgi',
+15:42:24 From Melanie Kammerer to Everyone : Does VGG use a different method to handle the image edges? I don't see the image dimensions decreasing with each convolution like the MNIST network.
+15:44:03 From Melanie Kammerer to Everyone : OK, thanks.
+15:48:11 From Sheina (Shen-uh) to Everyone : In preprocess?
+15:49:26 From Pei L. to Everyone : How do we know which processes we should do ourselves which is included in the preprocess?
+15:50:40 From Matthew Robbins to Everyone : We can view the image after preprocessing. It looks very interesting.
+15:51:10 From Matthew Robbins to Everyone : plt.figure(figsize=(25,25))
+plt.imshow(image.squeeze())
+plt.show()
+15:52:07 From Sheina (Shen-uh) to Everyone : Trippy! It looks very Andy Warhol
+15:55:24 From Sheina (Shen-uh) to Everyone : I gave it a photo of a puppy, and it looks quite a bit different
+15:55:52 From Sheina (Shen-uh) to Everyone : Does pre process do filtering as well?
+15:56:21 From Jennifer Chang to Everyone : Not finding "face" either
+15:56:44 From Sheina (Shen-uh) to Everyone : There’s no humans but there’s two types of corgis
+15:56:52 From Sheina (Shen-uh) to Everyone : VGG has its priorities straight
+15:57:52 From Sheina (Shen-uh) to Everyone : VGG is very good at identifying corgis
+15:58:56 From alex hernandez to Everyone : Got a 43% that it identified a “fountain” and I provided a waterfall
+16:00:19 From alex hernandez to Everyone : The other 2 were a “castle” and a “megalith”
+16:01:07 From Ernesto Trujillo-Gomez to Everyone : I think it has a dimension - 4
+16:01:12 From Ernesto Trujillo-Gomez to Everyone : *=
+16:03:03 From Brian Abernathy to Everyone : homer simpson = totem_pole (66.73%)
+pole (5.21%)
+ballpoint (5.21%)
+
+16:04:40 From Sheina (Shen-uh) to Everyone : Fruit fly was:
+16:04:41 From Sheina (Shen-uh) to Everyone : cricket (29.80%)
+cicada (16.03%)
+scorpion (7.00%)
+16:05:51 From Lina Castano-Duque to Everyone : Bowl of ramen was:
+16:05:52 From Lina Castano-Duque to Everyone : hot_pot (43.81%)soup_bowl (6.52%)wok (6.03%)
+16:06:21 From Pei L. to Everyone : got 100% on a jack-o-lantern
+16:06:32 From Sheina (Shen-uh) to Everyone : MY dog: Pembroke (99.29%)
+Cardigan (0.64%)
+Shetland_sheepdog (0.03%)
+16:06:49 From Sheina (Shen-uh) to Everyone : He’s a corgi
+16:06:52 From Sheina (Shen-uh) to Everyone : A pembroke
+16:07:06 From Melanie Kammerer to Everyone : that's awesome
+16:07:10 From Sheina (Shen-uh) to Everyone : It is amazing at corgis and I guess jack o lanterns
+16:07:11 From Sheina (Shen-uh) to Everyone : hahaha
+16:07:26 From Greg Maurer (JRN LTER) to Everyone : A picture of a butterfly was 99.88% "lycaenid" (which means butterfly)
+16:08:43 From Greg Maurer (JRN LTER) to Everyone : It returned the category lycaenid
+16:08:55 From Sheina (Shen-uh) to Everyone : Was your butterfly a lycaenid?
+16:09:25 From Matthew Robbins to Everyone : A mountain landscape of pine trees and yellow-leaved aspens in the fall gave rapeseed (91.53%) hay (2.93%) harvester (0.81%)
+16:10:42 From Greg Maurer (JRN LTER) to Everyone : Don't know for sure - there are other big butterfly families (like Nyphalidae) - not sure which my butterfly picture was
+16:22:40 From Sara Duke to Jennifer Chang(Direct Message) :  earlier today Kerrie helped me build a new env.  how to I get the Caltech data folder into this new env?
+16:23:47 From Jennifer Chang to Sara Duke(Direct Message) : Hi Sara! The env should link to your executables but still be able to access your regular folders
+16:24:03 From Jennifer Chang to Sara Duke(Direct Message) : Is this env on Ceres or your local computer?
+16:24:51 From Jennifer Chang to Sara Duke(Direct Message) : (If on Ceres, ahh then you'll need to move your working directory. If on local computer, Caltech data folder easier to find)
+16:24:53 From Sara Duke to Jennifer Chang(Direct Message) : its all in the original folder on my computer but its not recognized in my new aiworkshop1
+16:25:55 From Sara Duke to Jennifer Chang(Direct Message) : in Jupyter's left frame it doesn't show those folders
+16:26:21 From Jennifer Chang to Sara Duke(Direct Message) : Thanks, that helps me understand : )
+16:26:54 From Jennifer Chang to Sara Duke(Direct Message) : The Caltech data folder will need to be moved to your current directory.
+16:27:00 From Jennifer Chang to Sara Duke(Direct Message) : One mo, looking something up
+16:27:05 From Sara Duke to Jennifer Chang(Direct Message) : so what I have been doing is just uploading files
+16:27:16 From Sara Duke to Jennifer Chang(Direct Message) : but these are folders
+16:28:53 From Jennifer Chang to Sara Duke(Direct Message) : Could you create a new code block, and run the following?
+16:29:00 From Jennifer Chang to Sara Duke(Direct Message) : import os 
+os.getcwd()
+16:29:21 From Jennifer Chang to Sara Duke(Direct Message) : It should print out your current working directory (place to move Caltech folder)
+16:30:33 From Sara Duke to Jennifer Chang(Direct Message) : 'C:\\Users\\sara.duke\\NMSU-ARS-aiworkshop'
+16:30:54 From Sara Duke to Jennifer Chang(Direct Message) : this is where it says, but that is where the data are
+16:31:25 From Lina Castano-Duque to Everyone : I am getting a code error
+16:31:53 From Sara Duke to Jennifer Chang(Direct Message) : this is what my folder explore has
+16:31:57 From Sara Duke to Jennifer Chang(Direct Message) : C:\Users\sara.duke\NM-ARS-AIworkshop
+16:32:50 From Jennifer Chang to Sara Duke(Direct Message) : Ah, can we look at "C:\Users\sara.duke" in folder explore?
+16:33:20 From Jennifer Chang to Sara Duke(Direct Message) : I'm wondering if there are two differently similarly named folders
+16:33:20 From Sara Duke to Jennifer Chang(Direct Message) : We are getting near the end.  Kerrie thinks that if I reboot my machine tonight it might all reset.  My computer decided to restart and update last night.  
+16:33:42 From Jennifer Chang to Sara Duke(Direct Message) : Good to know, sorry difficult to debug without screensharing
+16:33:53 From Sara Duke to Jennifer Chang(Direct Message) : thanks!!
+16:34:12 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Hi Lina, feel free to send me your code error. Sorry was msging someone else
+16:34:23 From Jennifer Chang to Lina Castano-Duque(Direct Message) : (So missed your earlier msg)
+16:34:39 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Hi Jennifer, I found what the error is about...apparently I have 102 categories in my folder
+16:34:47 From Lina Castano-Duque to Jennifer Chang(Direct Message) : I am not sure what is up with that
+16:35:06 From Ravin Poudel to Everyone : When we pass new data via 101_ObjectCategories folder, are we also passing the label for these  images?
+16:35:07 From Jennifer Chang to Lina Castano-Duque(Direct Message) : For the Caltech, ah yes we had to delete a couple extra folders
+16:35:29 From Lina Castano-Duque to Jennifer Chang(Direct Message) : so should I remove one and try again
+16:35:45 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Glad you found the error, feel free to msg if you get more code errors
+16:36:12 From Lina Castano-Duque to Jennifer Chang(Direct Message) : cool, thanks!
+16:36:16 From Jennifer Chang to Lina Castano-Duque(Direct Message) : Oh, one mo. I'll look up the folders to delete
+16:36:33 From Ravindra Dwivedi to Everyone : Laura: why it is showing 1.00% for the correct category?
+16:36:35 From Ahmed Tashfin Iftekhar to Everyone : Do we need to mention .cuda or .gpu in the code when we are using GPU?
+16:36:50 From Greg Maurer (JRN LTER) to Everyone : still going
+16:36:57 From Ravindra Dwivedi to Everyone : it is taking a bit longer
+16:37:01 From Sheina (Shen-uh) to Everyone : I have 10 min left
+16:37:43 From Lina Castano-Duque to Jennifer Chang(Direct Message) : Yeah, is weird, I deleted the folders but had a weird README~ hidden folder. That happened on day 1
+16:38:03 From Lina Castano-Duque to Jennifer Chang(Direct Message) : I removed accordions and now is running
+16:38:48 From Brian Abernathy to Everyone : 1 epoch emu result: emu (0.97%)
+llama (0.03%)
+16:39:32 From Jennifer Chang to Lina Castano-Duque(Direct Message) : That's great : )
+16:39:34 From santosh sharma to Everyone : 40 min  to complete 2 epochs
+16:39:56 From Jennifer Chang to Lina Castano-Duque(Direct Message) : In case, it complains about other folders
+16:40:09 From Sheina (Shen-uh) to Everyone : Can you find another emu?
+16:40:31 From Matthew Robbins to Everyone : I got emu (1.00%) with 1 epoch
+16:40:36 From Ravindra Dwivedi to Everyone : with one epoch, I got:emu (1.00%)pigeon (0.00%)
+16:41:58 From Sheina (Shen-uh) to Everyone : Could it be in a different directory?
+16:42:31 From Brian Abernathy to Everyone : wikipedia emu, 1 epoch still 1.00 emu
+16:42:56 From Ravindra Dwivedi to Everyone : I used the attached image of emu, and I got the following results:snoopy (0.87%)butterfly (0.08%)
+16:43:01 From Matthew Robbins to Everyone : for 101_ObjectCategories/emu/image_0003.jpg I got emu (0.88%) crocodile (0.06%)
+16:44:02 From Matthew Robbins to Everyone : for 101_ObjectCategories/emu/image_0004.jpg I got llama (0.74%) emu (0.11%)
+16:44:56 From Brian Abernathy to Everyone : @Matthew I got 1.00 emu for both 3 and 4
+16:47:39 From Ravindra Dwivedi to Everyone : It seems for a category, it has multiple sub-classes. For example, for a crocodile image I got the following two classes: crocodile_head (0.81%)crocodile (0.19%)
+16:47:49 From Matthew Robbins to Everyone : @Brian did you do more epochs or just one?
+16:48:32 From Brian Abernathy to Everyone : @Matthew 1 epoch
+16:53:44 From Lina Castano-Duque to Everyone : For those of us who are using CERES, do we need to do all the downloading you mentioned for tomorrow?
+16:54:44 From Jennifer Chang to Everyone : For Ceres, you may need to install the packages into the aiworkshop env.
+16:54:45 From Sheina (Shen-uh) to Everyone : Should we save the vgg trained with cal tech 101?
+16:55:10 From Jennifer Chang to Everyone : I'm not sure if Kerrie was providing a Ceres aiworkshop env?
+16:55:41 From Lina Castano-Duque to Everyone : @Jennifer, yes she provided the environment for CERES
+16:56:17 From Jennifer Chang to Everyone : @Lina, I'll check with Kerrie and get back to you. Hopefully she can install so it's available... but let me get back to you
+16:56:46 From Lina Castano-Duque to Everyone : @Jennifer Thanks!
+17:00:27 From Sara Duke to Jennifer Chang(Direct Message) : I think if found out what went wrong.  there are 2 workshop folders on my computer with slightly different names.  I think I can resolve some of my issues.  Thanks again.
+17:00:51 From Sheina (Shen-uh) to Everyone : We have to eat vegetables before dessert
+17:00:51 From Jennifer Chang to Sara Duke(Direct Message) : Sure thing! Glad there was an explaination :)
+17:00:53 From Sheina (Shen-uh) to Everyone : thanks!
+17:00:59 From Pei L. to Everyone : thanks!
