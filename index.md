@@ -41,11 +41,11 @@ This site contains learning materials for two AI Workshops run by [New Mexico St
 
  - AI Workshop 1: Intro to Image Processing, Classical Machine Learning, and Deep Learning
 
-This three-day workshop covers the basics of image processing, classical machine learning, and deep learning in python. Topics in image processing include the basics of image processing, including conventions of image representation, visualization, common transformations, and filtering operations. Topics in classical machine learning will include the basics of feature extraction and labels; training, testing, and validation; and common methods for image classification. Topics in deep learning will include the basics of convolutional neural networks; training, testing, and validation in deep learning; and transfer learning.
+    This three-day workshop covers the basics of image processing, classical machine learning, and deep learning in python. Topics in image processing include the basics of image processing, including conventions of image representation, visualization, common transformations, and filtering operations. Topics in classical machine learning will include the basics of feature extraction and labels; training, testing, and validation; and common methods for image classification. Topics in deep learning will include the basics of convolutional neural networks; training, testing, and validation in deep learning; and transfer learning.
 
 - AI Workshop 2: Advanced Topics in Deep Learning for Image Proccessing
 
-This two-day workshop provides more in-depth exploration of some common deep learning architectures used in image processing. The first day covers methods to explore, visualize, and modify network architectures. The second day covers extensions to the convolutional neural network for such tasks as image segmentation, object detection, and spatio-temporal analysis.
+    This two-day workshop provides more in-depth exploration of some common deep learning architectures used in image processing. The first day covers methods to explore, visualize, and modify network architectures. The second day covers extensions to the convolutional neural network for such tasks as image segmentation, object detection, and spatio-temporal analysis.
  
 
 {% include feature_row %}
