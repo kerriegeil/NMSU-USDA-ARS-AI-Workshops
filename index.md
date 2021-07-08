@@ -37,12 +37,16 @@ feature_row:
 
 {% include feature_row id="intro" type="center" %}
 
-This site contains learning materials for two AI Workshops run by [New Mexico State University Klipsch School of Electrical and Computer Engineering](https://ece.nmsu.edu/) and the [USDA Agricultural Research Service](https://ars.usda.gov):
+This site contains learning materials for two AI Workshops run by [New Mexico State University Klipsch School of Electrical and Computer Engineering](https://ece.nmsu.edu/) and the [USDA Agricultural Research Service](https://ars.usda.gov). Participants are introduced to basic concepts via powerpoint lecture and guided through hands-on programming in an interactive jupyter notebook framework. Participants are encouraged to actively modify and expand the provided python code, and to bring their own imagery for analysis.
 
  - AI Workshop 1: Intro to Image Processing, Classical Machine Learning, and Deep Learning
- - AI Workshop 2: Advanced Topics in Deep Learning for Image Proccessing
 
-The workshops cover the basics of image processing using classical machine learning techniques as well as provide more in-depth exploration of some common deep learning architectures used in image processing. Participants are introduced to the basic concepts via powerpoint lecture and guided through hands-on programming in an interactive jupyter notebook framework. 
+This three-day workshop covers the basics of image processing, classical machine learning, and deep learning in python. Topics in image processing include the basics of image processing, including conventions of image representation, visualization, common transformations, and filtering operations. Topics in classical machine learning will include the basics of feature extraction and labels; training, testing, and validation; and common methods for image classification. Topics in deep learning will include the basics of convolutional neural networks; training, testing, and validation in deep learning; and transfer learning.
+
+- AI Workshop 2: Advanced Topics in Deep Learning for Image Proccessing
+
+This two-day workshop provides more in-depth exploration of some common deep learning architectures used in image processing. The first day covers methods to explore, visualize, and modify network architectures. The second day covers extensions to the convolutional neural network for such tasks as image segmentation, object detection, and spatio-temporal analysis.
+ 
 
 {% include feature_row %}
 
